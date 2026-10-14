@@ -1,0 +1,1495 @@
+boss,category,team,pokemon,nature,ability,item,move,type,move_category,power,accuracy
+Archie,Quest Bosses,Lineup,Gengar,Random,Random,None,,,,,
+Archie,Quest Bosses,Lineup,Starmie,Random,Random,None,,,,,
+Archie,Quest Bosses,Lineup,Wailord,Random,Random,None,,,,,
+Archie,Quest Bosses,Lineup,Salamence,Random,Random,None,,,,,
+Archie,Quest Bosses,Lineup,Mega Sharpedo,Random,Random,None,,,,,
+Archie,Quest Bosses,Lineup,Primal Kyogre,Random,Random,None,,,,,
+Lance,Quest Bosses,Lineup,Dragonite,Random,Random,None,Outrage,Dragon,Physical,120,100
+Lance,Quest Bosses,Lineup,Dragonite,Random,Random,None,Hurricane,Flying,Special,110,70
+Lance,Quest Bosses,Lineup,Dragonite,Random,Random,None,Hyper Beam,Normal,Special,150,90
+Lance,Quest Bosses,Lineup,Dragonite,Random,Random,None,Dragon Dance,Dragon,Status,—,—
+Lance,Quest Bosses,Lineup,Altaria,Random,Random,None,Sky Attack,Flying,Physical,140,90
+Lance,Quest Bosses,Lineup,Altaria,Random,Random,None,Perish Song,Normal,Status,—,—
+Lance,Quest Bosses,Lineup,Altaria,Random,Random,None,Dragon Pulse,Dragon,Special,85,100
+Lance,Quest Bosses,Lineup,Altaria,Random,Random,None,Moonblast,Fairy,Special,95,100
+Lance,Quest Bosses,Lineup,Hydreigon,Random,Random,None,Outrage,Dragon,Physical,120,100
+Lance,Quest Bosses,Lineup,Hydreigon,Random,Random,None,Hyper Voice,Normal,Special,90,100
+Lance,Quest Bosses,Lineup,Hydreigon,Random,Random,None,Scary Face,Normal,Status,—,100
+Lance,Quest Bosses,Lineup,Hydreigon,Random,Random,None,Body Slam,Normal,Physical,80,100
+Lance,Quest Bosses,Lineup,Flygon,Random,Random,None,Hyper Beam,Normal,Special,150,90
+Lance,Quest Bosses,Lineup,Flygon,Random,Random,None,Sandstorm,Ground,Status,—,—
+Lance,Quest Bosses,Lineup,Flygon,Random,Random,None,Dragon Claw,Dragon,Physical,80,100
+Lance,Quest Bosses,Lineup,Flygon,Random,Random,None,Screech,Normal,Status,—,85
+Lance,Quest Bosses,Lineup,Salamence,Random,Random,None,Dragon Tail,Dragon,Physical,60,90
+Lance,Quest Bosses,Lineup,Salamence,Random,Random,None,Double-Edge,Normal,Physical,120,100
+Lance,Quest Bosses,Lineup,Salamence,Random,Random,None,Crunch,Dark,Physical,80,100
+Lance,Quest Bosses,Lineup,Salamence,Random,Random,None,Dragon Claw,Dragon,Physical,80,100
+Lance,Quest Bosses,Lineup,Garchomp,Random,Random,None,Dragon Rush,Dragon,Physical,100,75
+Lance,Quest Bosses,Lineup,Garchomp,Random,Random,None,Dig,Ground,Physical,80,100
+Lance,Quest Bosses,Lineup,Garchomp,Random,Random,None,Crunch,Dark,Physical,80,100
+Lance,Quest Bosses,Lineup,Garchomp,Random,Random,None,Dragon Claw,Dragon,Physical,80,100
+Maxie,Quest Bosses,Lineup,Jolteon,Random,Random,None,,,,,
+Maxie,Quest Bosses,Lineup,Volcarona,Random,Random,None,,,,,
+Maxie,Quest Bosses,Lineup,Charizard,Random,Random,None,,,,,
+Maxie,Quest Bosses,Lineup,Breloom,Random,Random,None,,,,,
+Maxie,Quest Bosses,Lineup,Mega Camerupt,Random,Random,None,,,,,
+Maxie,Quest Bosses,Lineup,Primal Groudon,Random,Random,None,,,,,
+MehCanMet,Quest Bosses,Lineup,Feraligatr,Random,Sheer Force,None,Waterfall,Water,Physical,80,100
+MehCanMet,Quest Bosses,Lineup,Feraligatr,Random,Sheer Force,None,Crunch,Dark,Physical,80,100
+MehCanMet,Quest Bosses,Lineup,Feraligatr,Random,Sheer Force,None,Ice Punch,Ice,Physical,75,100
+MehCanMet,Quest Bosses,Lineup,Feraligatr,Random,Sheer Force,None,Superpower,Fighting,Physical,120,100
+MehCanMet,Quest Bosses,Lineup,Nidoking,Random,Sheer Force,None,Sludge Wave,Poison,Special,95,100
+MehCanMet,Quest Bosses,Lineup,Nidoking,Random,Sheer Force,None,Ice Beam,Ice,Special,90,100
+MehCanMet,Quest Bosses,Lineup,Nidoking,Random,Sheer Force,None,Earth Power,Ground,Special,90,100
+MehCanMet,Quest Bosses,Lineup,Nidoking,Random,Sheer Force,None,Superpower,Fighting,Physical,120,100
+MehCanMet,Quest Bosses,Lineup,Steelix,Random,Sheer Force,None,Crunch,Dark,Physical,80,100
+MehCanMet,Quest Bosses,Lineup,Steelix,Random,Sheer Force,None,Iron Head,Steel,Physical,80,100
+MehCanMet,Quest Bosses,Lineup,Steelix,Random,Sheer Force,None,Dragon Tail,Dragon,Physical,60,90
+MehCanMet,Quest Bosses,Lineup,Steelix,Random,Sheer Force,None,Earthquake,Ground,Physical,100,100
+MehCanMet,Quest Bosses,Lineup,Conkeldurr,Random,Sheer Force,None,Knock Off,Dark,Physical,65,100
+MehCanMet,Quest Bosses,Lineup,Conkeldurr,Random,Sheer Force,None,Drain Punch,Fighting,Physical,75,100
+MehCanMet,Quest Bosses,Lineup,Conkeldurr,Random,Sheer Force,None,Ice Punch,Ice,Physical,75,100
+MehCanMet,Quest Bosses,Lineup,Conkeldurr,Random,Sheer Force,None,Thunder Punch,Electric,Physical,75,100
+MehCanMet,Quest Bosses,Lineup,Tauros,Random,Sheer Force,None,Double-Edge,Normal,Physical,120,100
+MehCanMet,Quest Bosses,Lineup,Tauros,Random,Sheer Force,None,Earthquake,Ground,Physical,100,100
+MehCanMet,Quest Bosses,Lineup,Tauros,Random,Sheer Force,None,Stone Edge,Rock,Physical,100,80
+MehCanMet,Quest Bosses,Lineup,Tauros,Random,Sheer Force,None,Pursuit,Dark,Physical,40,100
+MehCanMet,Quest Bosses,Lineup,Druddigon,Random,Sheer Force,None,Outrage,Dragon,Physical,120,100
+MehCanMet,Quest Bosses,Lineup,Druddigon,Random,Sheer Force,None,Earthquake,Ground,Physical,100,100
+MehCanMet,Quest Bosses,Lineup,Druddigon,Random,Sheer Force,None,Fire Punch,Fire,Physical,75,100
+MehCanMet,Quest Bosses,Lineup,Druddigon,Random,Sheer Force,None,Superpower,Fighting,Physical,120,100
+Red,Quest Bosses,Lineup,Pikachu,Random,Random,None,Surf,Water,Special,90,100
+Red,Quest Bosses,Lineup,Pikachu,Random,Random,None,Grass Knot,Grass,Special,—,100
+Red,Quest Bosses,Lineup,Pikachu,Random,Random,None,Knock Off,Dark,Physical,65,100
+Red,Quest Bosses,Lineup,Espeon,Random,Random,None,Psychic,Psychic,Special,90,100
+Red,Quest Bosses,Lineup,Espeon,Random,Random,None,Psyshock,Psychic,Special,80,100
+Red,Quest Bosses,Lineup,Espeon,Random,Random,None,Shadow Ball,Ghost,Special,80,100
+Red,Quest Bosses,Lineup,Espeon,Random,Random,None,Calm Mind,Psychic,Status,—,—
+Red,Quest Bosses,Lineup,Venusaur,Random,Random,None,Sleep Powder,Grass,Status,—,75
+Red,Quest Bosses,Lineup,Venusaur,Random,Random,None,Leech Seed,Grass,Status,—,90
+Red,Quest Bosses,Lineup,Venusaur,Random,Random,None,Giga Drain,Grass,Special,75,100
+Red,Quest Bosses,Lineup,Venusaur,Random,Random,None,Sludge Bomb,Poison,Special,90,100
+Red,Quest Bosses,Lineup,Blastoise,Random,Random,None,Hydro Pump,Water,Special,110,80
+Red,Quest Bosses,Lineup,Blastoise,Random,Random,None,Ice Beam,Ice,Special,90,100
+Red,Quest Bosses,Lineup,Blastoise,Random,Random,None,Dark Pulse,Dark,Special,80,100
+Red,Quest Bosses,Lineup,Blastoise,Random,Random,None,Aura Sphere,Fighting,Special,80,—
+Red,Quest Bosses,Lineup,Mega Charizard Y,Random,Random,None,Flamethrower,Fire,Special,90,100
+Red,Quest Bosses,Lineup,Mega Charizard Y,Random,Random,None,Roost,Flying,Status,—,—
+Red,Quest Bosses,Lineup,Mega Charizard Y,Random,Random,None,Solar Beam,Grass,Special,120,100
+Red,Quest Bosses,Lineup,Mega Charizard Y,Random,Random,None,Air Slash,Flying,Special,75,95
+Red,Quest Bosses,Lineup,Snorlax,Random,Random,None,Crunch,Dark,Physical,80,100
+Red,Quest Bosses,Lineup,Snorlax,Random,Random,None,Curse,Ghost,Status,—,—
+Red,Quest Bosses,Lineup,Snorlax,Random,Random,None,Rest,Psychic,Status,—,—
+Red,Quest Bosses,Lineup,Snorlax,Random,Random,None,Sleep Talk,Normal,Status,—,—
+Ash Westbrook,Repeatable Bosses,Hard,Dialga,Random,Pressure,Leftovers,Draco Meteor,Dragon,Special,140,90
+Ash Westbrook,Repeatable Bosses,Hard,Dialga,Random,Pressure,Leftovers,Roar,Normal,Status,—,—
+Ash Westbrook,Repeatable Bosses,Hard,Dialga,Random,Pressure,Leftovers,Fire Blast,Fire,Special,110,85
+Ash Westbrook,Repeatable Bosses,Hard,Dialga,Random,Pressure,Leftovers,Flash Cannon,Steel,Special,80,100
+Ash Westbrook,Repeatable Bosses,Hard,Reshiram,Random,Turboblaze,Life Orb,Draco Meteor,Dragon,Special,140,90
+Ash Westbrook,Repeatable Bosses,Hard,Reshiram,Random,Turboblaze,Life Orb,Roar,Normal,Status,—,—
+Ash Westbrook,Repeatable Bosses,Hard,Reshiram,Random,Turboblaze,Life Orb,Blue Flare,Fire,Special,130,85
+Ash Westbrook,Repeatable Bosses,Hard,Reshiram,Random,Turboblaze,Life Orb,Stone Edge,Rock,Physical,100,80
+Ash Westbrook,Repeatable Bosses,Hard,Arceus,Random,Multitype,Life Orb,Extreme Speed,Normal,Physical,80,100
+Ash Westbrook,Repeatable Bosses,Hard,Arceus,Random,Multitype,Life Orb,Shadow Claw,Ghost,Physical,70,100
+Ash Westbrook,Repeatable Bosses,Hard,Arceus,Random,Multitype,Life Orb,Earthquake,Ground,Physical,100,100
+Ash Westbrook,Repeatable Bosses,Hard,Arceus,Random,Multitype,Life Orb,Stone Edge,Rock,Physical,100,80
+Ash Westbrook,Repeatable Bosses,Hard,Infernape,Random,Blaze,Expert Belt,Close Combat,Fighting,Physical,120,100
+Ash Westbrook,Repeatable Bosses,Hard,Infernape,Random,Blaze,Expert Belt,Fire Blast,Fire,Special,110,85
+Ash Westbrook,Repeatable Bosses,Hard,Infernape,Random,Blaze,Expert Belt,Grass Knot,Grass,Special,—,100
+Ash Westbrook,Repeatable Bosses,Hard,Infernape,Random,Blaze,Expert Belt,Thunder Punch,Electric,Physical,75,100
+Ash Westbrook,Repeatable Bosses,Hard,Kyogre,Random,Drizzle,Choice Specs,Surf,Water,Special,90,100
+Ash Westbrook,Repeatable Bosses,Hard,Kyogre,Random,Drizzle,Choice Specs,Earthquake,Ground,Physical,100,100
+Ash Westbrook,Repeatable Bosses,Hard,Kyogre,Random,Drizzle,Choice Specs,Thunder,Electric,Special,110,70
+Ash Westbrook,Repeatable Bosses,Hard,Kyogre,Random,Drizzle,Choice Specs,Ice Beam,Ice,Special,90,100
+Ash Westbrook,Repeatable Bosses,Hard,Lugia,Random,Multiscale,Leftovers,Dragon Pulse,Dragon,Special,85,100
+Ash Westbrook,Repeatable Bosses,Hard,Lugia,Random,Multiscale,Leftovers,Psyshock,Psychic,Special,80,100
+Ash Westbrook,Repeatable Bosses,Hard,Lugia,Random,Multiscale,Leftovers,Ice Beam,Ice,Special,90,100
+Ash Westbrook,Repeatable Bosses,Hard,Lugia,Random,Multiscale,Leftovers,Aeroblast,Flying,Special,100,95
+BattleBot,Repeatable Bosses,Lineup,Shaymin-Sky,Random,Serene Grace,Choice Specs,Air Slash,Flying,Special,75,95
+BattleBot,Repeatable Bosses,Lineup,Landorus,Random,Sheer Force,None,Rock Slide,Rock,Physical,75,90
+BattleBot,Repeatable Bosses,Lineup,Landorus,Random,Sheer Force,None,Earth Power,Ground,Special,90,100
+BattleBot,Repeatable Bosses,Lineup,Landorus,Random,Sheer Force,None,Focus Blast,Fighting,Special,120,70
+BattleBot,Repeatable Bosses,Lineup,Landorus,Random,Sheer Force,None,Sludge Wave,Poison,Special,95,100
+BattleBot,Repeatable Bosses,Lineup,Darkrai,Random,Bad Dreams,Wide Lens,Dark Pulse,Dark,Special,80,100
+BattleBot,Repeatable Bosses,Lineup,Darkrai,Random,Bad Dreams,Wide Lens,Sludge Bomb,Poison,Special,90,100
+BattleBot,Repeatable Bosses,Lineup,Darkrai,Random,Bad Dreams,Wide Lens,Hypnosis,Psychic,Status,—,60
+BattleBot,Repeatable Bosses,Lineup,Jirachi,Random,Serene Grace,Choice Scarf,Iron Head,Steel,Physical,80,100
+BattleBot,Repeatable Bosses,Lineup,Lugia,Random,Multiscale,Choice Specs,Aeroblast,Flying,Special,100,95
+BattleBot,Repeatable Bosses,Lineup,Lugia,Random,Multiscale,Choice Specs,Psyshock,Psychic,Special,80,100
+BattleBot,Repeatable Bosses,Lineup,Lugia,Random,Multiscale,Choice Specs,Hydro Pump,Water,Special,110,80
+BattleBot,Repeatable Bosses,Lineup,Lugia,Random,Multiscale,Choice Specs,Ice Beam,Ice,Special,90,100
+BattleBot,Repeatable Bosses,Lineup,Lugia,Random,Multiscale,Choice Specs,Thunderbolt,Electric,Special,90,100
+BattleBot,Repeatable Bosses,Lineup,Mega Rayquaza,Random,Air Lock,Choice Band,Dragon Ascent,Flying,Physical,120,100
+BattleBot,Repeatable Bosses,Lineup,Mega Rayquaza,Random,Air Lock,Choice Band,Earthquake,Ground,Physical,100,100
+BattleBot,Repeatable Bosses,Lineup,Mega Rayquaza,Random,Air Lock,Choice Band,Ice Beam,Ice,Special,90,100
+BattleBot,Repeatable Bosses,Lineup,Mega Rayquaza,Random,Air Lock,Choice Band,Flamethrower,Fire,Special,90,100
+Brock,Repeatable Bosses,Medium/Hard,Mega Aerodactyl,Naive,Tough Claws,Aerodactylite,Stone Edge,Rock,Physical,100,80
+Brock,Repeatable Bosses,Medium/Hard,Mega Aerodactyl,Naive,Tough Claws,Aerodactylite,Taunt,Dark,Status,—,100
+Brock,Repeatable Bosses,Medium/Hard,Mega Aerodactyl,Naive,Tough Claws,Aerodactylite,Fire Blast,Fire,Special,110,85
+Brock,Repeatable Bosses,Medium/Hard,Mega Aerodactyl,Naive,Tough Claws,Aerodactylite,Aqua Tail,Water,Physical,90,90
+Brock,Repeatable Bosses,Medium/Hard,Mega Aerodactyl,Naive,Tough Claws,Aerodactylite,Ice Fang,Ice,Physical,65,95
+Brock,Repeatable Bosses,Medium/Hard,Mega Aerodactyl,Naive,Tough Claws,Aerodactylite,Pursuit,Dark,Physical,40,100
+Brock,Repeatable Bosses,Medium/Hard,Mega Aerodactyl,Naive,Tough Claws,Aerodactylite,Earthquake,Ground,Physical,100,100
+Brock,Repeatable Bosses,Medium/Hard,Golem,Jolly,Sturdy,Weakness Policy,Stone Edge,Rock,Physical,100,80
+Brock,Repeatable Bosses,Medium/Hard,Golem,Jolly,Sturdy,Weakness Policy,Rock Polish,Rock,Status,—,—
+Brock,Repeatable Bosses,Medium/Hard,Golem,Jolly,Sturdy,Weakness Policy,Earthquake,Ground,Physical,100,100
+Brock,Repeatable Bosses,Medium/Hard,Golem,Jolly,Sturdy,Weakness Policy,Fire Punch,Fire,Physical,75,100
+Brock,Repeatable Bosses,Medium/Hard,Steelix,Adamant,Sturdy,Leftovers,Earthquake,Ground,Physical,100,100
+Brock,Repeatable Bosses,Medium/Hard,Steelix,Adamant,Sturdy,Leftovers,Heavy Slam,Steel,Physical,—,100
+Brock,Repeatable Bosses,Medium/Hard,Steelix,Adamant,Sturdy,Leftovers,Stone Edge,Rock,Physical,100,80
+Brock,Repeatable Bosses,Medium/Hard,Steelix,Adamant,Sturdy,Leftovers,Ice Fang,Ice,Physical,65,95
+Brock,Repeatable Bosses,Medium/Hard,Cradily,Sassy,Storm Drain,Leftovers,Seed Bomb,Grass,Physical,80,100
+Brock,Repeatable Bosses,Medium/Hard,Cradily,Sassy,Storm Drain,Leftovers,Rock Slide,Rock,Physical,75,90
+Brock,Repeatable Bosses,Medium/Hard,Cradily,Sassy,Storm Drain,Leftovers,Toxic,Poison,Status,—,90
+Brock,Repeatable Bosses,Medium/Hard,Cradily,Sassy,Storm Drain,Leftovers,Curse,Ghost,Status,—,—
+Brock,Repeatable Bosses,Medium/Hard,Toxicroak,Timid,Poison Touch,Choice Specs,Focus Blast,Fighting,Special,120,70
+Brock,Repeatable Bosses,Medium/Hard,Toxicroak,Timid,Poison Touch,Choice Specs,Sludge Bomb,Poison,Special,90,100
+Brock,Repeatable Bosses,Medium/Hard,Toxicroak,Timid,Poison Touch,Choice Specs,Icy Wind,Ice,Special,55,95
+Brock,Repeatable Bosses,Medium/Hard,Toxicroak,Timid,Poison Touch,Choice Specs,Dark Pulse,Dark,Special,80,100
+Brock,Repeatable Bosses,Medium/Hard,Terrakion,Jolly,Justified,Expert Belt,Close Combat,Fighting,Physical,120,100
+Brock,Repeatable Bosses,Medium/Hard,Terrakion,Jolly,Justified,Expert Belt,Stone Edge,Rock,Physical,100,80
+Brock,Repeatable Bosses,Medium/Hard,Terrakion,Jolly,Justified,Expert Belt,Swords Dance,Normal,Status,—,—
+Brock,Repeatable Bosses,Medium/Hard,Terrakion,Jolly,Justified,Expert Belt,Earthquake,Ground,Physical,100,100
+Bruno,Repeatable Bosses,Medium/Hard,Mega Steelix,Careful,Sand Force,Steelixite,Heavy Slam,Steel,Physical,—,100
+Bruno,Repeatable Bosses,Medium/Hard,Mega Steelix,Careful,Sand Force,Steelixite,Earthquake,Ground,Physical,100,100
+Bruno,Repeatable Bosses,Medium/Hard,Mega Steelix,Careful,Sand Force,Steelixite,Stone Edge,Rock,Physical,100,80
+Bruno,Repeatable Bosses,Medium/Hard,Mega Steelix,Careful,Sand Force,Steelixite,Ice Fang,Ice,Physical,65,95
+Bruno,Repeatable Bosses,Medium/Hard,Hariyama,Adamant,Thick Fat,Choice Band,Close Combat,Fighting,Physical,120,100
+Bruno,Repeatable Bosses,Medium/Hard,Hariyama,Adamant,Thick Fat,Choice Band,Heavy Slam,Steel,Physical,—,100
+Bruno,Repeatable Bosses,Medium/Hard,Hariyama,Adamant,Thick Fat,Choice Band,Stone Edge,Rock,Physical,100,80
+Bruno,Repeatable Bosses,Medium/Hard,Hariyama,Adamant,Thick Fat,Choice Band,Fire Punch,Fire,Physical,75,100
+Bruno,Repeatable Bosses,Medium/Hard,Hitmonlee,Jolly,Reckless,Life Orb,High Jump Kick,Fighting,Physical,130,90
+Bruno,Repeatable Bosses,Medium/Hard,Hitmonlee,Jolly,Reckless,Life Orb,Stone Edge,Rock,Physical,100,80
+Bruno,Repeatable Bosses,Medium/Hard,Hitmonlee,Jolly,Reckless,Life Orb,Knock Off,Dark,Physical,65,100
+Bruno,Repeatable Bosses,Medium/Hard,Hitmonlee,Jolly,Reckless,Life Orb,Poison Jab,Poison,Physical,80,100
+Bruno,Repeatable Bosses,Medium/Hard,Throh,Careful,Guts,Flame Orb,Bulk Up,Fighting,Status,—,—
+Bruno,Repeatable Bosses,Medium/Hard,Throh,Careful,Guts,Flame Orb,Superpower,Fighting,Physical,120,100
+Bruno,Repeatable Bosses,Medium/Hard,Throh,Careful,Guts,Flame Orb,Knock Off,Dark,Physical,65,100
+Bruno,Repeatable Bosses,Medium/Hard,Throh,Careful,Guts,Flame Orb,Thunder Punch,Electric,Physical,75,100
+Bruno,Repeatable Bosses,Medium/Hard,Sawk,Jolly,Sturdy,Weakness Policy,Close Combat,Fighting,Physical,120,100
+Bruno,Repeatable Bosses,Medium/Hard,Sawk,Jolly,Sturdy,Weakness Policy,Knock Off,Dark,Physical,65,100
+Bruno,Repeatable Bosses,Medium/Hard,Sawk,Jolly,Sturdy,Weakness Policy,Fire Punch,Fire,Physical,75,100
+Bruno,Repeatable Bosses,Medium/Hard,Sawk,Jolly,Sturdy,Weakness Policy,Ice Punch,Ice,Physical,75,100
+Bruno,Repeatable Bosses,Medium/Hard,Scrafty,Adamant,Intimidate,Leftovers,Knock Off,Dark,Physical,65,100
+Bruno,Repeatable Bosses,Medium/Hard,Scrafty,Adamant,Intimidate,Leftovers,High Jump Kick,Fighting,Physical,130,90
+Bruno,Repeatable Bosses,Medium/Hard,Scrafty,Adamant,Intimidate,Leftovers,Dragon Dance,Dragon,Status,—,—
+Bruno,Repeatable Bosses,Medium/Hard,Scrafty,Adamant,Intimidate,Leftovers,Head Smash,Rock,Physical,150,80
+Bugsy,Repeatable Bosses,Medium/Hard,Scizor,Random,Technician,Choice Band,Feint,Normal,Physical,30,100
+Bugsy,Repeatable Bosses,Medium/Hard,Scizor,Random,Technician,Choice Band,Fury Cutter,Bug,Physical,40,95
+Bugsy,Repeatable Bosses,Medium/Hard,Scizor,Random,Technician,Choice Band,Bullet Punch,Steel,Physical,40,100
+Bugsy,Repeatable Bosses,Medium/Hard,Scizor,Random,Technician,Choice Band,Pursuit,Dark,Physical,40,100
+Bugsy,Repeatable Bosses,Medium/Hard,Genesect,Random,Download,Choice Specs,Bug Buzz,Bug,Special,90,100
+Bugsy,Repeatable Bosses,Medium/Hard,Genesect,Random,Download,Choice Specs,Flash Cannon,Steel,Special,80,100
+Bugsy,Repeatable Bosses,Medium/Hard,Genesect,Random,Download,Choice Specs,Ice Beam,Ice,Special,90,100
+Bugsy,Repeatable Bosses,Medium/Hard,Genesect,Random,Download,Choice Specs,Flamethrower,Fire,Special,90,100
+Bugsy,Repeatable Bosses,Medium/Hard,Scolipede,Random,Speed Boost,Life Orb,Megahorn,Bug,Physical,120,85
+Bugsy,Repeatable Bosses,Medium/Hard,Scolipede,Random,Speed Boost,Life Orb,Stone Edge,Rock,Physical,100,80
+Bugsy,Repeatable Bosses,Medium/Hard,Scolipede,Random,Speed Boost,Life Orb,Poison Jab,Poison,Physical,80,100
+Bugsy,Repeatable Bosses,Medium/Hard,Scolipede,Random,Speed Boost,Life Orb,Earthquake,Ground,Physical,100,100
+Bugsy,Repeatable Bosses,Medium/Hard,Volcarona,Random,Random,Passho Berry,Flamethrower,Fire,Special,90,100
+Bugsy,Repeatable Bosses,Medium/Hard,Volcarona,Random,Random,Passho Berry,Quiver Dance,Bug,Status,—,—
+Bugsy,Repeatable Bosses,Medium/Hard,Volcarona,Random,Random,Passho Berry,Bug Buzz,Bug,Special,90,100
+Bugsy,Repeatable Bosses,Medium/Hard,Volcarona,Random,Random,Passho Berry,Roost,Flying,Status,—,—
+Bugsy,Repeatable Bosses,Medium/Hard,Mega Heracross,Random,Skill Link,Heracronite,Rock Blast,Rock,Physical,25,90
+Bugsy,Repeatable Bosses,Medium/Hard,Mega Heracross,Random,Skill Link,Heracronite,Pin Missile,Bug,Physical,25,95
+Bugsy,Repeatable Bosses,Medium/Hard,Mega Heracross,Random,Skill Link,Heracronite,Bullet Seed,Grass,Physical,25,100
+Bugsy,Repeatable Bosses,Medium/Hard,Mega Heracross,Random,Skill Link,Heracronite,Close Combat,Fighting,Physical,120,100
+Bugsy,Repeatable Bosses,Medium/Hard,Ninjask,Random,Speed Boost,Focus Sash,Aerial Ace,Flying,Physical,60,—
+Bugsy,Repeatable Bosses,Medium/Hard,Ninjask,Random,Speed Boost,Focus Sash,Thief,Dark,Physical,60,100
+Bugsy,Repeatable Bosses,Medium/Hard,Ninjask,Random,Speed Boost,Focus Sash,Swords Dance,Normal,Status,—,—
+Bugsy,Repeatable Bosses,Medium/Hard,Ninjask,Random,Speed Boost,Focus Sash,Leech Life,Bug,Physical,80,100
+Chuck,Repeatable Bosses,Medium/Hard,Machamp,Adamant,No Guard,Assault Vest,Dynamic Punch,Fighting,Physical,100,50
+Chuck,Repeatable Bosses,Medium/Hard,Machamp,Adamant,No Guard,Assault Vest,Stone Edge,Rock,Physical,100,80
+Chuck,Repeatable Bosses,Medium/Hard,Machamp,Adamant,No Guard,Assault Vest,Heavy Slam,Steel,Physical,—,100
+Chuck,Repeatable Bosses,Medium/Hard,Machamp,Adamant,No Guard,Assault Vest,Fire Punch,Fire,Physical,75,100
+Chuck,Repeatable Bosses,Medium/Hard,Infernape,Timid,Blaze,Life Orb,Fire Blast,Fire,Special,110,85
+Chuck,Repeatable Bosses,Medium/Hard,Infernape,Timid,Blaze,Life Orb,Focus Blast,Fighting,Special,120,70
+Chuck,Repeatable Bosses,Medium/Hard,Infernape,Timid,Blaze,Life Orb,Vacuum Wave,Fighting,Special,40,100
+Chuck,Repeatable Bosses,Medium/Hard,Infernape,Timid,Blaze,Life Orb,Grass Knot,Grass,Special,—,100
+Chuck,Repeatable Bosses,Medium/Hard,Mienshao,Jolly,Regenerator,Focus Sash,Poison Jab,Poison,Physical,80,100
+Chuck,Repeatable Bosses,Medium/Hard,Mienshao,Jolly,Regenerator,Focus Sash,Rock Slide,Rock,Physical,75,90
+Chuck,Repeatable Bosses,Medium/Hard,Mienshao,Jolly,Regenerator,Focus Sash,Knock Off,Dark,Physical,65,100
+Chuck,Repeatable Bosses,Medium/Hard,Mienshao,Jolly,Regenerator,Focus Sash,High Jump Kick,Fighting,Physical,130,90
+Chuck,Repeatable Bosses,Medium/Hard,Conkeldurr,Adamant,Iron Fist,Leftovers,Drain Punch,Fighting,Physical,75,100
+Chuck,Repeatable Bosses,Medium/Hard,Conkeldurr,Adamant,Iron Fist,Leftovers,Ice Punch,Ice,Physical,75,100
+Chuck,Repeatable Bosses,Medium/Hard,Conkeldurr,Adamant,Iron Fist,Leftovers,Thunder Punch,Electric,Physical,75,100
+Chuck,Repeatable Bosses,Medium/Hard,Conkeldurr,Adamant,Iron Fist,Leftovers,Fire Punch,Fire,Physical,75,100
+Chuck,Repeatable Bosses,Medium/Hard,Poliwrath,Modest,Water Absorb,Mystic Water,Hydro Pump,Water,Special,110,80
+Chuck,Repeatable Bosses,Medium/Hard,Poliwrath,Modest,Water Absorb,Mystic Water,Ice Beam,Ice,Special,90,100
+Chuck,Repeatable Bosses,Medium/Hard,Poliwrath,Modest,Water Absorb,Mystic Water,Focus Blast,Fighting,Special,120,70
+Chuck,Repeatable Bosses,Medium/Hard,Poliwrath,Modest,Water Absorb,Mystic Water,Hypnosis,Psychic,Status,—,60
+Chuck,Repeatable Bosses,Medium/Hard,Breloom,Jolly,Poison Heal,Toxic Orb,Seed Bomb,Grass,Physical,80,100
+Chuck,Repeatable Bosses,Medium/Hard,Breloom,Jolly,Poison Heal,Toxic Orb,Facade,Normal,Physical,70,100
+Chuck,Repeatable Bosses,Medium/Hard,Breloom,Jolly,Poison Heal,Toxic Orb,Drain Punch,Fighting,Physical,75,100
+Chuck,Repeatable Bosses,Medium/Hard,Breloom,Jolly,Poison Heal,Toxic Orb,Spore,Grass,Status,—,100
+Cie,Repeatable Bosses,Medium/Hard,Togekiss,Random,Serene Grace,Choice Scarf,Air Slash,Flying,Special,75,95
+Cie,Repeatable Bosses,Medium/Hard,Azumarill,Random,Huge Power,Choice Band,Waterfall,Water,Physical,80,100
+Cie,Repeatable Bosses,Medium/Hard,Azumarill,Random,Huge Power,Choice Band,Superpower,Fighting,Physical,120,100
+Cie,Repeatable Bosses,Medium/Hard,Azumarill,Random,Huge Power,Choice Band,Play Rough,Fairy,Physical,90,90
+Cie,Repeatable Bosses,Medium/Hard,Azumarill,Random,Huge Power,Choice Band,Knock Off,Dark,Physical,65,100
+Cie,Repeatable Bosses,Medium/Hard,Starmie,Random,Analytic,Choice Specs,Hydro Pump,Water,Special,110,80
+Cie,Repeatable Bosses,Medium/Hard,Starmie,Random,Analytic,Choice Specs,Psychic,Psychic,Special,90,100
+Cie,Repeatable Bosses,Medium/Hard,Starmie,Random,Analytic,Choice Specs,Thunderbolt,Electric,Special,90,100
+Cie,Repeatable Bosses,Medium/Hard,Starmie,Random,Analytic,Choice Specs,Ice Beam,Ice,Special,90,100
+Cie,Repeatable Bosses,Medium/Hard,Clefable,Random,Unaware,Leftovers,Moonblast,Fairy,Special,95,100
+Cie,Repeatable Bosses,Medium/Hard,Clefable,Random,Unaware,Leftovers,Flamethrower,Fire,Special,90,100
+Cie,Repeatable Bosses,Medium/Hard,Clefable,Random,Unaware,Leftovers,Thunderbolt,Electric,Special,90,100
+Cie,Repeatable Bosses,Medium/Hard,Clefable,Random,Unaware,Leftovers,Ice Beam,Ice,Special,90,100
+Cie,Repeatable Bosses,Medium/Hard,Scizor,Random,Technician,Choice Band,Pursuit,Dark,Physical,40,100
+Cie,Repeatable Bosses,Medium/Hard,Scizor,Random,Technician,Choice Band,Superpower,Fighting,Physical,120,100
+Cie,Repeatable Bosses,Medium/Hard,Scizor,Random,Technician,Choice Band,Bug Bite,Bug,Physical,60,100
+Cie,Repeatable Bosses,Medium/Hard,Scizor,Random,Technician,Choice Band,Bullet Punch,Steel,Physical,40,100
+Cie,Repeatable Bosses,Medium/Hard,Mega Diancie,Random,Magic Bounce,Diancite,Diamond Storm,Rock,Physical,100,95
+Cie,Repeatable Bosses,Medium/Hard,Mega Diancie,Random,Magic Bounce,Diancite,Moonblast,Fairy,Special,95,100
+Cie,Repeatable Bosses,Medium/Hard,Mega Diancie,Random,Magic Bounce,Diancite,Earth Power,Ground,Special,90,100
+Cie,Repeatable Bosses,Medium/Hard,Mega Diancie,Random,Magic Bounce,Diancite,Psychic,Psychic,Special,90,100
+Erika,Repeatable Bosses,Medium/Hard,Ferrothorn,Relaxed,Iron Barbs,Rocky Helmet,Power Whip,Grass,Physical,120,85
+Erika,Repeatable Bosses,Medium/Hard,Ferrothorn,Relaxed,Iron Barbs,Rocky Helmet,Gyro Ball,Steel,Physical,—,100
+Erika,Repeatable Bosses,Medium/Hard,Ferrothorn,Relaxed,Iron Barbs,Rocky Helmet,Bulldoze,Ground,Physical,60,100
+Erika,Repeatable Bosses,Medium/Hard,Ferrothorn,Relaxed,Iron Barbs,Rocky Helmet,Explosion,Normal,Physical,250,100
+Erika,Repeatable Bosses,Medium/Hard,Volcarona,Timid,Swarm,Passho Berry,Bug Buzz,Bug,Special,90,100
+Erika,Repeatable Bosses,Medium/Hard,Volcarona,Timid,Swarm,Passho Berry,Flamethrower,Fire,Special,90,100
+Erika,Repeatable Bosses,Medium/Hard,Volcarona,Timid,Swarm,Passho Berry,Giga Drain,Grass,Special,75,100
+Erika,Repeatable Bosses,Medium/Hard,Volcarona,Timid,Swarm,Passho Berry,Quiver Dance,Bug,Status,—,—
+Erika,Repeatable Bosses,Medium/Hard,Ludicolo,Timid,Swift Swim,Life Orb,Focus Blast,Fighting,Special,120,70
+Erika,Repeatable Bosses,Medium/Hard,Ludicolo,Timid,Swift Swim,Life Orb,Hydro Pump,Water,Special,110,80
+Erika,Repeatable Bosses,Medium/Hard,Ludicolo,Timid,Swift Swim,Life Orb,Giga Drain,Grass,Special,75,100
+Erika,Repeatable Bosses,Medium/Hard,Ludicolo,Timid,Swift Swim,Life Orb,Ice Beam,Ice,Special,90,100
+Erika,Repeatable Bosses,Medium/Hard,Celebi,Timid,Natural Cure,Leftovers,Thunder Wave,Electric,Status,—,100
+Erika,Repeatable Bosses,Medium/Hard,Celebi,Timid,Natural Cure,Leftovers,Earth Power,Ground,Special,90,100
+Erika,Repeatable Bosses,Medium/Hard,Celebi,Timid,Natural Cure,Leftovers,Nasty Plot,Dark,Status,—,—
+Erika,Repeatable Bosses,Medium/Hard,Celebi,Timid,Natural Cure,Leftovers,Psychic,Psychic,Special,90,100
+Erika,Repeatable Bosses,Medium/Hard,Torterra,Adamant,Overgrow,Focus Sash,Wood Hammer,Grass,Physical,120,100
+Erika,Repeatable Bosses,Medium/Hard,Torterra,Adamant,Overgrow,Focus Sash,Earthquake,Ground,Physical,100,100
+Erika,Repeatable Bosses,Medium/Hard,Torterra,Adamant,Overgrow,Focus Sash,Stone Edge,Rock,Physical,100,80
+Erika,Repeatable Bosses,Medium/Hard,Torterra,Adamant,Overgrow,Focus Sash,Synthesis,Grass,Status,—,—
+Erika,Repeatable Bosses,Medium/Hard,Tangrowth,Sassy,Leaf Guard,Assault Vest,Earthquake,Ground,Physical,100,100
+Erika,Repeatable Bosses,Medium/Hard,Tangrowth,Sassy,Leaf Guard,Assault Vest,Power Whip,Grass,Physical,120,85
+Erika,Repeatable Bosses,Medium/Hard,Tangrowth,Sassy,Leaf Guard,Assault Vest,Sludge Bomb,Poison,Special,90,100
+Erika,Repeatable Bosses,Medium/Hard,Tangrowth,Sassy,Leaf Guard,Assault Vest,Ancient Power,Rock,Special,60,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Starmie,Timid,Analytic,Life Orb,Hydro Pump,Water,Special,110,80
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Starmie,Timid,Analytic,Life Orb,Psyshock,Psychic,Special,80,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Starmie,Timid,Analytic,Life Orb,Hidden Power,Fire,Special,60,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Starmie,Timid,Analytic,Life Orb,Ice Beam,Ice,Special,90,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Starmie,Timid,Analytic,Life Orb,Recover,Normal,Status,—,—
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Alakazam,Timid,Magic Guard,Focus Sash,Hidden Power,Ice,Special,60,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Alakazam,Timid,Magic Guard,Focus Sash,Psychic,Psychic,Special,90,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Alakazam,Timid,Magic Guard,Focus Sash,Focus Blast,Fighting,Special,120,70
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Alakazam,Timid,Magic Guard,Focus Sash,Thunder Wave,Electric,Status,—,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Alakazam,Timid,Magic Guard,Focus Sash,Psyshock,Psychic,Special,80,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Alakazam,Timid,Magic Guard,Focus Sash,Signal Beam,Bug,Special,75,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Slowking,Modest,Own Tempo,Assault Vest,Scald,Water,Special,80,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Slowking,Modest,Own Tempo,Assault Vest,Future Sight,Psychic,Special,120,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Slowking,Modest,Own Tempo,Assault Vest,Fire Blast,Fire,Special,110,85
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Slowking,Modest,Own Tempo,Assault Vest,Psyshock,Psychic,Special,80,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Slowking,Modest,Own Tempo,Assault Vest,Dragon Tail,Dragon,Physical,60,90
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Jirachi,Jolly,Serene Grace,Choice Scarf,Iron Head,Steel,Physical,80,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Jirachi,Jolly,Serene Grace,Choice Scarf,Fire Punch,Fire,Physical,75,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Jirachi,Jolly,Serene Grace,Choice Scarf,Zen Headbutt,Psychic,Physical,80,90
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Jirachi,Jolly,Serene Grace,Choice Scarf,Ice Punch,Ice,Physical,75,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Jirachi,Jolly,Serene Grace,Choice Scarf,Thunder Punch,Electric,Physical,75,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Mega Latios,Modest,Levitate,Latiosite,Draco Meteor,Dragon,Special,140,90
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Mega Latios,Modest,Levitate,Latiosite,Hidden Power,Fire,Special,60,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Mega Latios,Modest,Levitate,Latiosite,Trick,Psychic,Status,—,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Mega Latios,Modest,Levitate,Latiosite,Psyshock,Psychic,Special,80,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Mega Latios,Modest,Levitate,Latiosite,Surf,Water,Special,90,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Mew,Jolly,Synchronize,Life Orb,Swords Dance,Normal,Status,—,—
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Mew,Jolly,Synchronize,Life Orb,Drain Punch,Fighting,Physical,75,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Mew,Jolly,Synchronize,Life Orb,Zen Headbutt,Psychic,Physical,80,90
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Mew,Jolly,Synchronize,Life Orb,Sucker Punch,Dark,Physical,80,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Mew,Jolly,Synchronize,Life Orb,Soft-Boiled,Normal,Status,—,—
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Azumarill,Adamant,Huge Power,Choice Band,Aqua Jet,Water,Physical,40,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Azumarill,Adamant,Huge Power,Choice Band,Waterfall,Water,Physical,80,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Azumarill,Adamant,Huge Power,Choice Band,Play Rough,Fairy,Physical,90,90
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Azumarill,Adamant,Huge Power,Choice Band,Superpower,Fighting,Physical,120,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Clefable,Bold,Unaware,Leftovers,Moonblast,Fairy,Special,95,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Clefable,Bold,Unaware,Leftovers,Thunderbolt,Electric,Special,90,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Clefable,Bold,Unaware,Leftovers,Flamethrower,Fire,Special,90,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Clefable,Bold,Unaware,Leftovers,Focus Blast,Fighting,Special,120,70
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Xerneas,Adamant,Fairy Aura,Choice Scarf,Close Combat,Fighting,Physical,120,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Xerneas,Adamant,Fairy Aura,Choice Scarf,Outrage,Dragon,Physical,120,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Xerneas,Adamant,Fairy Aura,Choice Scarf,Night Slash,Dark,Physical,70,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Xerneas,Adamant,Fairy Aura,Choice Scarf,Rock Slide,Rock,Physical,75,90
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Xerneas,Adamant,Fairy Aura,Choice Scarf,Zen Headbutt,Psychic,Physical,80,90
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Xerneas,Adamant,Fairy Aura,Choice Scarf,Horn Leech,Grass,Physical,75,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Xerneas,Adamant,Fairy Aura,Choice Scarf,Megahorn,Bug,Physical,120,85
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Sylveon,Timid,Pixilate,Choice Scarf,Hyper Voice,Normal,Special,90,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Sylveon,Timid,Pixilate,Choice Scarf,Psyshock,Psychic,Special,80,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Sylveon,Timid,Pixilate,Choice Scarf,Shadow Ball,Ghost,Special,80,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Sylveon,Timid,Pixilate,Choice Scarf,Hidden Power,Fire,Special,60,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Togekiss,Timid,Serene Grace,Choice Scarf,Air Slash,Flying,Special,75,95
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Togekiss,Timid,Serene Grace,Choice Scarf,Aura Sphere,Fighting,Special,80,—
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Togekiss,Timid,Serene Grace,Choice Scarf,Dazzling Gleam,Fairy,Special,80,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Togekiss,Timid,Serene Grace,Choice Scarf,Flamethrower,Fire,Special,90,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Togekiss,Timid,Serene Grace,Choice Scarf,Thunder Wave,Electric,Status,—,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Mega Diancie,Sassy,Magic Bounce,Diancite,Psychic,Psychic,Special,90,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Mega Diancie,Sassy,Magic Bounce,Diancite,Moonblast,Fairy,Special,95,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Mega Diancie,Sassy,Magic Bounce,Diancite,Diamond Storm,Rock,Physical,100,95
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Mega Diancie,Sassy,Magic Bounce,Diancite,Earth Power,Ground,Special,90,100
+Gamers Pewdie and Diepy,Repeatable Bosses,Hard,Mega Diancie,Sassy,Magic Bounce,Diancite,Toxic,Poison,Status,—,90
+George,Repeatable Bosses,Medium/Hard,Arcanine,Adamant,Intimidate,Leftovers,Flare Blitz,Fire,Physical,120,100
+George,Repeatable Bosses,Medium/Hard,Arcanine,Adamant,Intimidate,Leftovers,Will-O-Wisp,Fire,Status,—,85
+George,Repeatable Bosses,Medium/Hard,Arcanine,Adamant,Intimidate,Leftovers,Close Combat,Fighting,Physical,120,100
+George,Repeatable Bosses,Medium/Hard,Arcanine,Adamant,Intimidate,Leftovers,Extreme Speed,Normal,Physical,80,100
+George,Repeatable Bosses,Medium/Hard,Stoutland,Adamant,Scrappy,Choice Band,Return,Normal,Physical,—,100
+George,Repeatable Bosses,Medium/Hard,Stoutland,Adamant,Scrappy,Choice Band,Crunch,Dark,Physical,80,100
+George,Repeatable Bosses,Medium/Hard,Stoutland,Adamant,Scrappy,Choice Band,Superpower,Fighting,Physical,120,100
+George,Repeatable Bosses,Medium/Hard,Stoutland,Adamant,Scrappy,Choice Band,Play Rough,Fairy,Physical,90,90
+George,Repeatable Bosses,Medium/Hard,Granbull,Impish,Intimidate,Sitrus Berry,Play Rough,Fairy,Physical,90,90
+George,Repeatable Bosses,Medium/Hard,Granbull,Impish,Intimidate,Sitrus Berry,Thunder Wave,Electric,Status,—,100
+George,Repeatable Bosses,Medium/Hard,Granbull,Impish,Intimidate,Sitrus Berry,Earthquake,Ground,Physical,100,100
+George,Repeatable Bosses,Medium/Hard,Granbull,Impish,Intimidate,Sitrus Berry,Stone Edge,Rock,Physical,100,80
+George,Repeatable Bosses,Medium/Hard,Houndoom,Timid,Flash Fire,Life Orb,Nasty Plot,Dark,Status,—,—
+George,Repeatable Bosses,Medium/Hard,Houndoom,Timid,Flash Fire,Life Orb,Fire Blast,Fire,Special,110,85
+George,Repeatable Bosses,Medium/Hard,Houndoom,Timid,Flash Fire,Life Orb,Dark Pulse,Dark,Special,80,100
+George,Repeatable Bosses,Medium/Hard,Houndoom,Timid,Flash Fire,Life Orb,Sludge Bomb,Poison,Special,90,100
+George,Repeatable Bosses,Medium/Hard,Manectric,Timid,Minus,Life Orb,Thunder,Electric,Special,110,70
+George,Repeatable Bosses,Medium/Hard,Manectric,Timid,Minus,Life Orb,Flamethrower,Fire,Special,90,100
+George,Repeatable Bosses,Medium/Hard,Manectric,Timid,Minus,Life Orb,Thunder Wave,Electric,Status,—,100
+George,Repeatable Bosses,Medium/Hard,Manectric,Timid,Minus,Life Orb,Roar,Normal,Status,—,—
+George,Repeatable Bosses,Medium/Hard,Mega Lucario,Adamant,Adaptability,Lucarionite,Close Combat,Fighting,Physical,120,100
+George,Repeatable Bosses,Medium/Hard,Mega Lucario,Adamant,Adaptability,Lucarionite,Meteor Mash,Steel,Physical,90,90
+George,Repeatable Bosses,Medium/Hard,Mega Lucario,Adamant,Adaptability,Lucarionite,Crunch,Dark,Physical,80,100
+George,Repeatable Bosses,Medium/Hard,Mega Lucario,Adamant,Adaptability,Lucarionite,Ice Punch,Ice,Physical,75,100
+Gingery Jones,Repeatable Bosses,Medium/Hard,Conkeldurr,Random,Random,Choice Band,Drain Punch,Fighting,Physical,75,100
+Gingery Jones,Repeatable Bosses,Medium/Hard,Conkeldurr,Random,Random,Choice Band,Knock Off,Dark,Physical,65,100
+Gingery Jones,Repeatable Bosses,Medium/Hard,Conkeldurr,Random,Random,Choice Band,Ice Punch,Ice,Physical,75,100
+Gingery Jones,Repeatable Bosses,Medium/Hard,Conkeldurr,Random,Random,Choice Band,Thunder Punch,Electric,Physical,75,100
+Gingery Jones,Repeatable Bosses,Medium/Hard,Klinklang,Random,Clear Body,Choice Band,Wild Charge,Electric,Physical,90,100
+Gingery Jones,Repeatable Bosses,Medium/Hard,Klinklang,Random,Clear Body,Choice Band,Gear Grind,Steel,Physical,50,85
+Gingery Jones,Repeatable Bosses,Medium/Hard,Klinklang,Random,Clear Body,Choice Band,Return,Normal,Physical,—,100
+Gingery Jones,Repeatable Bosses,Medium/Hard,Klinklang,Random,Clear Body,Choice Band,Shift Gear,Steel,Status,—,—
+Gingery Jones,Repeatable Bosses,Medium/Hard,Golurk,Random,Random,Choice Band,Ice Punch,Ice,Physical,75,100
+Gingery Jones,Repeatable Bosses,Medium/Hard,Golurk,Random,Random,Choice Band,Drain Punch,Fighting,Physical,75,100
+Gingery Jones,Repeatable Bosses,Medium/Hard,Golurk,Random,Random,Choice Band,Earthquake,Ground,Physical,100,100
+Gingery Jones,Repeatable Bosses,Medium/Hard,Golurk,Random,Random,Choice Band,Shadow Punch,Ghost,Physical,60,100
+Gingery Jones,Repeatable Bosses,Medium/Hard,Mandibuzz,Random,Random,Rocky Helmet,Brave Bird,Flying,Physical,120,100
+Gingery Jones,Repeatable Bosses,Medium/Hard,Mandibuzz,Random,Random,Rocky Helmet,Knock Off,Dark,Physical,65,100
+Gingery Jones,Repeatable Bosses,Medium/Hard,Mandibuzz,Random,Random,Rocky Helmet,Whirlwind,Normal,Status,—,—
+Gingery Jones,Repeatable Bosses,Medium/Hard,Clawitzer,Random,Mega Launcher,Choice Specs,Ice Beam,Ice,Special,90,100
+Gingery Jones,Repeatable Bosses,Medium/Hard,Clawitzer,Random,Mega Launcher,Choice Specs,Scald,Water,Special,80,100
+Gingery Jones,Repeatable Bosses,Medium/Hard,Clawitzer,Random,Mega Launcher,Choice Specs,Dark Pulse,Dark,Special,80,100
+Gingery Jones,Repeatable Bosses,Medium/Hard,Clawitzer,Random,Mega Launcher,Choice Specs,Aura Sphere,Fighting,Special,80,—
+Gingery Jones,Repeatable Bosses,Medium/Hard,Pangoro,Random,Random,Choice Band,Drain Punch,Fighting,Physical,75,100
+Gingery Jones,Repeatable Bosses,Medium/Hard,Pangoro,Random,Random,Choice Band,Swords Dance,Normal,Status,—,—
+Gingery Jones,Repeatable Bosses,Medium/Hard,Pangoro,Random,Random,Choice Band,Zen Headbutt,Psychic,Physical,80,90
+Gingery Jones,Repeatable Bosses,Medium/Hard,Pangoro,Random,Random,Choice Band,Knock Off,Dark,Physical,65,100
+Guardian (Entei),Repeatable Bosses,Lineup,Entei,Adamant,Pressure,Choice Band,Sacred Fire,Fire,Physical,100,95
+Guardian (Entei),Repeatable Bosses,Lineup,Entei,Adamant,Pressure,Choice Band,Extreme Speed,Normal,Physical,80,100
+Guardian (Entei),Repeatable Bosses,Lineup,Entei,Adamant,Pressure,Choice Band,Stone Edge,Rock,Physical,100,80
+Guardian (Entei),Repeatable Bosses,Lineup,Entei,Adamant,Pressure,Choice Band,Iron Tail,Steel,Physical,100,75
+Guardian (Entei),Repeatable Bosses,Lineup,Entei,Adamant,Pressure,Choice Band,Flare Blitz,Fire,Physical,120,100
+Guardian (Entei),Repeatable Bosses,Lineup,Infernape,Jolly,Iron Fist,Life Orb,Close Combat,Fighting,Physical,120,100
+Guardian (Entei),Repeatable Bosses,Lineup,Infernape,Jolly,Iron Fist,Life Orb,Flare Blitz,Fire,Physical,120,100
+Guardian (Entei),Repeatable Bosses,Lineup,Infernape,Jolly,Iron Fist,Life Orb,Gunk Shot,Poison,Physical,120,80
+Guardian (Entei),Repeatable Bosses,Lineup,Infernape,Jolly,Iron Fist,Life Orb,Thunder Punch,Electric,Physical,75,100
+Guardian (Entei),Repeatable Bosses,Lineup,Reshiram,Modest,Turboblaze,Choice Specs,Blue Flare,Fire,Special,130,85
+Guardian (Entei),Repeatable Bosses,Lineup,Reshiram,Modest,Turboblaze,Choice Specs,Dragon Pulse,Dragon,Special,85,100
+Guardian (Entei),Repeatable Bosses,Lineup,Reshiram,Modest,Turboblaze,Choice Specs,Focus Blast,Fighting,Special,120,70
+Guardian (Entei),Repeatable Bosses,Lineup,Reshiram,Modest,Turboblaze,Choice Specs,Shadow Ball,Ghost,Special,80,100
+Guardian (Entei),Repeatable Bosses,Lineup,Gliscor,Jolly,Poison Heal,Toxic Orb,Swords Dance,Normal,Status,—,—
+Guardian (Entei),Repeatable Bosses,Lineup,Gliscor,Jolly,Poison Heal,Toxic Orb,Earthquake,Ground,Physical,100,100
+Guardian (Entei),Repeatable Bosses,Lineup,Gliscor,Jolly,Poison Heal,Toxic Orb,Facade,Normal,Physical,70,100
+Guardian (Entei),Repeatable Bosses,Lineup,Gliscor,Jolly,Poison Heal,Toxic Orb,Knock Off,Dark,Physical,65,100
+Guardian (Entei),Repeatable Bosses,Lineup,Serperior,Timid,Contrary,Miracle Seed,Leaf Storm,Grass,Special,130,90
+Guardian (Entei),Repeatable Bosses,Lineup,Serperior,Timid,Contrary,Miracle Seed,Dragon Pulse,Dragon,Special,85,100
+Guardian (Entei),Repeatable Bosses,Lineup,Serperior,Timid,Contrary,Miracle Seed,Leech Seed,Grass,Status,—,90
+Guardian (Entei),Repeatable Bosses,Lineup,Serperior,Timid,Contrary,Miracle Seed,Giga Drain,Grass,Special,75,100
+Guardian (Entei),Repeatable Bosses,Lineup,Chandelure,Modest,Flame Body,Choice Scarf,Shadow Ball,Ghost,Special,80,100
+Guardian (Entei),Repeatable Bosses,Lineup,Chandelure,Modest,Flame Body,Choice Scarf,Fire Blast,Fire,Special,110,85
+Guardian (Entei),Repeatable Bosses,Lineup,Chandelure,Modest,Flame Body,Choice Scarf,Energy Ball,Grass,Special,90,100
+Guardian (Entei),Repeatable Bosses,Lineup,Chandelure,Modest,Flame Body,Choice Scarf,Psychic,Psychic,Special,90,100
+Guardian (Raikou),Repeatable Bosses,Lineup,Zekrom,Naughty,Teravolt,Life Orb,Bolt Strike,Electric,Physical,130,85
+Guardian (Raikou),Repeatable Bosses,Lineup,Zekrom,Naughty,Teravolt,Life Orb,Dragon Claw,Dragon,Physical,80,100
+Guardian (Raikou),Repeatable Bosses,Lineup,Zekrom,Naughty,Teravolt,Life Orb,Steel Wing,Steel,Physical,70,90
+Guardian (Raikou),Repeatable Bosses,Lineup,Zekrom,Naughty,Teravolt,Life Orb,Focus Blast,Fighting,Special,120,70
+Guardian (Raikou),Repeatable Bosses,Lineup,Excadrill,Adamant,Mold Breaker,Choice Scarf,Earthquake,Ground,Physical,100,100
+Guardian (Raikou),Repeatable Bosses,Lineup,Excadrill,Adamant,Mold Breaker,Choice Scarf,Iron Head,Steel,Physical,80,100
+Guardian (Raikou),Repeatable Bosses,Lineup,Excadrill,Adamant,Mold Breaker,Choice Scarf,Rock Slide,Rock,Physical,75,90
+Guardian (Raikou),Repeatable Bosses,Lineup,Excadrill,Adamant,Mold Breaker,Choice Scarf,X-Scissor,Bug,Physical,80,100
+Guardian (Raikou),Repeatable Bosses,Lineup,Raikou,Timid,Pressure,Life Orb,Thunder,Electric,Special,110,70
+Guardian (Raikou),Repeatable Bosses,Lineup,Raikou,Timid,Pressure,Life Orb,Aura Sphere,Fighting,Special,80,—
+Guardian (Raikou),Repeatable Bosses,Lineup,Raikou,Timid,Pressure,Life Orb,Extrasensory,Psychic,Special,80,100
+Guardian (Raikou),Repeatable Bosses,Lineup,Raikou,Timid,Pressure,Life Orb,Calm Mind,Psychic,Status,—,—
+Guardian (Raikou),Repeatable Bosses,Lineup,Quagsire,Bold,Unaware,Leftovers,Scald,Water,Special,80,100
+Guardian (Raikou),Repeatable Bosses,Lineup,Quagsire,Bold,Unaware,Leftovers,Ice Beam,Ice,Special,90,100
+Guardian (Raikou),Repeatable Bosses,Lineup,Quagsire,Bold,Unaware,Leftovers,Recover,Normal,Status,—,—
+Guardian (Raikou),Repeatable Bosses,Lineup,Quagsire,Bold,Unaware,Leftovers,Toxic,Poison,Status,—,90
+Guardian (Raikou),Repeatable Bosses,Lineup,Eelektross,Modest,Levitate,Assault Vest,Thunderbolt,Electric,Special,90,100
+Guardian (Raikou),Repeatable Bosses,Lineup,Eelektross,Modest,Levitate,Assault Vest,Flamethrower,Fire,Special,90,100
+Guardian (Raikou),Repeatable Bosses,Lineup,Eelektross,Modest,Levitate,Assault Vest,Giga Drain,Grass,Special,75,100
+Guardian (Raikou),Repeatable Bosses,Lineup,Eelektross,Modest,Levitate,Assault Vest,Knock Off,Dark,Physical,65,100
+Guardian (Raikou),Repeatable Bosses,Lineup,Magnezone,Timid,Sturdy,Choice Scarf,Thunderbolt,Electric,Special,90,100
+Guardian (Raikou),Repeatable Bosses,Lineup,Magnezone,Timid,Sturdy,Choice Scarf,Discharge,Electric,Special,80,100
+Guardian (Raikou),Repeatable Bosses,Lineup,Magnezone,Timid,Sturdy,Choice Scarf,Flash Cannon,Steel,Special,80,100
+Guardian (Raikou),Repeatable Bosses,Lineup,Magnezone,Timid,Sturdy,Choice Scarf,Tri Attack,Normal,Special,80,100
+Guardian (Suicune),Repeatable Bosses,Lineup,Kyurem,Modest,Pressure,Choice Specs,Blizzard,Ice,Special,110,70
+Guardian (Suicune),Repeatable Bosses,Lineup,Kyurem,Modest,Pressure,Choice Specs,Draco Meteor,Dragon,Special,140,90
+Guardian (Suicune),Repeatable Bosses,Lineup,Kyurem,Modest,Pressure,Choice Specs,Focus Blast,Fighting,Special,120,70
+Guardian (Suicune),Repeatable Bosses,Lineup,Kyurem,Modest,Pressure,Choice Specs,Flash Cannon,Steel,Special,80,100
+Guardian (Suicune),Repeatable Bosses,Lineup,Suicune,Bold,Pressure,Leftovers,Calm Mind,Psychic,Status,—,—
+Guardian (Suicune),Repeatable Bosses,Lineup,Suicune,Bold,Pressure,Leftovers,Scald,Water,Special,80,100
+Guardian (Suicune),Repeatable Bosses,Lineup,Suicune,Bold,Pressure,Leftovers,Ice Beam,Ice,Special,90,100
+Guardian (Suicune),Repeatable Bosses,Lineup,Suicune,Bold,Pressure,Leftovers,Air Slash,Flying,Special,75,95
+Guardian (Suicune),Repeatable Bosses,Lineup,Avalugg,Quiet,Sturdy,Leftovers,Avalanche,Ice,Physical,60,100
+Guardian (Suicune),Repeatable Bosses,Lineup,Avalugg,Quiet,Sturdy,Leftovers,Toxic,Poison,Status,—,90
+Guardian (Suicune),Repeatable Bosses,Lineup,Avalugg,Quiet,Sturdy,Leftovers,Recover,Normal,Status,—,—
+Guardian (Suicune),Repeatable Bosses,Lineup,Avalugg,Quiet,Sturdy,Leftovers,Stone Edge,Rock,Physical,100,80
+Guardian (Suicune),Repeatable Bosses,Lineup,Walrein,Calm,Thick Fat,Leftovers,Sheer Cold,Ice,Special,—,30
+Guardian (Suicune),Repeatable Bosses,Lineup,Walrein,Calm,Thick Fat,Leftovers,Blizzard,Ice,Special,110,70
+Guardian (Suicune),Repeatable Bosses,Lineup,Walrein,Calm,Thick Fat,Leftovers,Surf,Water,Special,90,100
+Guardian (Suicune),Repeatable Bosses,Lineup,Walrein,Calm,Thick Fat,Leftovers,Super Fang,Normal,Physical,—,90
+Guardian (Suicune),Repeatable Bosses,Lineup,Azumarill,Adamant,Huge Power,Choice Band,Aqua Jet,Water,Physical,40,100
+Guardian (Suicune),Repeatable Bosses,Lineup,Azumarill,Adamant,Huge Power,Choice Band,Play Rough,Fairy,Physical,90,90
+Guardian (Suicune),Repeatable Bosses,Lineup,Azumarill,Adamant,Huge Power,Choice Band,Superpower,Fighting,Physical,120,100
+Guardian (Suicune),Repeatable Bosses,Lineup,Azumarill,Adamant,Huge Power,Choice Band,Knock Off,Dark,Physical,65,100
+Guardian (Suicune),Repeatable Bosses,Lineup,Mamoswine,Jolly,Thick Fat,Life Orb,Earthquake,Ground,Physical,100,100
+Guardian (Suicune),Repeatable Bosses,Lineup,Mamoswine,Jolly,Thick Fat,Life Orb,Icicle Crash,Ice,Physical,85,90
+Guardian (Suicune),Repeatable Bosses,Lineup,Mamoswine,Jolly,Thick Fat,Life Orb,Stone Edge,Rock,Physical,100,80
+Guardian (Suicune),Repeatable Bosses,Lineup,Mamoswine,Jolly,Thick Fat,Life Orb,Ice Shard,Ice,Physical,40,100
+Jessie & James,Repeatable Bosses,Jessie,Porygon-Z,Modest,Adaptability,Choice Specs,Tri Attack,Normal,Special,80,100
+Jessie & James,Repeatable Bosses,Jessie,Porygon-Z,Modest,Adaptability,Choice Specs,Ice Beam,Ice,Special,90,100
+Jessie & James,Repeatable Bosses,Jessie,Porygon-Z,Modest,Adaptability,Choice Specs,Thunderbolt,Electric,Special,90,100
+Jessie & James,Repeatable Bosses,Jessie,Porygon-Z,Modest,Adaptability,Choice Specs,Shadow Ball,Ghost,Special,80,100
+Jessie & James,Repeatable Bosses,Jessie,Arbok,Adamant,Intimidate,Black Sludge,Gunk Shot,Poison,Physical,120,80
+Jessie & James,Repeatable Bosses,Jessie,Arbok,Adamant,Intimidate,Black Sludge,Coil,Poison,Status,—,—
+Jessie & James,Repeatable Bosses,Jessie,Arbok,Adamant,Intimidate,Black Sludge,Earthquake,Ground,Physical,100,100
+Jessie & James,Repeatable Bosses,Jessie,Arbok,Adamant,Intimidate,Black Sludge,Ice Fang,Ice,Physical,65,95
+Jessie & James,Repeatable Bosses,Jessie,Gourgeist,Timid,Insomnia,Leftovers,Seed Bomb,Grass,Physical,80,100
+Jessie & James,Repeatable Bosses,Jessie,Gourgeist,Timid,Insomnia,Leftovers,Phantom Force,Ghost,Physical,90,100
+Jessie & James,Repeatable Bosses,Jessie,Gourgeist,Timid,Insomnia,Leftovers,Will-O-Wisp,Fire,Status,—,85
+Jessie & James,Repeatable Bosses,Jessie,Gourgeist,Timid,Insomnia,Leftovers,Leech Seed,Grass,Status,—,90
+Jessie & James,Repeatable Bosses,Jessie,Yanmega,Modest,Tinted Lens,Choice Specs,Bug Buzz,Bug,Special,90,100
+Jessie & James,Repeatable Bosses,Jessie,Yanmega,Modest,Tinted Lens,Choice Specs,Air Slash,Flying,Special,75,95
+Jessie & James,Repeatable Bosses,Jessie,Yanmega,Modest,Tinted Lens,Choice Specs,Ancient Power,Rock,Special,60,100
+Jessie & James,Repeatable Bosses,Jessie,Yanmega,Modest,Tinted Lens,Choice Specs,Giga Drain,Grass,Special,75,100
+Jessie & James,Repeatable Bosses,Jessie,Jellicent,Bold,Cursed Body,Leftovers,Scald,Water,Special,80,100
+Jessie & James,Repeatable Bosses,Jessie,Jellicent,Bold,Cursed Body,Leftovers,Shadow Ball,Ghost,Special,80,100
+Jessie & James,Repeatable Bosses,Jessie,Jellicent,Bold,Cursed Body,Leftovers,Ice Beam,Ice,Special,90,100
+Jessie & James,Repeatable Bosses,Jessie,Jellicent,Bold,Cursed Body,Leftovers,Energy Ball,Grass,Special,90,100
+Jessie & James,Repeatable Bosses,Jessie,Seviper,Quiet,Shed Skin,Assault Vest,Sludge Bomb,Poison,Special,90,100
+Jessie & James,Repeatable Bosses,Jessie,Seviper,Quiet,Shed Skin,Assault Vest,Flamethrower,Fire,Special,90,100
+Jessie & James,Repeatable Bosses,Jessie,Seviper,Quiet,Shed Skin,Assault Vest,Giga Drain,Grass,Special,75,100
+Jessie & James,Repeatable Bosses,Jessie,Seviper,Quiet,Shed Skin,Assault Vest,Sucker Punch,Dark,Physical,80,100
+Jessie & James,Repeatable Bosses,James,Malamar,Careful,Contrary,Leftovers,Superpower,Fighting,Physical,120,100
+Jessie & James,Repeatable Bosses,James,Malamar,Careful,Contrary,Leftovers,Knock Off,Dark,Physical,65,100
+Jessie & James,Repeatable Bosses,James,Malamar,Careful,Contrary,Leftovers,Psycho Cut,Psychic,Physical,70,100
+Jessie & James,Repeatable Bosses,James,Weezing,Modest,Levitate,Black Sludge,Sludge Bomb,Poison,Special,90,100
+Jessie & James,Repeatable Bosses,James,Weezing,Modest,Levitate,Black Sludge,Fire Blast,Fire,Special,110,85
+Jessie & James,Repeatable Bosses,James,Weezing,Modest,Levitate,Black Sludge,Thunderbolt,Electric,Special,90,100
+Jessie & James,Repeatable Bosses,James,Weezing,Modest,Levitate,Black Sludge,Shadow Ball,Ghost,Special,80,100
+Jessie & James,Repeatable Bosses,James,Arcanine,Adamant,Intimidate,Choice Band,Flare Blitz,Fire,Physical,120,100
+Jessie & James,Repeatable Bosses,James,Arcanine,Adamant,Intimidate,Choice Band,Wild Charge,Electric,Physical,90,100
+Jessie & James,Repeatable Bosses,James,Arcanine,Adamant,Intimidate,Choice Band,Close Combat,Fighting,Physical,120,100
+Jessie & James,Repeatable Bosses,James,Arcanine,Adamant,Intimidate,Choice Band,Extreme Speed,Normal,Physical,80,100
+Jessie & James,Repeatable Bosses,James,Gyarados,Jolly,Moxie,Sitrus Berry,Dragon Dance,Dragon,Status,—,—
+Jessie & James,Repeatable Bosses,James,Gyarados,Jolly,Moxie,Sitrus Berry,Waterfall,Water,Physical,80,100
+Jessie & James,Repeatable Bosses,James,Gyarados,Jolly,Moxie,Sitrus Berry,Earthquake,Ground,Physical,100,100
+Jessie & James,Repeatable Bosses,James,Gyarados,Jolly,Moxie,Sitrus Berry,Ice Fang,Ice,Physical,65,95
+Jessie & James,Repeatable Bosses,James,Amoonguss,Calm,Effect Spore,Black Sludge,Giga Drain,Grass,Special,75,100
+Jessie & James,Repeatable Bosses,James,Amoonguss,Calm,Effect Spore,Black Sludge,Clear Smog,Poison,Special,50,—
+Jessie & James,Repeatable Bosses,James,Amoonguss,Calm,Effect Spore,Black Sludge,Spore,Grass,Status,—,100
+Jessie & James,Repeatable Bosses,James,Amoonguss,Calm,Effect Spore,Black Sludge,Foul Play,Dark,Physical,95,100
+Jessie & James,Repeatable Bosses,James,Cofagrigus,Quiet,Mummy,Leftovers,Nasty Plot,Dark,Status,—,—
+Jessie & James,Repeatable Bosses,James,Cofagrigus,Quiet,Mummy,Leftovers,Shadow Ball,Ghost,Special,80,100
+Jessie & James,Repeatable Bosses,James,Cofagrigus,Quiet,Mummy,Leftovers,Trick Room,Psychic,Status,—,—
+Jessie & James,Repeatable Bosses,James,Cofagrigus,Quiet,Mummy,Leftovers,Energy Ball,Grass,Special,90,100
+Klohver,Repeatable Bosses,Medium/Hard,Xerneas,Mild,Fairy Aura,Choice Scarf,Thunder,Electric,Special,110,70
+Klohver,Repeatable Bosses,Medium/Hard,Xerneas,Mild,Fairy Aura,Choice Scarf,Moonblast,Fairy,Special,95,100
+Klohver,Repeatable Bosses,Medium/Hard,Xerneas,Mild,Fairy Aura,Choice Scarf,Close Combat,Fighting,Physical,120,100
+Klohver,Repeatable Bosses,Medium/Hard,Xerneas,Mild,Fairy Aura,Choice Scarf,Rock Slide,Rock,Physical,75,90
+Klohver,Repeatable Bosses,Medium/Hard,Shaymin-Sky,Modest,Serene Grace,Leftovers,Seed Flare,Grass,Special,120,85
+Klohver,Repeatable Bosses,Medium/Hard,Shaymin-Sky,Modest,Serene Grace,Leftovers,Air Slash,Flying,Special,75,95
+Klohver,Repeatable Bosses,Medium/Hard,Shaymin-Sky,Modest,Serene Grace,Leftovers,Earth Power,Ground,Special,90,100
+Klohver,Repeatable Bosses,Medium/Hard,Shaymin-Sky,Modest,Serene Grace,Leftovers,Leech Seed,Grass,Status,—,90
+Klohver,Repeatable Bosses,Medium/Hard,Meganium,Impish,Overgrow,Leftovers,Petal Blizzard,Grass,Physical,90,100
+Klohver,Repeatable Bosses,Medium/Hard,Meganium,Impish,Overgrow,Leftovers,Dragon Tail,Dragon,Physical,60,90
+Klohver,Repeatable Bosses,Medium/Hard,Meganium,Impish,Overgrow,Leftovers,Earthquake,Ground,Physical,100,100
+Klohver,Repeatable Bosses,Medium/Hard,Meganium,Impish,Overgrow,Leftovers,Synthesis,Grass,Status,—,—
+Klohver,Repeatable Bosses,Medium/Hard,Lilligant,Modest,Own Tempo,Leftovers,Quiver Dance,Bug,Status,—,—
+Klohver,Repeatable Bosses,Medium/Hard,Lilligant,Modest,Own Tempo,Leftovers,Petal Dance,Grass,Special,120,100
+Klohver,Repeatable Bosses,Medium/Hard,Lilligant,Modest,Own Tempo,Leftovers,Sleep Powder,Grass,Status,—,75
+Klohver,Repeatable Bosses,Medium/Hard,Lilligant,Modest,Own Tempo,Leftovers,Giga Drain,Grass,Special,75,100
+Klohver,Repeatable Bosses,Medium/Hard,Gogoat,Adamant,Sap Sipper,Life Orb,Horn Leech,Grass,Physical,75,100
+Klohver,Repeatable Bosses,Medium/Hard,Gogoat,Adamant,Sap Sipper,Life Orb,Rock Slide,Rock,Physical,75,90
+Klohver,Repeatable Bosses,Medium/Hard,Gogoat,Adamant,Sap Sipper,Life Orb,Return,Normal,Physical,—,100
+Klohver,Repeatable Bosses,Medium/Hard,Gogoat,Adamant,Sap Sipper,Life Orb,Earthquake,Ground,Physical,100,100
+Klohver,Repeatable Bosses,Medium/Hard,Vileplume,Modest,Chlorophyll,Leftovers,Energy Ball,Grass,Special,90,100
+Klohver,Repeatable Bosses,Medium/Hard,Vileplume,Modest,Chlorophyll,Leftovers,Sludge Bomb,Poison,Special,90,100
+Klohver,Repeatable Bosses,Medium/Hard,Vileplume,Modest,Chlorophyll,Leftovers,Sunny Day,Fire,Status,—,—
+Klohver,Repeatable Bosses,Medium/Hard,Vileplume,Modest,Chlorophyll,Leftovers,Moonblast,Fairy,Special,95,100
+Koichi,Repeatable Bosses,Medium/Hard,Lucario,Modest,Steadfast,Life Orb,Nasty Plot,Dark,Status,—,—
+Koichi,Repeatable Bosses,Medium/Hard,Lucario,Modest,Steadfast,Life Orb,Focus Blast,Fighting,Special,120,70
+Koichi,Repeatable Bosses,Medium/Hard,Lucario,Modest,Steadfast,Life Orb,Dark Pulse,Dark,Special,80,100
+Koichi,Repeatable Bosses,Medium/Hard,Lucario,Modest,Steadfast,Life Orb,Flash Cannon,Steel,Special,80,100
+Koichi,Repeatable Bosses,Medium/Hard,Hitmonchan,Adamant,Iron Fist,Focus Sash,Counter,Fighting,Physical,—,100
+Koichi,Repeatable Bosses,Medium/Hard,Hitmonchan,Adamant,Iron Fist,Focus Sash,Close Combat,Fighting,Physical,120,100
+Koichi,Repeatable Bosses,Medium/Hard,Hitmonchan,Adamant,Iron Fist,Focus Sash,Fire Punch,Fire,Physical,75,100
+Koichi,Repeatable Bosses,Medium/Hard,Hitmonchan,Adamant,Iron Fist,Focus Sash,Ice Punch,Ice,Physical,75,100
+Koichi,Repeatable Bosses,Medium/Hard,Hitmontop,Impish,Technician,Leftovers,Close Combat,Fighting,Physical,120,100
+Koichi,Repeatable Bosses,Medium/Hard,Hitmontop,Impish,Technician,Leftovers,Endeavor,Normal,Physical,—,100
+Koichi,Repeatable Bosses,Medium/Hard,Hitmontop,Impish,Technician,Leftovers,Earthquake,Ground,Physical,100,100
+Koichi,Repeatable Bosses,Medium/Hard,Hitmontop,Impish,Technician,Leftovers,Stone Edge,Rock,Physical,100,80
+Koichi,Repeatable Bosses,Medium/Hard,Hitmonlee,Jolly,Reckless,Focus Sash,Knock Off,Dark,Physical,65,100
+Koichi,Repeatable Bosses,Medium/Hard,Hitmonlee,Jolly,Reckless,Focus Sash,High Jump Kick,Fighting,Physical,130,90
+Koichi,Repeatable Bosses,Medium/Hard,Hitmonlee,Jolly,Reckless,Focus Sash,Poison Jab,Poison,Physical,80,100
+Koichi,Repeatable Bosses,Medium/Hard,Hitmonlee,Jolly,Reckless,Focus Sash,Blaze Kick,Fire,Physical,85,90
+Koichi,Repeatable Bosses,Medium/Hard,Mega Gallade,Jolly,Inner Focus,Galladite,Close Combat,Fighting,Physical,120,100
+Koichi,Repeatable Bosses,Medium/Hard,Mega Gallade,Jolly,Inner Focus,Galladite,Zen Headbutt,Psychic,Physical,80,90
+Koichi,Repeatable Bosses,Medium/Hard,Mega Gallade,Jolly,Inner Focus,Galladite,Leaf Blade,Grass,Physical,90,100
+Koichi,Repeatable Bosses,Medium/Hard,Mega Gallade,Jolly,Inner Focus,Galladite,Swords Dance,Normal,Status,—,—
+Koichi,Repeatable Bosses,Medium/Hard,Pangoro,Adamant,Mold Breaker,Black Glasses,Crunch,Dark,Physical,80,100
+Koichi,Repeatable Bosses,Medium/Hard,Pangoro,Adamant,Mold Breaker,Black Glasses,Hammer Arm,Fighting,Physical,100,90
+Koichi,Repeatable Bosses,Medium/Hard,Pangoro,Adamant,Mold Breaker,Black Glasses,Gunk Shot,Poison,Physical,120,80
+Koichi,Repeatable Bosses,Medium/Hard,Pangoro,Adamant,Mold Breaker,Black Glasses,Fire Punch,Fire,Physical,75,100
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Salamence,Naive,Intimidate,Life Orb,Outrage,Dragon,Physical,120,100
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Salamence,Naive,Intimidate,Life Orb,Fire Blast,Fire,Special,110,85
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Salamence,Naive,Intimidate,Life Orb,Earthquake,Ground,Physical,100,100
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Salamence,Naive,Intimidate,Life Orb,Iron Tail,Steel,Physical,100,75
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Dialga,Modest,Pressure,Choice Scarf,Aura Sphere,Fighting,Special,80,—
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Dialga,Modest,Pressure,Choice Scarf,Flash Cannon,Steel,Special,80,100
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Dialga,Modest,Pressure,Choice Scarf,Fire Blast,Fire,Special,110,85
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Dialga,Modest,Pressure,Choice Scarf,Thunder,Electric,Special,110,70
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Latios,Timid,Levitate,Choice Specs,Draco Meteor,Dragon,Special,140,90
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Latios,Timid,Levitate,Choice Specs,Psychic,Psychic,Special,90,100
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Latios,Timid,Levitate,Choice Specs,Thunderbolt,Electric,Special,90,100
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Latios,Timid,Levitate,Choice Specs,Surf,Water,Special,90,100
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Mega Garchomp,Jolly,Sand Force,Garchompite,Swords Dance,Normal,Status,—,—
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Mega Garchomp,Jolly,Sand Force,Garchompite,Earthquake,Ground,Physical,100,100
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Mega Garchomp,Jolly,Sand Force,Garchompite,Outrage,Dragon,Physical,120,100
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Mega Garchomp,Jolly,Sand Force,Garchompite,Stone Edge,Rock,Physical,100,80
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Gyarados,Jolly,Intimidate,Lum Berry,Dragon Dance,Dragon,Status,—,—
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Gyarados,Jolly,Intimidate,Lum Berry,Waterfall,Water,Physical,80,100
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Gyarados,Jolly,Intimidate,Lum Berry,Earthquake,Ground,Physical,100,100
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Gyarados,Jolly,Intimidate,Lum Berry,Ice Fang,Ice,Physical,65,95
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Dragonite,Adamant,Multiscale,Weakness Policy,Dragon Dance,Dragon,Status,—,—
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Dragonite,Adamant,Multiscale,Weakness Policy,Outrage,Dragon,Physical,120,100
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Dragonite,Adamant,Multiscale,Weakness Policy,Extreme Speed,Normal,Physical,80,100
+Lance (Dragons Shrine),Repeatable Bosses,Medium/Hard,Dragonite,Adamant,Multiscale,Weakness Policy,Earthquake,Ground,Physical,100,100
+Letrix,Repeatable Bosses,Hard,Togekiss,Modest,Serene Grace,Choice Scarf,Air Slash,Flying,Special,75,95
+Letrix,Repeatable Bosses,Hard,Togekiss,Modest,Serene Grace,Choice Scarf,Flamethrower,Fire,Special,90,100
+Letrix,Repeatable Bosses,Hard,Togekiss,Modest,Serene Grace,Choice Scarf,Aura Sphere,Fighting,Special,80,—
+Letrix,Repeatable Bosses,Hard,Togekiss,Modest,Serene Grace,Choice Scarf,Dazzling Gleam,Fairy,Special,80,100
+Letrix,Repeatable Bosses,Hard,Conkeldurr,Adamant,Guts,Flame Orb,Drain Punch,Fighting,Physical,75,100
+Letrix,Repeatable Bosses,Hard,Conkeldurr,Adamant,Guts,Flame Orb,Knock Off,Dark,Physical,65,100
+Letrix,Repeatable Bosses,Hard,Conkeldurr,Adamant,Guts,Flame Orb,Ice Punch,Ice,Physical,75,100
+Letrix,Repeatable Bosses,Hard,Conkeldurr,Adamant,Guts,Flame Orb,Facade,Normal,Physical,70,100
+Letrix,Repeatable Bosses,Hard,Mega Tyranitar,Naive,Sand Stream,Tyranitarite,Pursuit,Dark,Physical,40,100
+Letrix,Repeatable Bosses,Hard,Mega Tyranitar,Naive,Sand Stream,Tyranitarite,Stone Edge,Rock,Physical,100,80
+Letrix,Repeatable Bosses,Hard,Mega Tyranitar,Naive,Sand Stream,Tyranitarite,Fire Punch,Fire,Physical,75,100
+Letrix,Repeatable Bosses,Hard,Mega Tyranitar,Naive,Sand Stream,Tyranitarite,Fire Blast,Fire,Special,110,85
+Letrix,Repeatable Bosses,Hard,Mega Tyranitar,Naive,Sand Stream,Tyranitarite,Ice Beam,Ice,Special,90,100
+Letrix,Repeatable Bosses,Hard,Mega Tyranitar,Naive,Sand Stream,Tyranitarite,Earthquake,Ground,Physical,100,100
+Letrix,Repeatable Bosses,Hard,Excadrill,Adamant,Mold Breaker,Focus Sash,Earthquake,Ground,Physical,100,100
+Letrix,Repeatable Bosses,Hard,Excadrill,Adamant,Mold Breaker,Focus Sash,Iron Head,Steel,Physical,80,100
+Letrix,Repeatable Bosses,Hard,Excadrill,Adamant,Mold Breaker,Focus Sash,Rock Slide,Rock,Physical,75,90
+Letrix,Repeatable Bosses,Hard,Excadrill,Adamant,Mold Breaker,Focus Sash,Rapid Spin,Normal,Physical,50,100
+Letrix,Repeatable Bosses,Hard,Hydreigon,Naive,Levitate,Life Orb,Dark Pulse,Dark,Special,80,100
+Letrix,Repeatable Bosses,Hard,Hydreigon,Naive,Levitate,Life Orb,Flash Cannon,Steel,Special,80,100
+Letrix,Repeatable Bosses,Hard,Hydreigon,Naive,Levitate,Life Orb,Draco Meteor,Dragon,Special,140,90
+Letrix,Repeatable Bosses,Hard,Hydreigon,Naive,Levitate,Life Orb,Superpower,Fighting,Physical,120,100
+Letrix,Repeatable Bosses,Hard,Kyogre,Modest,Drizzle,Choice Specs,Hydro Pump,Water,Special,110,80
+Letrix,Repeatable Bosses,Hard,Kyogre,Modest,Drizzle,Choice Specs,Ice Beam,Ice,Special,90,100
+Letrix,Repeatable Bosses,Hard,Kyogre,Modest,Drizzle,Choice Specs,Thunder,Electric,Special,110,70
+Letrix,Repeatable Bosses,Hard,Kyogre,Modest,Drizzle,Choice Specs,Calm Mind,Psychic,Status,—,—
+Link,Repeatable Bosses,Hard,Hippowdon,Impish,Sand Stream,Leftovers,Iron Head,Steel,Physical,80,100
+Link,Repeatable Bosses,Hard,Hippowdon,Impish,Sand Stream,Leftovers,Ice Fang,Ice,Physical,65,95
+Link,Repeatable Bosses,Hard,Hippowdon,Impish,Sand Stream,Leftovers,Earthquake,Ground,Physical,100,100
+Link,Repeatable Bosses,Hard,Hippowdon,Impish,Sand Stream,Leftovers,Stone Edge,Rock,Physical,100,80
+Link,Repeatable Bosses,Hard,Hippowdon,Impish,Sand Stream,Leftovers,Fire Fang,Fire,Physical,65,95
+Link,Repeatable Bosses,Hard,Hippowdon,Impish,Sand Stream,Leftovers,Slack Off,Normal,Status,—,—
+Link,Repeatable Bosses,Hard,Aegislash,Adamant,Stance Change,Choice Band,Pursuit,Dark,Physical,40,100
+Link,Repeatable Bosses,Hard,Aegislash,Adamant,Stance Change,Choice Band,Swords Dance,Normal,Status,—,—
+Link,Repeatable Bosses,Hard,Aegislash,Adamant,Stance Change,Choice Band,Iron Head,Steel,Physical,80,100
+Link,Repeatable Bosses,Hard,Aegislash,Adamant,Stance Change,Choice Band,Sacred Sword,Fighting,Physical,90,100
+Link,Repeatable Bosses,Hard,Aegislash,Adamant,Stance Change,Choice Band,King's Shield,Steel,Status,—,—
+Link,Repeatable Bosses,Hard,Aegislash,Adamant,Stance Change,Choice Band,Flash Cannon,Steel,Special,80,100
+Link,Repeatable Bosses,Hard,Aegislash,Adamant,Stance Change,Choice Band,Shadow Ball,Ghost,Special,80,100
+Link,Repeatable Bosses,Hard,Heatran,Timid,Flash Fire,Choice Scarf,Dragon Pulse,Dragon,Special,85,100
+Link,Repeatable Bosses,Hard,Heatran,Timid,Flash Fire,Choice Scarf,Earth Power,Ground,Special,90,100
+Link,Repeatable Bosses,Hard,Heatran,Timid,Flash Fire,Choice Scarf,Lava Plume,Fire,Special,80,100
+Link,Repeatable Bosses,Hard,Heatran,Timid,Flash Fire,Choice Scarf,Flash Cannon,Steel,Special,80,100
+Link,Repeatable Bosses,Hard,Heatran,Timid,Flash Fire,Choice Scarf,Stone Edge,Rock,Physical,100,80
+Link,Repeatable Bosses,Hard,Heatran,Timid,Flash Fire,Choice Scarf,Hidden Power,Normal,Special,60,100
+Link,Repeatable Bosses,Hard,Donphan,Adamant,Sturdy,Choice Band,Fire Fang,Fire,Physical,65,95
+Link,Repeatable Bosses,Hard,Donphan,Adamant,Sturdy,Choice Band,Thunder Fang,Electric,Physical,65,95
+Link,Repeatable Bosses,Hard,Donphan,Adamant,Sturdy,Choice Band,Heavy Slam,Steel,Physical,—,100
+Link,Repeatable Bosses,Hard,Donphan,Adamant,Sturdy,Choice Band,Earthquake,Ground,Physical,100,100
+Link,Repeatable Bosses,Hard,Donphan,Adamant,Sturdy,Choice Band,Seed Bomb,Grass,Physical,80,100
+Link,Repeatable Bosses,Hard,Donphan,Adamant,Sturdy,Choice Band,Gunk Shot,Poison,Physical,120,80
+Link,Repeatable Bosses,Hard,Donphan,Adamant,Sturdy,Choice Band,Knock Off,Dark,Physical,65,100
+Link,Repeatable Bosses,Hard,Skarmory,Careful,Sturdy,Leftovers,Roost,Flying,Status,—,—
+Link,Repeatable Bosses,Hard,Skarmory,Careful,Sturdy,Leftovers,Brave Bird,Flying,Physical,120,100
+Link,Repeatable Bosses,Hard,Skarmory,Careful,Sturdy,Leftovers,Iron Head,Steel,Physical,80,100
+Link,Repeatable Bosses,Hard,Skarmory,Careful,Sturdy,Leftovers,Whirlwind,Normal,Status,—,—
+Link,Repeatable Bosses,Hard,Shiny Emboar,Adamant,Reckless,Choice Scarf,Earthquake,Ground,Physical,100,100
+Link,Repeatable Bosses,Hard,Shiny Emboar,Adamant,Reckless,Choice Scarf,Stone Edge,Rock,Physical,100,80
+Link,Repeatable Bosses,Hard,Shiny Emboar,Adamant,Reckless,Choice Scarf,Sucker Punch,Dark,Physical,80,100
+Link,Repeatable Bosses,Hard,Shiny Emboar,Adamant,Reckless,Choice Scarf,Zen Headbutt,Psychic,Physical,80,90
+Link,Repeatable Bosses,Hard,Shiny Emboar,Adamant,Reckless,Choice Scarf,Flare Blitz,Fire,Physical,120,100
+Link,Repeatable Bosses,Hard,Shiny Emboar,Adamant,Reckless,Choice Scarf,Wild Charge,Electric,Physical,90,100
+Link,Repeatable Bosses,Hard,Shiny Emboar,Adamant,Reckless,Choice Scarf,Head Smash,Rock,Physical,150,80
+Link,Repeatable Bosses,Hard,Shiny Emboar,Adamant,Reckless,Choice Scarf,Superpower,Fighting,Physical,120,100
+Logan,Repeatable Bosses,Hard,Infernape,Random,Iron Fist,Choice Band,Flare Blitz,Fire,Physical,120,100
+Logan,Repeatable Bosses,Hard,Infernape,Random,Iron Fist,Choice Band,Thunder Punch,Electric,Physical,75,100
+Logan,Repeatable Bosses,Hard,Infernape,Random,Iron Fist,Choice Band,Close Combat,Fighting,Physical,120,100
+Logan,Repeatable Bosses,Hard,Infernape,Random,Iron Fist,Choice Band,Earthquake,Ground,Physical,100,100
+Logan,Repeatable Bosses,Hard,Infernape,Random,Iron Fist,Choice Band,Gunk Shot,Poison,Physical,120,80
+Logan,Repeatable Bosses,Hard,Gliscor,Random,Poison Heal,Toxic Orb,Facade,Normal,Physical,70,100
+Logan,Repeatable Bosses,Hard,Gliscor,Random,Poison Heal,Toxic Orb,Earthquake,Ground,Physical,100,100
+Logan,Repeatable Bosses,Hard,Gliscor,Random,Poison Heal,Toxic Orb,Roost,Flying,Status,—,—
+Logan,Repeatable Bosses,Hard,Gliscor,Random,Poison Heal,Toxic Orb,Swords Dance,Normal,Status,—,—
+Logan,Repeatable Bosses,Hard,Gliscor,Random,Poison Heal,Toxic Orb,Rock Slide,Rock,Physical,75,90
+Logan,Repeatable Bosses,Hard,Serperior,Random,Contrary,Choice Specs,Leech Seed,Grass,Status,—,90
+Logan,Repeatable Bosses,Hard,Serperior,Random,Contrary,Choice Specs,Hidden Power,Fire,Special,60,100
+Logan,Repeatable Bosses,Hard,Serperior,Random,Contrary,Choice Specs,Leaf Storm,Grass,Special,130,90
+Logan,Repeatable Bosses,Hard,Serperior,Random,Contrary,Choice Specs,Dragon Pulse,Dragon,Special,85,100
+Logan,Repeatable Bosses,Hard,Rotom-Wash,Random,Levitate,Leftovers,Hydro Pump,Water,Special,110,80
+Logan,Repeatable Bosses,Hard,Rotom-Wash,Random,Levitate,Leftovers,Discharge,Electric,Special,80,100
+Logan,Repeatable Bosses,Hard,Rotom-Wash,Random,Levitate,Leftovers,Will-O-Wisp,Fire,Status,—,85
+Logan,Repeatable Bosses,Hard,Rotom-Wash,Random,Levitate,Leftovers,Pain Split,Normal,Status,—,—
+Logan,Repeatable Bosses,Hard,Mega Tyranitar,Random,Sand Stream,Tyranitarite,Superpower,Fighting,Physical,120,100
+Logan,Repeatable Bosses,Hard,Mega Tyranitar,Random,Sand Stream,Tyranitarite,Stone Edge,Rock,Physical,100,80
+Logan,Repeatable Bosses,Hard,Mega Tyranitar,Random,Sand Stream,Tyranitarite,Crunch,Dark,Physical,80,100
+Logan,Repeatable Bosses,Hard,Mega Tyranitar,Random,Sand Stream,Tyranitarite,Earthquake,Ground,Physical,100,100
+Logan,Repeatable Bosses,Hard,Dialga,Random,Pressure,Shuca Berry,Thunder,Electric,Special,110,70
+Logan,Repeatable Bosses,Hard,Dialga,Random,Pressure,Shuca Berry,Dragon Pulse,Dragon,Special,85,100
+Logan,Repeatable Bosses,Hard,Dialga,Random,Pressure,Shuca Berry,Fire Blast,Fire,Special,110,85
+Logan,Repeatable Bosses,Hard,Dialga,Random,Pressure,Shuca Berry,Earth Power,Ground,Special,90,100
+Logan,Repeatable Bosses,Hard,Dialga,Random,Pressure,Shuca Berry,Aura Sphere,Fighting,Special,80,—
+Lorelei,Repeatable Bosses,Medium/Hard,Alolan Ninetales,Timid,Snow Warning,Icy Rock,Blizzard,Ice,Special,110,70
+Lorelei,Repeatable Bosses,Medium/Hard,Alolan Ninetales,Timid,Snow Warning,Icy Rock,Moonblast,Fairy,Special,95,100
+Lorelei,Repeatable Bosses,Medium/Hard,Alolan Ninetales,Timid,Snow Warning,Icy Rock,Nasty Plot,Dark,Status,—,—
+Lorelei,Repeatable Bosses,Medium/Hard,Alolan Ninetales,Timid,Snow Warning,Icy Rock,Freeze-Dry,Ice,Special,70,100
+Lorelei,Repeatable Bosses,Medium/Hard,Alolan Sandslash,Adamant,Slush Rush,Focus Sash,Earthquake,Ground,Physical,100,100
+Lorelei,Repeatable Bosses,Medium/Hard,Alolan Sandslash,Adamant,Slush Rush,Focus Sash,Icicle Crash,Ice,Physical,85,90
+Lorelei,Repeatable Bosses,Medium/Hard,Alolan Sandslash,Adamant,Slush Rush,Focus Sash,Iron Head,Steel,Physical,80,100
+Lorelei,Repeatable Bosses,Medium/Hard,Alolan Sandslash,Adamant,Slush Rush,Focus Sash,Aqua Tail,Water,Physical,90,90
+Lorelei,Repeatable Bosses,Medium/Hard,Articuno,Timid,Pressure,Leftovers,Freeze-Dry,Ice,Special,70,100
+Lorelei,Repeatable Bosses,Medium/Hard,Articuno,Timid,Pressure,Leftovers,Hurricane,Flying,Special,110,70
+Lorelei,Repeatable Bosses,Medium/Hard,Articuno,Timid,Pressure,Leftovers,Toxic,Poison,Status,—,90
+Lorelei,Repeatable Bosses,Medium/Hard,Articuno,Timid,Pressure,Leftovers,Blizzard,Ice,Special,110,70
+Lorelei,Repeatable Bosses,Medium/Hard,Weavile,Jolly,Pressure,Black Glasses,Ice Shard,Ice,Physical,40,100
+Lorelei,Repeatable Bosses,Medium/Hard,Weavile,Jolly,Pressure,Black Glasses,Knock Off,Dark,Physical,65,100
+Lorelei,Repeatable Bosses,Medium/Hard,Weavile,Jolly,Pressure,Black Glasses,Icicle Crash,Ice,Physical,85,90
+Lorelei,Repeatable Bosses,Medium/Hard,Weavile,Jolly,Pressure,Black Glasses,Low Kick,Fighting,Physical,—,100
+Lorelei,Repeatable Bosses,Medium/Hard,Lapras,Calm,Water Absorb,Leftovers,Hydro Pump,Water,Special,110,80
+Lorelei,Repeatable Bosses,Medium/Hard,Lapras,Calm,Water Absorb,Leftovers,Blizzard,Ice,Special,110,70
+Lorelei,Repeatable Bosses,Medium/Hard,Lapras,Calm,Water Absorb,Leftovers,Thunderbolt,Electric,Special,90,100
+Lorelei,Repeatable Bosses,Medium/Hard,Lapras,Calm,Water Absorb,Leftovers,Scald,Water,Special,80,100
+Lorelei,Repeatable Bosses,Medium/Hard,Mega Slowbro,Bold,Shell Armor,Slowbronite,Surf,Water,Special,90,100
+Lorelei,Repeatable Bosses,Medium/Hard,Mega Slowbro,Bold,Shell Armor,Slowbronite,Fire Blast,Fire,Special,110,85
+Lorelei,Repeatable Bosses,Medium/Hard,Mega Slowbro,Bold,Shell Armor,Slowbronite,Psychic,Psychic,Special,90,100
+Lorelei,Repeatable Bosses,Medium/Hard,Mega Slowbro,Bold,Shell Armor,Slowbronite,Ice Beam,Ice,Special,90,100
+Lt. Surge,Repeatable Bosses,Hard,Rotom-Wash,Timid,Levitate,Choice Specs,Signal Beam,Bug,Special,75,100
+Lt. Surge,Repeatable Bosses,Hard,Rotom-Wash,Timid,Levitate,Choice Specs,Dark Pulse,Dark,Special,80,100
+Lt. Surge,Repeatable Bosses,Hard,Rotom-Wash,Timid,Levitate,Choice Specs,Thunderbolt,Electric,Special,90,100
+Lt. Surge,Repeatable Bosses,Hard,Rotom-Wash,Timid,Levitate,Choice Specs,Hidden Power,Ice,Special,60,100
+Lt. Surge,Repeatable Bosses,Hard,Rotom-Wash,Timid,Levitate,Choice Specs,Hydro Pump,Water,Special,110,80
+Lt. Surge,Repeatable Bosses,Hard,Rotom-Wash,Timid,Levitate,Choice Specs,Shadow Ball,Ghost,Special,80,100
+Lt. Surge,Repeatable Bosses,Hard,Electivire,Adamant,Vital Spirit,Choice Band,Iron Tail,Steel,Physical,100,75
+Lt. Surge,Repeatable Bosses,Hard,Electivire,Adamant,Vital Spirit,Choice Band,Rock Slide,Rock,Physical,75,90
+Lt. Surge,Repeatable Bosses,Hard,Electivire,Adamant,Vital Spirit,Choice Band,Wild Charge,Electric,Physical,90,100
+Lt. Surge,Repeatable Bosses,Hard,Electivire,Adamant,Vital Spirit,Choice Band,Ice Punch,Ice,Physical,75,100
+Lt. Surge,Repeatable Bosses,Hard,Electivire,Adamant,Vital Spirit,Choice Band,Low Kick,Fighting,Physical,—,100
+Lt. Surge,Repeatable Bosses,Hard,Electivire,Adamant,Vital Spirit,Choice Band,Fire Punch,Fire,Physical,75,100
+Lt. Surge,Repeatable Bosses,Hard,Shiny Raichu,Timid,Random,Choice Specs,Grass Knot,Grass,Special,—,100
+Lt. Surge,Repeatable Bosses,Hard,Shiny Raichu,Timid,Random,Choice Specs,Signal Beam,Bug,Special,75,100
+Lt. Surge,Repeatable Bosses,Hard,Shiny Raichu,Timid,Random,Choice Specs,Iron Tail,Steel,Physical,100,75
+Lt. Surge,Repeatable Bosses,Hard,Shiny Raichu,Timid,Random,Choice Specs,Thunderbolt,Electric,Special,90,100
+Lt. Surge,Repeatable Bosses,Hard,Shiny Raichu,Timid,Random,Choice Specs,Hidden Power,Ice,Special,60,100
+Lt. Surge,Repeatable Bosses,Hard,Shiny Raichu,Timid,Random,Choice Specs,Surf,Water,Special,90,100
+Lt. Surge,Repeatable Bosses,Hard,Shiny Raichu,Timid,Random,Choice Specs,Focus Blast,Fighting,Special,120,70
+Lt. Surge,Repeatable Bosses,Hard,Zapdos,Timid,Pressure,Choice Specs,Ancient Power,Rock,Special,60,100
+Lt. Surge,Repeatable Bosses,Hard,Zapdos,Timid,Pressure,Choice Specs,Signal Beam,Bug,Special,75,100
+Lt. Surge,Repeatable Bosses,Hard,Zapdos,Timid,Pressure,Choice Specs,Thunderbolt,Electric,Special,90,100
+Lt. Surge,Repeatable Bosses,Hard,Zapdos,Timid,Pressure,Choice Specs,Heat Wave,Fire,Special,95,90
+Lt. Surge,Repeatable Bosses,Hard,Zapdos,Timid,Pressure,Choice Specs,Hidden Power,Ice,Special,60,100
+Lt. Surge,Repeatable Bosses,Hard,Zapdos,Timid,Pressure,Choice Specs,Drill Peck,Flying,Physical,80,100
+Lt. Surge,Repeatable Bosses,Hard,Alolan Golem,Adamant,Sturdy,Choice Band,Stone Edge,Rock,Physical,100,80
+Lt. Surge,Repeatable Bosses,Hard,Alolan Golem,Adamant,Sturdy,Choice Band,Iron Head,Steel,Physical,80,100
+Lt. Surge,Repeatable Bosses,Hard,Alolan Golem,Adamant,Sturdy,Choice Band,Rock Polish,Rock,Status,—,—
+Lt. Surge,Repeatable Bosses,Hard,Alolan Golem,Adamant,Sturdy,Choice Band,Wild Charge,Electric,Physical,90,100
+Lt. Surge,Repeatable Bosses,Hard,Alolan Golem,Adamant,Sturdy,Choice Band,Earthquake,Ground,Physical,100,100
+Lt. Surge,Repeatable Bosses,Hard,Alolan Golem,Adamant,Sturdy,Choice Band,Fire Punch,Fire,Physical,75,100
+Lt. Surge,Repeatable Bosses,Hard,Alolan Golem,Adamant,Sturdy,Choice Band,Close Combat,Fighting,Physical,120,100
+Lt. Surge,Repeatable Bosses,Hard,Zekrom,Adamant,Teravolt,Choice Band,Bolt Strike,Electric,Physical,130,85
+Lt. Surge,Repeatable Bosses,Hard,Zekrom,Adamant,Teravolt,Choice Band,Outrage,Dragon,Physical,120,100
+Lt. Surge,Repeatable Bosses,Hard,Zekrom,Adamant,Teravolt,Choice Band,Steel Wing,Steel,Physical,70,90
+Lt. Surge,Repeatable Bosses,Hard,Zekrom,Adamant,Teravolt,Choice Band,Rock Slide,Rock,Physical,75,90
+Maribela,Repeatable Bosses,Hard,Sylveon,Random,Pixilate,Choice Specs,Wish,Normal,Status,—,—
+Maribela,Repeatable Bosses,Hard,Sylveon,Random,Pixilate,Choice Specs,Shadow Ball,Ghost,Special,80,100
+Maribela,Repeatable Bosses,Hard,Sylveon,Random,Pixilate,Choice Specs,Hyper Voice,Normal,Special,90,100
+Maribela,Repeatable Bosses,Hard,Sylveon,Random,Pixilate,Choice Specs,Psyshock,Psychic,Special,80,100
+Maribela,Repeatable Bosses,Hard,Mega Gallade,Random,Inner Focus,Galladite,Psycho Cut,Psychic,Physical,70,100
+Maribela,Repeatable Bosses,Hard,Mega Gallade,Random,Inner Focus,Galladite,Swords Dance,Normal,Status,—,—
+Maribela,Repeatable Bosses,Hard,Mega Gallade,Random,Inner Focus,Galladite,Close Combat,Fighting,Physical,120,100
+Maribela,Repeatable Bosses,Hard,Mega Gallade,Random,Inner Focus,Galladite,Knock Off,Dark,Physical,65,100
+Maribela,Repeatable Bosses,Hard,Volcarona,Random,Flame Body,Choice Specs,Flamethrower,Fire,Special,90,100
+Maribela,Repeatable Bosses,Hard,Volcarona,Random,Flame Body,Choice Specs,Giga Drain,Grass,Special,75,100
+Maribela,Repeatable Bosses,Hard,Volcarona,Random,Flame Body,Choice Specs,Bug Buzz,Bug,Special,90,100
+Maribela,Repeatable Bosses,Hard,Volcarona,Random,Flame Body,Choice Specs,Quiver Dance,Bug,Status,—,—
+Maribela,Repeatable Bosses,Hard,Volcarona,Random,Flame Body,Choice Specs,Hidden Power,Ice,Special,60,100
+Maribela,Repeatable Bosses,Hard,Keldeo,Random,Justified,Choice Specs,Hydro Pump,Water,Special,110,80
+Maribela,Repeatable Bosses,Hard,Keldeo,Random,Justified,Choice Specs,Focus Blast,Fighting,Special,120,70
+Maribela,Repeatable Bosses,Hard,Keldeo,Random,Justified,Choice Specs,Calm Mind,Psychic,Status,—,—
+Maribela,Repeatable Bosses,Hard,Arcanine,Random,Intimidate,Choice Band,Flare Blitz,Fire,Physical,120,100
+Maribela,Repeatable Bosses,Hard,Arcanine,Random,Intimidate,Choice Band,Wild Charge,Electric,Physical,90,100
+Maribela,Repeatable Bosses,Hard,Arcanine,Random,Intimidate,Choice Band,Close Combat,Fighting,Physical,120,100
+Maribela,Repeatable Bosses,Hard,Arcanine,Random,Intimidate,Choice Band,Crunch,Dark,Physical,80,100
+Maribela,Repeatable Bosses,Hard,Xerneas,Random,Fairy Aura,Choice Scarf,Moonblast,Fairy,Special,95,100
+Maribela,Repeatable Bosses,Hard,Xerneas,Random,Fairy Aura,Choice Scarf,Thunder,Electric,Special,110,70
+Maribela,Repeatable Bosses,Hard,Xerneas,Random,Fairy Aura,Choice Scarf,Focus Blast,Fighting,Special,120,70
+Maribela,Repeatable Bosses,Hard,Xerneas,Random,Fairy Aura,Choice Scarf,Grass Knot,Grass,Special,—,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Dragonite,Adamant,Multiscale,Choice Band,Dragon Claw,Dragon,Physical,80,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Dragonite,Adamant,Multiscale,Choice Band,Earthquake,Ground,Physical,100,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Dragonite,Adamant,Multiscale,Choice Band,Iron Head,Steel,Physical,80,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Dragonite,Adamant,Multiscale,Choice Band,Fire Punch,Fire,Physical,75,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Conkeldurr,Adamant,Iron Fist,Assault Vest,Drain Punch,Fighting,Physical,75,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Conkeldurr,Adamant,Iron Fist,Assault Vest,Knock Off,Dark,Physical,65,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Conkeldurr,Adamant,Iron Fist,Assault Vest,Poison Jab,Poison,Physical,80,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Conkeldurr,Adamant,Iron Fist,Assault Vest,Ice Punch,Ice,Physical,75,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Lucario,Jolly,Inner Focus,Choice Scarf,Close Combat,Fighting,Physical,120,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Lucario,Jolly,Inner Focus,Choice Scarf,Meteor Mash,Steel,Physical,90,90
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Lucario,Jolly,Inner Focus,Choice Scarf,Crunch,Dark,Physical,80,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Lucario,Jolly,Inner Focus,Choice Scarf,Ice Punch,Ice,Physical,75,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Jolteon,Timid,Volt Absorb,Life Orb,Discharge,Electric,Special,80,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Jolteon,Timid,Volt Absorb,Life Orb,Thunder,Electric,Special,110,70
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Jolteon,Timid,Volt Absorb,Life Orb,Signal Beam,Bug,Special,75,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Jolteon,Timid,Volt Absorb,Life Orb,Shadow Ball,Ghost,Special,80,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Mega Garchomp,Relaxed,Sand Force,Garchompite,Dragon Tail,Dragon,Physical,60,90
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Mega Garchomp,Relaxed,Sand Force,Garchompite,Earthquake,Ground,Physical,100,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Mega Garchomp,Relaxed,Sand Force,Garchompite,Iron Head,Steel,Physical,80,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Mega Garchomp,Relaxed,Sand Force,Garchompite,Fire Fang,Fire,Physical,65,95
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Mega Garchomp,Relaxed,Sand Force,Garchompite,Fire Blast,Fire,Special,110,85
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Mega Garchomp,Relaxed,Sand Force,Garchompite,Stone Edge,Rock,Physical,100,80
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Reshiram,Modest,Turboblaze,Life Orb,Blue Flare,Fire,Special,130,85
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Reshiram,Modest,Turboblaze,Life Orb,Roost,Flying,Status,—,—
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Reshiram,Modest,Turboblaze,Life Orb,Outrage,Dragon,Physical,120,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Reshiram,Modest,Turboblaze,Life Orb,Earth Power,Ground,Special,90,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Gyarados,Jolly,Intimidate,Choice Band,Dragon Dance,Dragon,Status,—,—
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Gyarados,Jolly,Intimidate,Choice Band,Waterfall,Water,Physical,80,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Gyarados,Jolly,Intimidate,Choice Band,Crunch,Dark,Physical,80,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Gyarados,Jolly,Intimidate,Choice Band,Earthquake,Ground,Physical,100,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Alolan Muk,Adamant,Poison Touch,Assault Vest,Knock Off,Dark,Physical,65,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Alolan Muk,Adamant,Poison Touch,Assault Vest,Pursuit,Dark,Physical,40,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Alolan Muk,Adamant,Poison Touch,Assault Vest,Gunk Shot,Poison,Physical,120,80
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Alolan Muk,Adamant,Poison Touch,Assault Vest,Fire Punch,Fire,Physical,75,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Alakazam,Modest,Magic Guard,Focus Sash,Hidden Power,Fire,Special,60,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Alakazam,Modest,Magic Guard,Focus Sash,Psyshock,Psychic,Special,80,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Alakazam,Modest,Magic Guard,Focus Sash,Energy Ball,Grass,Special,90,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Alakazam,Modest,Magic Guard,Focus Sash,Dazzling Gleam,Fairy,Special,80,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Infernape,Naive,Blaze,Life Orb,Close Combat,Fighting,Physical,120,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Infernape,Naive,Blaze,Life Orb,Poison Jab,Poison,Physical,80,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Infernape,Naive,Blaze,Life Orb,Earthquake,Ground,Physical,100,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Infernape,Naive,Blaze,Life Orb,Fire Blast,Fire,Special,110,85
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Mega Slowbro,Bold,Shell Armor,Slowbronite,Calm Mind,Psychic,Status,—,—
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Mega Slowbro,Bold,Shell Armor,Slowbronite,Psyshock,Psychic,Special,80,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Mega Slowbro,Bold,Shell Armor,Slowbronite,Slack Off,Normal,Status,—,—
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Mega Slowbro,Bold,Shell Armor,Slowbronite,Scald,Water,Special,80,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Zekrom,Adamant,Teravolt,Life Orb,Bolt Strike,Electric,Physical,130,85
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Zekrom,Adamant,Teravolt,Life Orb,Dragon Claw,Dragon,Physical,80,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Zekrom,Adamant,Teravolt,Life Orb,Outrage,Dragon,Physical,120,100
+Medusa & Eldir,Repeatable Bosses,Medium/Hard,Zekrom,Adamant,Teravolt,Life Orb,Roost,Flying,Status,—,—
+Misty,Repeatable Bosses,Medium/Hard,Milotic,Bold,Competitive,Leftovers,Scald,Water,Special,80,100
+Misty,Repeatable Bosses,Medium/Hard,Milotic,Bold,Competitive,Leftovers,Ice Beam,Ice,Special,90,100
+Misty,Repeatable Bosses,Medium/Hard,Milotic,Bold,Competitive,Leftovers,Recover,Normal,Status,—,—
+Misty,Repeatable Bosses,Medium/Hard,Milotic,Bold,Competitive,Leftovers,Dragon Tail,Dragon,Physical,60,90
+Misty,Repeatable Bosses,Medium/Hard,Mega Gyarados,Jolly,Mold Breaker,Gyaradosite,Dragon Dance,Dragon,Status,—,—
+Misty,Repeatable Bosses,Medium/Hard,Mega Gyarados,Jolly,Mold Breaker,Gyaradosite,Earthquake,Ground,Physical,100,100
+Misty,Repeatable Bosses,Medium/Hard,Mega Gyarados,Jolly,Mold Breaker,Gyaradosite,Waterfall,Water,Physical,80,100
+Misty,Repeatable Bosses,Medium/Hard,Mega Gyarados,Jolly,Mold Breaker,Gyaradosite,Ice Fang,Ice,Physical,65,95
+Misty,Repeatable Bosses,Medium/Hard,Mega Gyarados,Jolly,Mold Breaker,Gyaradosite,Crunch,Dark,Physical,80,100
+Misty,Repeatable Bosses,Medium/Hard,Starmie,Timid,Analytic,Choice Specs,Surf,Water,Special,90,100
+Misty,Repeatable Bosses,Medium/Hard,Starmie,Timid,Analytic,Choice Specs,Psychic,Psychic,Special,90,100
+Misty,Repeatable Bosses,Medium/Hard,Starmie,Timid,Analytic,Choice Specs,Thunderbolt,Electric,Special,90,100
+Misty,Repeatable Bosses,Medium/Hard,Starmie,Timid,Analytic,Choice Specs,Ice Beam,Ice,Special,90,100
+Misty,Repeatable Bosses,Medium/Hard,Cradily,Sassy,Storm Drain,Leftovers,Toxic,Poison,Status,—,90
+Misty,Repeatable Bosses,Medium/Hard,Cradily,Sassy,Storm Drain,Leftovers,Curse,Ghost,Status,—,—
+Misty,Repeatable Bosses,Medium/Hard,Cradily,Sassy,Storm Drain,Leftovers,Seed Bomb,Grass,Physical,80,100
+Misty,Repeatable Bosses,Medium/Hard,Cradily,Sassy,Storm Drain,Leftovers,Ingrain,Grass,Status,—,—
+Misty,Repeatable Bosses,Medium/Hard,Blastoise,Bold,Torrent,Sitrus Berry,Hydro Pump,Water,Special,110,80
+Misty,Repeatable Bosses,Medium/Hard,Blastoise,Bold,Torrent,Sitrus Berry,Aura Sphere,Fighting,Special,80,—
+Misty,Repeatable Bosses,Medium/Hard,Blastoise,Bold,Torrent,Sitrus Berry,Dark Pulse,Dark,Special,80,100
+Misty,Repeatable Bosses,Medium/Hard,Blastoise,Bold,Torrent,Sitrus Berry,Flash Cannon,Steel,Special,80,100
+Misty,Repeatable Bosses,Medium/Hard,Togekiss,Bold,Serene Grace,Leftovers,Thunder Wave,Electric,Status,—,100
+Misty,Repeatable Bosses,Medium/Hard,Togekiss,Bold,Serene Grace,Leftovers,Roost,Flying,Status,—,—
+Misty,Repeatable Bosses,Medium/Hard,Togekiss,Bold,Serene Grace,Leftovers,Nasty Plot,Dark,Status,—,—
+Misty,Repeatable Bosses,Medium/Hard,Togekiss,Bold,Serene Grace,Leftovers,Air Slash,Flying,Special,75,95
+Morty,Repeatable Bosses,Medium/Hard,Mega Gengar,Timid,Shadow Tag,Gengarite,Focus Blast,Fighting,Special,120,70
+Morty,Repeatable Bosses,Medium/Hard,Mega Gengar,Timid,Shadow Tag,Gengarite,Icy Wind,Ice,Special,55,95
+Morty,Repeatable Bosses,Medium/Hard,Mega Gengar,Timid,Shadow Tag,Gengarite,Shadow Ball,Ghost,Special,80,100
+Morty,Repeatable Bosses,Medium/Hard,Mega Gengar,Timid,Shadow Tag,Gengarite,Sludge Wave,Poison,Special,95,100
+Morty,Repeatable Bosses,Medium/Hard,Mega Gengar,Timid,Shadow Tag,Gengarite,Hex,Ghost,Special,65,100
+Morty,Repeatable Bosses,Medium/Hard,Froslass,Timid,Cursed Body,Life Orb,Shadow Ball,Ghost,Special,80,100
+Morty,Repeatable Bosses,Medium/Hard,Froslass,Timid,Cursed Body,Life Orb,Thunder,Electric,Special,110,70
+Morty,Repeatable Bosses,Medium/Hard,Froslass,Timid,Cursed Body,Life Orb,Ice Beam,Ice,Special,90,100
+Morty,Repeatable Bosses,Medium/Hard,Froslass,Timid,Cursed Body,Life Orb,Signal Beam,Bug,Special,75,100
+Morty,Repeatable Bosses,Medium/Hard,Gourgeist,Relaxed,Pickup,Leftovers,Will-O-Wisp,Fire,Status,—,85
+Morty,Repeatable Bosses,Medium/Hard,Gourgeist,Relaxed,Pickup,Leftovers,Leech Seed,Grass,Status,—,90
+Morty,Repeatable Bosses,Medium/Hard,Gourgeist,Relaxed,Pickup,Leftovers,Seed Bomb,Grass,Physical,80,100
+Morty,Repeatable Bosses,Medium/Hard,Gourgeist,Relaxed,Pickup,Leftovers,Rock Slide,Rock,Physical,75,90
+Morty,Repeatable Bosses,Medium/Hard,Golurk,Adamant,No Guard,Black Belt,Dynamic Punch,Fighting,Physical,100,50
+Morty,Repeatable Bosses,Medium/Hard,Golurk,Adamant,No Guard,Black Belt,Earthquake,Ground,Physical,100,100
+Morty,Repeatable Bosses,Medium/Hard,Golurk,Adamant,No Guard,Black Belt,Stone Edge,Rock,Physical,100,80
+Morty,Repeatable Bosses,Medium/Hard,Golurk,Adamant,No Guard,Black Belt,Ice Punch,Ice,Physical,75,100
+Morty,Repeatable Bosses,Medium/Hard,Cofagrigus,Bold,Mummy,Leftovers,Will-O-Wisp,Fire,Status,—,85
+Morty,Repeatable Bosses,Medium/Hard,Cofagrigus,Bold,Mummy,Leftovers,Pain Split,Normal,Status,—,—
+Morty,Repeatable Bosses,Medium/Hard,Cofagrigus,Bold,Mummy,Leftovers,Shadow Ball,Ghost,Special,80,100
+Morty,Repeatable Bosses,Medium/Hard,Cofagrigus,Bold,Mummy,Leftovers,Protect,Normal,Status,—,—
+Morty,Repeatable Bosses,Medium/Hard,Giratina,Quiet,Pressure,Choice Specs,Shadow Ball,Ghost,Special,80,100
+Morty,Repeatable Bosses,Medium/Hard,Giratina,Quiet,Pressure,Choice Specs,Earth Power,Ground,Special,90,100
+Morty,Repeatable Bosses,Medium/Hard,Giratina,Quiet,Pressure,Choice Specs,Aura Sphere,Fighting,Special,80,—
+Morty,Repeatable Bosses,Medium/Hard,Giratina,Quiet,Pressure,Choice Specs,Draco Meteor,Dragon,Special,140,90
+Naero,Repeatable Bosses,Medium/Hard,Togekiss,Timid,Serene Grace,Sitrus Berry,Air Slash,Flying,Special,75,95
+Naero,Repeatable Bosses,Medium/Hard,Togekiss,Timid,Serene Grace,Sitrus Berry,Flamethrower,Fire,Special,90,100
+Naero,Repeatable Bosses,Medium/Hard,Togekiss,Timid,Serene Grace,Sitrus Berry,Aura Sphere,Fighting,Special,80,—
+Naero,Repeatable Bosses,Medium/Hard,Togekiss,Timid,Serene Grace,Sitrus Berry,Dazzling Gleam,Fairy,Special,80,100
+Naero,Repeatable Bosses,Medium/Hard,Snorlax,Adamant,Thick Fat,Leftovers,Crunch,Dark,Physical,80,100
+Naero,Repeatable Bosses,Medium/Hard,Snorlax,Adamant,Thick Fat,Leftovers,Body Slam,Normal,Physical,80,100
+Naero,Repeatable Bosses,Medium/Hard,Snorlax,Adamant,Thick Fat,Leftovers,Fire Punch,Fire,Physical,75,100
+Naero,Repeatable Bosses,Medium/Hard,Snorlax,Adamant,Thick Fat,Leftovers,Earthquake,Ground,Physical,100,100
+Naero,Repeatable Bosses,Medium/Hard,Mr. Mime,Modest,Filter,Focus Sash,Psychic,Psychic,Special,90,100
+Naero,Repeatable Bosses,Medium/Hard,Mr. Mime,Modest,Filter,Focus Sash,Focus Blast,Fighting,Special,120,70
+Naero,Repeatable Bosses,Medium/Hard,Mr. Mime,Modest,Filter,Focus Sash,Dazzling Gleam,Fairy,Special,80,100
+Naero,Repeatable Bosses,Medium/Hard,Mr. Mime,Modest,Filter,Focus Sash,Shadow Ball,Ghost,Special,80,100
+Naero,Repeatable Bosses,Medium/Hard,Blissey,Bold,Natural Cure,Leftovers,Toxic,Poison,Status,—,90
+Naero,Repeatable Bosses,Medium/Hard,Blissey,Bold,Natural Cure,Leftovers,Soft-Boiled,Normal,Status,—,—
+Naero,Repeatable Bosses,Medium/Hard,Blissey,Bold,Natural Cure,Leftovers,Seismic Toss,Fighting,Physical,—,100
+Naero,Repeatable Bosses,Medium/Hard,Blissey,Bold,Natural Cure,Leftovers,Wish,Normal,Status,—,—
+Naero,Repeatable Bosses,Medium/Hard,Electivire,Adamant,Vital Spirit,Life Orb,Wild Charge,Electric,Physical,90,100
+Naero,Repeatable Bosses,Medium/Hard,Electivire,Adamant,Vital Spirit,Life Orb,Fire Punch,Fire,Physical,75,100
+Naero,Repeatable Bosses,Medium/Hard,Electivire,Adamant,Vital Spirit,Life Orb,Cross Chop,Fighting,Physical,100,80
+Naero,Repeatable Bosses,Medium/Hard,Electivire,Adamant,Vital Spirit,Life Orb,Ice Punch,Ice,Physical,75,100
+Naero,Repeatable Bosses,Medium/Hard,Magmortar,Rash,Flame Body,Life Orb,Fire Blast,Fire,Special,110,85
+Naero,Repeatable Bosses,Medium/Hard,Magmortar,Rash,Flame Body,Life Orb,Earthquake,Ground,Physical,100,100
+Naero,Repeatable Bosses,Medium/Hard,Magmortar,Rash,Flame Body,Life Orb,Thunderbolt,Electric,Special,90,100
+Naero,Repeatable Bosses,Medium/Hard,Magmortar,Rash,Flame Body,Life Orb,Focus Blast,Fighting,Special,120,70
+Naruto Fanboy,Repeatable Bosses,Hard,Claydol,Random,Levitate,Choice Band,Earthquake,Ground,Physical,100,100
+Naruto Fanboy,Repeatable Bosses,Hard,Claydol,Random,Levitate,Choice Band,Zen Headbutt,Psychic,Physical,80,90
+Naruto Fanboy,Repeatable Bosses,Hard,Claydol,Random,Levitate,Choice Band,Stealth Rock,Rock,Status,—,—
+Naruto Fanboy,Repeatable Bosses,Hard,Claydol,Random,Levitate,Choice Band,Explosion,Normal,Physical,250,100
+Naruto Fanboy,Repeatable Bosses,Hard,Claydol,Random,Levitate,Choice Band,Stone Edge,Rock,Physical,100,80
+Naruto Fanboy,Repeatable Bosses,Hard,Staraptor,Random,Reckless,Choice Band,Brave Bird,Flying,Physical,120,100
+Naruto Fanboy,Repeatable Bosses,Hard,Staraptor,Random,Reckless,Choice Band,Close Combat,Fighting,Physical,120,100
+Naruto Fanboy,Repeatable Bosses,Hard,Staraptor,Random,Reckless,Choice Band,Steel Wing,Steel,Physical,70,90
+Naruto Fanboy,Repeatable Bosses,Hard,Staraptor,Random,Reckless,Choice Band,Double-Edge,Normal,Physical,120,100
+Naruto Fanboy,Repeatable Bosses,Hard,Porygon-Z,Random,Random,Choice Specs,Thunderbolt,Electric,Special,90,100
+Naruto Fanboy,Repeatable Bosses,Hard,Porygon-Z,Random,Random,Choice Specs,Tri Attack,Normal,Special,80,100
+Naruto Fanboy,Repeatable Bosses,Hard,Porygon-Z,Random,Random,Choice Specs,Shadow Ball,Ghost,Special,80,100
+Naruto Fanboy,Repeatable Bosses,Hard,Porygon-Z,Random,Random,Choice Specs,Nasty Plot,Dark,Status,—,—
+Naruto Fanboy,Repeatable Bosses,Hard,Flygon,Random,Levitate,Life Orb,Superpower,Fighting,Physical,120,100
+Naruto Fanboy,Repeatable Bosses,Hard,Flygon,Random,Levitate,Life Orb,Outrage,Dragon,Physical,120,100
+Naruto Fanboy,Repeatable Bosses,Hard,Flygon,Random,Levitate,Life Orb,Earthquake,Ground,Physical,100,100
+Naruto Fanboy,Repeatable Bosses,Hard,Flygon,Random,Levitate,Life Orb,Fire Blast,Fire,Special,110,85
+Naruto Fanboy,Repeatable Bosses,Hard,Bronzong,Random,Random,Choice Band,Earthquake,Ground,Physical,100,100
+Naruto Fanboy,Repeatable Bosses,Hard,Bronzong,Random,Random,Choice Band,Explosion,Normal,Physical,250,100
+Naruto Fanboy,Repeatable Bosses,Hard,Bronzong,Random,Random,Choice Band,Toxic,Poison,Status,—,90
+Naruto Fanboy,Repeatable Bosses,Hard,Bronzong,Random,Random,Choice Band,Iron Head,Steel,Physical,80,100
+Naruto Fanboy,Repeatable Bosses,Hard,Lugia,Random,Multiscale,Choice Specs,Aeroblast,Flying,Special,100,95
+Naruto Fanboy,Repeatable Bosses,Hard,Lugia,Random,Multiscale,Choice Specs,Psyshock,Psychic,Special,80,100
+Naruto Fanboy,Repeatable Bosses,Hard,Lugia,Random,Multiscale,Choice Specs,Hydro Pump,Water,Special,110,80
+Naruto Fanboy,Repeatable Bosses,Hard,Lugia,Random,Multiscale,Choice Specs,Earth Power,Ground,Special,90,100
+Naruto Fanboy,Repeatable Bosses,Hard,Lugia,Random,Multiscale,Choice Specs,Giga Drain,Grass,Special,75,100
+Neroli,Repeatable Bosses,Hard,Celebi,Timid,Natural Cure,Leftovers,Earth Power,Ground,Special,90,100
+Neroli,Repeatable Bosses,Hard,Celebi,Timid,Natural Cure,Leftovers,Psyshock,Psychic,Special,80,100
+Neroli,Repeatable Bosses,Hard,Celebi,Timid,Natural Cure,Leftovers,Giga Drain,Grass,Special,75,100
+Neroli,Repeatable Bosses,Hard,Celebi,Timid,Natural Cure,Leftovers,Ancient Power,Rock,Special,60,100
+Neroli,Repeatable Bosses,Hard,Celebi,Timid,Natural Cure,Leftovers,Dazzling Gleam,Fairy,Special,80,100
+Neroli,Repeatable Bosses,Hard,Celebi,Timid,Natural Cure,Leftovers,Recover,Normal,Status,—,—
+Neroli,Repeatable Bosses,Hard,Mega Diancie,Naive,Magic Bounce,Diancite,Diamond Storm,Rock,Physical,100,95
+Neroli,Repeatable Bosses,Hard,Mega Diancie,Naive,Magic Bounce,Diancite,Moonblast,Fairy,Special,95,100
+Neroli,Repeatable Bosses,Hard,Mega Diancie,Naive,Magic Bounce,Diancite,Hidden Power,Fire,Special,60,100
+Neroli,Repeatable Bosses,Hard,Mega Diancie,Naive,Magic Bounce,Diancite,Earth Power,Ground,Special,90,100
+Neroli,Repeatable Bosses,Hard,Mega Diancie,Naive,Magic Bounce,Diancite,Psyshock,Psychic,Special,80,100
+Neroli,Repeatable Bosses,Hard,Mega Diancie,Naive,Magic Bounce,Diancite,Calm Mind,Psychic,Status,—,—
+Neroli,Repeatable Bosses,Hard,Florges,Timid,Flower Veil,Leftovers,Moonblast,Fairy,Special,95,100
+Neroli,Repeatable Bosses,Hard,Florges,Timid,Flower Veil,Leftovers,Hidden Power,Fire,Special,60,100
+Neroli,Repeatable Bosses,Hard,Florges,Timid,Flower Veil,Leftovers,Psychic,Psychic,Special,90,100
+Neroli,Repeatable Bosses,Hard,Florges,Timid,Flower Veil,Leftovers,Energy Ball,Grass,Special,90,100
+Neroli,Repeatable Bosses,Hard,Florges,Timid,Flower Veil,Leftovers,Synthesis,Grass,Status,—,—
+Neroli,Repeatable Bosses,Hard,Chandelure,Timid,Flash Fire,Choice Scarf,Shadow Ball,Ghost,Special,80,100
+Neroli,Repeatable Bosses,Hard,Chandelure,Timid,Flash Fire,Choice Scarf,Energy Ball,Grass,Special,90,100
+Neroli,Repeatable Bosses,Hard,Chandelure,Timid,Flash Fire,Choice Scarf,Fire Blast,Fire,Special,110,85
+Neroli,Repeatable Bosses,Hard,Chandelure,Timid,Flash Fire,Choice Scarf,Hidden Power,Fighting,Special,60,100
+Neroli,Repeatable Bosses,Hard,Chandelure,Timid,Flash Fire,Choice Scarf,Trick,Psychic,Status,—,100
+Neroli,Repeatable Bosses,Hard,Goodra,Adamant,Sap Sipper,Choice Band,Outrage,Dragon,Physical,120,100
+Neroli,Repeatable Bosses,Hard,Goodra,Adamant,Sap Sipper,Choice Band,Iron Tail,Steel,Physical,100,75
+Neroli,Repeatable Bosses,Hard,Goodra,Adamant,Sap Sipper,Choice Band,Power Whip,Grass,Physical,120,85
+Neroli,Repeatable Bosses,Hard,Goodra,Adamant,Sap Sipper,Choice Band,Earthquake,Ground,Physical,100,100
+Neroli,Repeatable Bosses,Hard,Goodra,Adamant,Sap Sipper,Choice Band,Fire Punch,Fire,Physical,75,100
+Neroli,Repeatable Bosses,Hard,Goodra,Adamant,Sap Sipper,Choice Band,Superpower,Fighting,Physical,120,100
+Neroli,Repeatable Bosses,Hard,Goodra,Adamant,Sap Sipper,Choice Band,Aqua Tail,Water,Physical,90,90
+Neroli,Repeatable Bosses,Hard,Clefable,Modest,Unaware,Choice Specs,Moonblast,Fairy,Special,95,100
+Neroli,Repeatable Bosses,Hard,Clefable,Modest,Unaware,Choice Specs,Petal Dance,Grass,Special,120,100
+Neroli,Repeatable Bosses,Hard,Clefable,Modest,Unaware,Choice Specs,Fire Blast,Fire,Special,110,85
+Neroli,Repeatable Bosses,Hard,Clefable,Modest,Unaware,Choice Specs,Psychic,Psychic,Special,90,100
+Neroli,Repeatable Bosses,Hard,Clefable,Modest,Unaware,Choice Specs,Thunderbolt,Electric,Special,90,100
+Neroli,Repeatable Bosses,Hard,Clefable,Modest,Unaware,Choice Specs,Shadow Ball,Ghost,Special,80,100
+Neroli,Repeatable Bosses,Hard,Clefable,Modest,Unaware,Choice Specs,Focus Blast,Fighting,Special,120,70
+Officer Jenny,Repeatable Bosses,Hard,Arcanine,Random,Intimidate,Choice Band,Flare Blitz,Fire,Physical,120,100
+Officer Jenny,Repeatable Bosses,Hard,Arcanine,Random,Intimidate,Choice Band,Wild Charge,Electric,Physical,90,100
+Officer Jenny,Repeatable Bosses,Hard,Arcanine,Random,Intimidate,Choice Band,Close Combat,Fighting,Physical,120,100
+Officer Jenny,Repeatable Bosses,Hard,Arcanine,Random,Intimidate,Choice Band,Crunch,Dark,Physical,80,100
+Officer Jenny,Repeatable Bosses,Hard,Arcanine,Random,Intimidate,Choice Band,Extreme Speed,Normal,Physical,80,100
+Officer Jenny,Repeatable Bosses,Hard,Gengar,Random,Cursed Body,Choice Specs,Shadow Ball,Ghost,Special,80,100
+Officer Jenny,Repeatable Bosses,Hard,Gengar,Random,Cursed Body,Choice Specs,Sludge Wave,Poison,Special,95,100
+Officer Jenny,Repeatable Bosses,Hard,Gengar,Random,Cursed Body,Choice Specs,Focus Blast,Fighting,Special,120,70
+Officer Jenny,Repeatable Bosses,Hard,Gengar,Random,Cursed Body,Choice Specs,Thunderbolt,Electric,Special,90,100
+Officer Jenny,Repeatable Bosses,Hard,Luxray,Random,Guts,Flame Orb,Superpower,Fighting,Physical,120,100
+Officer Jenny,Repeatable Bosses,Hard,Luxray,Random,Guts,Flame Orb,Ice Fang,Ice,Physical,65,95
+Officer Jenny,Repeatable Bosses,Hard,Luxray,Random,Guts,Flame Orb,Wild Charge,Electric,Physical,90,100
+Officer Jenny,Repeatable Bosses,Hard,Luxray,Random,Guts,Flame Orb,Facade,Normal,Physical,70,100
+Officer Jenny,Repeatable Bosses,Hard,Manectric,Random,Lightning Rod,Choice Scarf,Overheat,Fire,Special,130,90
+Officer Jenny,Repeatable Bosses,Hard,Manectric,Random,Lightning Rod,Choice Scarf,Thunderbolt,Electric,Special,90,100
+Officer Jenny,Repeatable Bosses,Hard,Manectric,Random,Lightning Rod,Choice Scarf,Roar,Normal,Status,—,—
+Officer Jenny,Repeatable Bosses,Hard,Manectric,Random,Lightning Rod,Choice Scarf,Hidden Power,Ice,Special,60,100
+Officer Jenny,Repeatable Bosses,Hard,Stoutland,Random,Scrappy,Choice Band,Superpower,Fighting,Physical,120,100
+Officer Jenny,Repeatable Bosses,Hard,Stoutland,Random,Scrappy,Choice Band,Ice Fang,Ice,Physical,65,95
+Officer Jenny,Repeatable Bosses,Hard,Stoutland,Random,Scrappy,Choice Band,Thunder Fang,Electric,Physical,65,95
+Officer Jenny,Repeatable Bosses,Hard,Stoutland,Random,Scrappy,Choice Band,Return,Normal,Physical,—,100
+Officer Jenny,Repeatable Bosses,Hard,Mega Blastoise,Random,Mega Launcher,Blastoisinite,Ice Beam,Ice,Special,90,100
+Officer Jenny,Repeatable Bosses,Hard,Mega Blastoise,Random,Mega Launcher,Blastoisinite,Focus Blast,Fighting,Special,120,70
+Officer Jenny,Repeatable Bosses,Hard,Mega Blastoise,Random,Mega Launcher,Blastoisinite,Hydro Pump,Water,Special,110,80
+Officer Jenny,Repeatable Bosses,Hard,Mega Blastoise,Random,Mega Launcher,Blastoisinite,Aura Sphere,Fighting,Special,80,—
+Officer Jenny,Repeatable Bosses,Hard,Mega Blastoise,Random,Mega Launcher,Blastoisinite,Dark Pulse,Dark,Special,80,100
+Officer Shamac,Repeatable Bosses,Medium/Hard,Mega Swampert,Relaxed,Swift Swim,Swampertite,Stone Edge,Rock,Physical,100,80
+Officer Shamac,Repeatable Bosses,Medium/Hard,Mega Swampert,Relaxed,Swift Swim,Swampertite,Earthquake,Ground,Physical,100,100
+Officer Shamac,Repeatable Bosses,Medium/Hard,Mega Swampert,Relaxed,Swift Swim,Swampertite,Waterfall,Water,Physical,80,100
+Officer Shamac,Repeatable Bosses,Medium/Hard,Mega Swampert,Relaxed,Swift Swim,Swampertite,Ice Beam,Ice,Special,90,100
+Officer Shamac,Repeatable Bosses,Medium/Hard,Mega Swampert,Relaxed,Swift Swim,Swampertite,Toxic,Poison,Status,—,90
+Officer Shamac,Repeatable Bosses,Medium/Hard,Mega Swampert,Relaxed,Swift Swim,Swampertite,Superpower,Fighting,Physical,120,100
+Officer Shamac,Repeatable Bosses,Medium/Hard,Mega Swampert,Relaxed,Swift Swim,Swampertite,Ice Punch,Ice,Physical,75,100
+Officer Shamac,Repeatable Bosses,Medium/Hard,Swellow,Timid,Guts,Choice Specs,Hurricane,Flying,Special,110,70
+Officer Shamac,Repeatable Bosses,Medium/Hard,Swellow,Timid,Guts,Choice Specs,Boomburst,Normal,Special,140,100
+Officer Shamac,Repeatable Bosses,Medium/Hard,Swellow,Timid,Guts,Choice Specs,Heat Wave,Fire,Special,95,90
+Officer Shamac,Repeatable Bosses,Medium/Hard,Swellow,Timid,Guts,Choice Specs,Ominous Wind,Ghost,Special,60,100
+Officer Shamac,Repeatable Bosses,Medium/Hard,Goodra,Modest,Sap Sipper,Assault Vest,Fire Blast,Fire,Special,110,85
+Officer Shamac,Repeatable Bosses,Medium/Hard,Goodra,Modest,Sap Sipper,Assault Vest,Draco Meteor,Dragon,Special,140,90
+Officer Shamac,Repeatable Bosses,Medium/Hard,Goodra,Modest,Sap Sipper,Assault Vest,Thunder,Electric,Special,110,70
+Officer Shamac,Repeatable Bosses,Medium/Hard,Goodra,Modest,Sap Sipper,Assault Vest,Sludge Wave,Poison,Special,95,100
+Officer Shamac,Repeatable Bosses,Medium/Hard,Lapras,Modest,Water Absorb,Mystic Water,Hydro Pump,Water,Special,110,80
+Officer Shamac,Repeatable Bosses,Medium/Hard,Lapras,Modest,Water Absorb,Mystic Water,Blizzard,Ice,Special,110,70
+Officer Shamac,Repeatable Bosses,Medium/Hard,Lapras,Modest,Water Absorb,Mystic Water,Sheer Cold,Ice,Special,—,30
+Officer Shamac,Repeatable Bosses,Medium/Hard,Lapras,Modest,Water Absorb,Mystic Water,Sing,Normal,Status,—,55
+Officer Shamac,Repeatable Bosses,Medium/Hard,Cinccino,Jolly,Skill Link,Choice Band,Tail Slap,Normal,Physical,25,85
+Officer Shamac,Repeatable Bosses,Medium/Hard,Cinccino,Jolly,Skill Link,Choice Band,Rock Blast,Rock,Physical,25,90
+Officer Shamac,Repeatable Bosses,Medium/Hard,Cinccino,Jolly,Skill Link,Choice Band,Bullet Seed,Grass,Physical,25,100
+Officer Shamac,Repeatable Bosses,Medium/Hard,Cinccino,Jolly,Skill Link,Choice Band,Knock Off,Dark,Physical,65,100
+Officer Shamac,Repeatable Bosses,Medium/Hard,Latias,Timid,Levitate,Life Orb,Draco Meteor,Dragon,Special,140,90
+Officer Shamac,Repeatable Bosses,Medium/Hard,Latias,Timid,Levitate,Life Orb,Psyshock,Psychic,Special,80,100
+Officer Shamac,Repeatable Bosses,Medium/Hard,Latias,Timid,Levitate,Life Orb,Thunderbolt,Electric,Special,90,100
+Officer Shamac,Repeatable Bosses,Medium/Hard,Latias,Timid,Levitate,Life Orb,Surf,Water,Special,90,100
+Prehax,Repeatable Bosses,Lineup,Munchlax,Random,Random,Silk Scarf,Tackle,Normal,Physical,50,100
+Prehax,Repeatable Bosses,Lineup,Munchlax,Random,Random,Silk Scarf,Double-Edge,Normal,Physical,120,100
+Prehax,Repeatable Bosses,Lineup,Munchlax,Random,Random,Silk Scarf,Body Slam,Normal,Physical,80,100
+Prehax,Repeatable Bosses,Lineup,Munchlax,Random,Random,Silk Scarf,Rest,Psychic,Status,—,—
+Prehax,Repeatable Bosses,Lineup,Pink Munchlax,Random,Random,Silk Scarf,Stockpile,Normal,Status,—,100
+Prehax,Repeatable Bosses,Lineup,Pink Munchlax,Random,Random,Silk Scarf,Counter,Fighting,Physical,—,100
+Prehax,Repeatable Bosses,Lineup,Pink Munchlax,Random,Random,Silk Scarf,Rock Slide,Rock,Physical,75,90
+Prehax,Repeatable Bosses,Lineup,Pink Munchlax,Random,Random,Silk Scarf,Zen Headbutt,Psychic,Physical,80,90
+Prehax,Repeatable Bosses,Lineup,Easter Munchlax,Random,Random,Leftovers,Earthquake,Ground,Physical,100,100
+Prehax,Repeatable Bosses,Lineup,Easter Munchlax,Random,Random,Leftovers,Body Slam,Normal,Physical,80,100
+Prehax,Repeatable Bosses,Lineup,Easter Munchlax,Random,Random,Leftovers,Brick Break,Fighting,Physical,75,100
+Prehax,Repeatable Bosses,Lineup,Easter Munchlax,Random,Random,Leftovers,Whirlwind,Normal,Status,—,—
+Prehax,Repeatable Bosses,Lineup,Christmas Munchlax,Random,Random,Leftovers,Flamethrower,Fire,Special,90,100
+Prehax,Repeatable Bosses,Lineup,Christmas Munchlax,Random,Random,Leftovers,Ice Beam,Ice,Special,90,100
+Prehax,Repeatable Bosses,Lineup,Christmas Munchlax,Random,Random,Leftovers,Thunderbolt,Electric,Special,90,100
+Prehax,Repeatable Bosses,Lineup,Christmas Munchlax,Random,Random,Leftovers,Psychic,Psychic,Special,90,100
+Professor Birch,Repeatable Bosses,Hard,Medicham,Random,Pure Power,Choice Band,Zen Headbutt,Psychic,Physical,80,90
+Professor Birch,Repeatable Bosses,Hard,Medicham,Random,Pure Power,Choice Band,Fire Punch,Fire,Physical,75,100
+Professor Birch,Repeatable Bosses,Hard,Medicham,Random,Pure Power,Choice Band,High Jump Kick,Fighting,Physical,130,90
+Professor Birch,Repeatable Bosses,Hard,Medicham,Random,Pure Power,Choice Band,Ice Punch,Ice,Physical,75,100
+Professor Birch,Repeatable Bosses,Hard,Medicham,Random,Pure Power,Choice Band,Poison Jab,Poison,Physical,80,100
+Professor Birch,Repeatable Bosses,Hard,Slaking,Random,Truant,Choice Band,Rock Slide,Rock,Physical,75,90
+Professor Birch,Repeatable Bosses,Hard,Slaking,Random,Truant,Choice Band,Fire Punch,Fire,Physical,75,100
+Professor Birch,Repeatable Bosses,Hard,Slaking,Random,Truant,Choice Band,Hammer Arm,Fighting,Physical,100,90
+Professor Birch,Repeatable Bosses,Hard,Slaking,Random,Truant,Choice Band,Giga Impact,Normal,Physical,150,90
+Professor Birch,Repeatable Bosses,Hard,Swellow,Random,Guts,Flame Orb,Thief,Dark,Physical,60,100
+Professor Birch,Repeatable Bosses,Hard,Swellow,Random,Guts,Flame Orb,Brave Bird,Flying,Physical,120,100
+Professor Birch,Repeatable Bosses,Hard,Swellow,Random,Guts,Flame Orb,Return,Normal,Physical,—,100
+Professor Birch,Repeatable Bosses,Hard,Swellow,Random,Guts,Flame Orb,U-turn,Bug,Physical,70,100
+Professor Birch,Repeatable Bosses,Hard,Torkoal,Random,Drought,Heat Rock,Lava Plume,Fire,Special,80,100
+Professor Birch,Repeatable Bosses,Hard,Torkoal,Random,Drought,Heat Rock,Solar Beam,Grass,Special,120,100
+Professor Birch,Repeatable Bosses,Hard,Torkoal,Random,Drought,Heat Rock,Earthquake,Ground,Physical,100,100
+Professor Birch,Repeatable Bosses,Hard,Torkoal,Random,Drought,Heat Rock,Explosion,Normal,Physical,250,100
+Professor Birch,Repeatable Bosses,Hard,Flygon,Random,Levitate,Life Orb,Outrage,Dragon,Physical,120,100
+Professor Birch,Repeatable Bosses,Hard,Flygon,Random,Levitate,Life Orb,Fire Blast,Fire,Special,110,85
+Professor Birch,Repeatable Bosses,Hard,Flygon,Random,Levitate,Life Orb,Earthquake,Ground,Physical,100,100
+Professor Birch,Repeatable Bosses,Hard,Flygon,Random,Levitate,Life Orb,Stone Edge,Rock,Physical,100,80
+Professor Birch,Repeatable Bosses,Hard,Flygon,Random,Levitate,Life Orb,Superpower,Fighting,Physical,120,100
+Professor Birch,Repeatable Bosses,Hard,Mega Blaziken,Random,Speed Boost,Blazikenite,Brave Bird,Flying,Physical,120,100
+Professor Birch,Repeatable Bosses,Hard,Mega Blaziken,Random,Speed Boost,Blazikenite,Flare Blitz,Fire,Physical,120,100
+Professor Birch,Repeatable Bosses,Hard,Mega Blaziken,Random,Speed Boost,Blazikenite,High Jump Kick,Fighting,Physical,130,90
+Professor Birch,Repeatable Bosses,Hard,Mega Blaziken,Random,Speed Boost,Blazikenite,Earthquake,Ground,Physical,100,100
+Professor Elm,Repeatable Bosses,Medium/Hard,Corsola,Bold,Natural Cure,Focus Sash,Surf,Water,Special,90,100
+Professor Elm,Repeatable Bosses,Medium/Hard,Corsola,Bold,Natural Cure,Focus Sash,Power Gem,Rock,Special,80,100
+Professor Elm,Repeatable Bosses,Medium/Hard,Corsola,Bold,Natural Cure,Focus Sash,Mirror Coat,Psychic,Special,—,100
+Professor Elm,Repeatable Bosses,Medium/Hard,Corsola,Bold,Natural Cure,Focus Sash,Light Screen,Psychic,Status,—,—
+Professor Elm,Repeatable Bosses,Medium/Hard,Togekiss,Timid,Serene Grace,Leftovers,Nasty Plot,Dark,Status,—,—
+Professor Elm,Repeatable Bosses,Medium/Hard,Togekiss,Timid,Serene Grace,Leftovers,Air Slash,Flying,Special,75,95
+Professor Elm,Repeatable Bosses,Medium/Hard,Togekiss,Timid,Serene Grace,Leftovers,Flamethrower,Fire,Special,90,100
+Professor Elm,Repeatable Bosses,Medium/Hard,Togekiss,Timid,Serene Grace,Leftovers,Aura Sphere,Fighting,Special,80,—
+Professor Elm,Repeatable Bosses,Medium/Hard,Meganium,Bold,Overgrow,Light Clay,Giga Drain,Grass,Special,75,100
+Professor Elm,Repeatable Bosses,Medium/Hard,Meganium,Bold,Overgrow,Light Clay,Toxic,Poison,Status,—,90
+Professor Elm,Repeatable Bosses,Medium/Hard,Meganium,Bold,Overgrow,Light Clay,Reflect,Psychic,Status,—,—
+Professor Elm,Repeatable Bosses,Medium/Hard,Meganium,Bold,Overgrow,Light Clay,Petal Dance,Grass,Special,120,100
+Professor Elm,Repeatable Bosses,Medium/Hard,Typhlosion,Modest,Blaze,Charcoal,Eruption,Fire,Special,150,100
+Professor Elm,Repeatable Bosses,Medium/Hard,Typhlosion,Modest,Blaze,Charcoal,Fire Blast,Fire,Special,110,85
+Professor Elm,Repeatable Bosses,Medium/Hard,Typhlosion,Modest,Blaze,Charcoal,Focus Blast,Fighting,Special,120,70
+Professor Elm,Repeatable Bosses,Medium/Hard,Typhlosion,Modest,Blaze,Charcoal,Roar,Normal,Status,—,—
+Professor Elm,Repeatable Bosses,Medium/Hard,Feraligatr,Jolly,Sheer Force,Life Orb,Dragon Dance,Dragon,Status,—,—
+Professor Elm,Repeatable Bosses,Medium/Hard,Feraligatr,Jolly,Sheer Force,Life Orb,Liquidation,Water,Physical,85,100
+Professor Elm,Repeatable Bosses,Medium/Hard,Feraligatr,Jolly,Sheer Force,Life Orb,Ice Punch,Ice,Physical,75,100
+Professor Elm,Repeatable Bosses,Medium/Hard,Feraligatr,Jolly,Sheer Force,Life Orb,Earthquake,Ground,Physical,100,100
+Professor Elm,Repeatable Bosses,Medium/Hard,Mega Tyranitar,Careful,Sand Stream,Tyranitarite,Stone Edge,Rock,Physical,100,80
+Professor Elm,Repeatable Bosses,Medium/Hard,Mega Tyranitar,Careful,Sand Stream,Tyranitarite,Crunch,Dark,Physical,80,100
+Professor Elm,Repeatable Bosses,Medium/Hard,Mega Tyranitar,Careful,Sand Stream,Tyranitarite,Fire Punch,Fire,Physical,75,100
+Professor Elm,Repeatable Bosses,Medium/Hard,Mega Tyranitar,Careful,Sand Stream,Tyranitarite,Thunder Punch,Electric,Physical,75,100
+Professor Oak,Repeatable Bosses,Medium/Hard,Rotom-Wash,Bold,Levitate,Leftovers,Defog,Flying,Status,—,—
+Professor Oak,Repeatable Bosses,Medium/Hard,Rotom-Wash,Bold,Levitate,Leftovers,Thunderbolt,Electric,Special,90,100
+Professor Oak,Repeatable Bosses,Medium/Hard,Rotom-Wash,Bold,Levitate,Leftovers,Hydro Pump,Water,Special,110,80
+Professor Oak,Repeatable Bosses,Medium/Hard,Rotom-Wash,Bold,Levitate,Leftovers,Reflect,Psychic,Status,—,—
+Professor Oak,Repeatable Bosses,Medium/Hard,Venusaur,Modest,Overgrow,Black Sludge,Petal Dance,Grass,Special,120,100
+Professor Oak,Repeatable Bosses,Medium/Hard,Venusaur,Modest,Overgrow,Black Sludge,Sleep Powder,Grass,Status,—,75
+Professor Oak,Repeatable Bosses,Medium/Hard,Venusaur,Modest,Overgrow,Black Sludge,Sludge Bomb,Poison,Special,90,100
+Professor Oak,Repeatable Bosses,Medium/Hard,Venusaur,Modest,Overgrow,Black Sludge,Leech Seed,Grass,Status,—,90
+Professor Oak,Repeatable Bosses,Medium/Hard,Mega Charizard X,Random,Tough Claws,Charizardite X,Flare Blitz,Fire,Physical,120,100
+Professor Oak,Repeatable Bosses,Medium/Hard,Mega Charizard X,Random,Tough Claws,Charizardite X,Dragon Dance,Dragon,Status,—,—
+Professor Oak,Repeatable Bosses,Medium/Hard,Mega Charizard X,Random,Tough Claws,Charizardite X,Dragon Claw,Dragon,Physical,80,100
+Professor Oak,Repeatable Bosses,Medium/Hard,Mega Charizard X,Random,Tough Claws,Charizardite X,Earthquake,Ground,Physical,100,100
+Professor Oak,Repeatable Bosses,Medium/Hard,Blastoise,Modest,Torrent,Sitrus Berry,Hydro Pump,Water,Special,110,80
+Professor Oak,Repeatable Bosses,Medium/Hard,Blastoise,Modest,Torrent,Sitrus Berry,Dark Pulse,Dark,Special,80,100
+Professor Oak,Repeatable Bosses,Medium/Hard,Blastoise,Modest,Torrent,Sitrus Berry,Toxic,Poison,Status,—,90
+Professor Oak,Repeatable Bosses,Medium/Hard,Blastoise,Modest,Torrent,Sitrus Berry,Ice Beam,Ice,Special,90,100
+Professor Oak,Repeatable Bosses,Medium/Hard,Tauros,Jolly,Sheer Force,Life Orb,Rock Climb,Normal,Physical,90,85
+Professor Oak,Repeatable Bosses,Medium/Hard,Tauros,Jolly,Sheer Force,Life Orb,Earthquake,Ground,Physical,100,100
+Professor Oak,Repeatable Bosses,Medium/Hard,Tauros,Jolly,Sheer Force,Life Orb,Rock Slide,Rock,Physical,75,90
+Professor Oak,Repeatable Bosses,Medium/Hard,Tauros,Jolly,Sheer Force,Life Orb,Iron Tail,Steel,Physical,100,75
+Professor Oak,Repeatable Bosses,Medium/Hard,Dragonite,Adamant,Multiscale,Lum Berry,Outrage,Dragon,Physical,120,100
+Professor Oak,Repeatable Bosses,Medium/Hard,Dragonite,Adamant,Multiscale,Lum Berry,Dragon Dance,Dragon,Status,—,—
+Professor Oak,Repeatable Bosses,Medium/Hard,Dragonite,Adamant,Multiscale,Lum Berry,Fire Punch,Fire,Physical,75,100
+Professor Oak,Repeatable Bosses,Medium/Hard,Dragonite,Adamant,Multiscale,Lum Berry,Extreme Speed,Normal,Physical,80,100
+Professor Rowan,Repeatable Bosses,Hard,Torterra,Adamant,Overgrow,Choice Band,Wood Hammer,Grass,Physical,120,100
+Professor Rowan,Repeatable Bosses,Hard,Torterra,Adamant,Overgrow,Choice Band,Earthquake,Ground,Physical,100,100
+Professor Rowan,Repeatable Bosses,Hard,Torterra,Adamant,Overgrow,Choice Band,Stone Edge,Rock,Physical,100,80
+Professor Rowan,Repeatable Bosses,Hard,Torterra,Adamant,Overgrow,Choice Band,Seed Bomb,Grass,Physical,80,100
+Professor Rowan,Repeatable Bosses,Hard,Empoleon,Modest,Torrent,Choice Scarf,Ice Beam,Ice,Special,90,100
+Professor Rowan,Repeatable Bosses,Hard,Empoleon,Modest,Torrent,Choice Scarf,Hydro Pump,Water,Special,110,80
+Professor Rowan,Repeatable Bosses,Hard,Empoleon,Modest,Torrent,Choice Scarf,Grass Knot,Grass,Special,—,100
+Professor Rowan,Repeatable Bosses,Hard,Empoleon,Modest,Torrent,Choice Scarf,Toxic,Poison,Status,—,90
+Professor Rowan,Repeatable Bosses,Hard,Infernape,Naive,Blaze,Life Orb,Close Combat,Fighting,Physical,120,100
+Professor Rowan,Repeatable Bosses,Hard,Infernape,Naive,Blaze,Life Orb,Flare Blitz,Fire,Physical,120,100
+Professor Rowan,Repeatable Bosses,Hard,Infernape,Naive,Blaze,Life Orb,Gunk Shot,Poison,Physical,120,80
+Professor Rowan,Repeatable Bosses,Hard,Infernape,Naive,Blaze,Life Orb,Grass Knot,Grass,Special,—,100
+Professor Rowan,Repeatable Bosses,Hard,Staraptor,Adamant,Reckless,Choice Band,Brave Bird,Flying,Physical,120,100
+Professor Rowan,Repeatable Bosses,Hard,Staraptor,Adamant,Reckless,Choice Band,Double-Edge,Normal,Physical,120,100
+Professor Rowan,Repeatable Bosses,Hard,Staraptor,Adamant,Reckless,Choice Band,Close Combat,Fighting,Physical,120,100
+Professor Rowan,Repeatable Bosses,Hard,Staraptor,Adamant,Reckless,Choice Band,Quick Attack,Normal,Physical,40,100
+Professor Rowan,Repeatable Bosses,Hard,Gliscor,Adamant,Poison Heal,Toxic Orb,Earthquake,Ground,Physical,100,100
+Professor Rowan,Repeatable Bosses,Hard,Gliscor,Adamant,Poison Heal,Toxic Orb,Ice Fang,Ice,Physical,65,95
+Professor Rowan,Repeatable Bosses,Hard,Gliscor,Adamant,Poison Heal,Toxic Orb,Facade,Normal,Physical,70,100
+Professor Rowan,Repeatable Bosses,Hard,Gliscor,Adamant,Poison Heal,Toxic Orb,Knock Off,Dark,Physical,65,100
+Professor Rowan,Repeatable Bosses,Hard,Manaphy,Modest,Hydration,Choice Specs,Surf,Water,Special,90,100
+Professor Rowan,Repeatable Bosses,Hard,Manaphy,Modest,Hydration,Choice Specs,Ice Beam,Ice,Special,90,100
+Professor Rowan,Repeatable Bosses,Hard,Manaphy,Modest,Hydration,Choice Specs,Energy Ball,Grass,Special,90,100
+Professor Rowan,Repeatable Bosses,Hard,Manaphy,Modest,Hydration,Choice Specs,Tail Glow,Bug,Status,—,—
+Sage,Repeatable Bosses,Lineup,Glaceon,Modest,Snow Cloak,None,Blizzard,Ice,Special,110,70
+Sage,Repeatable Bosses,Lineup,Glaceon,Modest,Snow Cloak,None,Shadow Ball,Ghost,Special,80,100
+Sage,Repeatable Bosses,Lineup,Glaceon,Modest,Snow Cloak,None,Ice Beam,Ice,Special,90,100
+Sage,Repeatable Bosses,Lineup,Glaceon,Modest,Snow Cloak,None,Toxic,Poison,Status,—,90
+Sage,Repeatable Bosses,Lineup,Flareon,Adamant,Guts,None,Flare Blitz,Fire,Physical,120,100
+Sage,Repeatable Bosses,Lineup,Flareon,Adamant,Guts,None,Iron Tail,Steel,Physical,100,75
+Sage,Repeatable Bosses,Lineup,Flareon,Adamant,Guts,None,Facade,Normal,Physical,70,100
+Sage,Repeatable Bosses,Lineup,Flareon,Adamant,Guts,None,Superpower,Fighting,Physical,120,100
+Sage,Repeatable Bosses,Lineup,Vaporeon,Bold,Water Absorb,None,Scald,Water,Special,80,100
+Sage,Repeatable Bosses,Lineup,Vaporeon,Bold,Water Absorb,None,Ice Beam,Ice,Special,90,100
+Sage,Repeatable Bosses,Lineup,Vaporeon,Bold,Water Absorb,None,Wish,Normal,Status,—,—
+Sage,Repeatable Bosses,Lineup,Vaporeon,Bold,Water Absorb,None,Protect,Normal,Status,—,—
+Sage,Repeatable Bosses,Lineup,Jolteon,Timid,Volt Absorb,None,Thunderbolt,Electric,Special,90,100
+Sage,Repeatable Bosses,Lineup,Jolteon,Timid,Volt Absorb,None,Shadow Ball,Ghost,Special,80,100
+Sage,Repeatable Bosses,Lineup,Jolteon,Timid,Volt Absorb,None,Signal Beam,Bug,Special,75,100
+Sage,Repeatable Bosses,Lineup,Jolteon,Timid,Volt Absorb,None,Volt Switch,Electric,Special,70,100
+Sage,Repeatable Bosses,Lineup,Sylveon,Calm,Pixilate,None,Hyper Voice,Normal,Special,90,100
+Sage,Repeatable Bosses,Lineup,Sylveon,Calm,Pixilate,None,Shadow Ball,Ghost,Special,80,100
+Sage,Repeatable Bosses,Lineup,Sylveon,Calm,Pixilate,None,Psyshock,Psychic,Special,80,100
+Sage,Repeatable Bosses,Lineup,Sylveon,Calm,Pixilate,None,Wish,Normal,Status,—,—
+Sage,Repeatable Bosses,Lineup,Espeon,Timid,Magic Bounce,None,Calm Mind,Psychic,Status,—,—
+Sage,Repeatable Bosses,Lineup,Espeon,Timid,Magic Bounce,None,Psyshock,Psychic,Special,80,100
+Sage,Repeatable Bosses,Lineup,Espeon,Timid,Magic Bounce,None,Dazzling Gleam,Fairy,Special,80,100
+Sage,Repeatable Bosses,Lineup,Espeon,Timid,Magic Bounce,None,Morning Sun,Normal,Status,—,—
+Saphirr,Repeatable Bosses,Hard,Groudon,Adamant,Drought,Choice Band,Earthquake,Ground,Physical,100,100
+Saphirr,Repeatable Bosses,Hard,Groudon,Adamant,Drought,Choice Band,Stone Edge,Rock,Physical,100,80
+Saphirr,Repeatable Bosses,Hard,Groudon,Adamant,Drought,Choice Band,Fire Blast,Fire,Special,110,85
+Saphirr,Repeatable Bosses,Hard,Groudon,Adamant,Drought,Choice Band,Dragon Tail,Dragon,Physical,60,90
+Saphirr,Repeatable Bosses,Hard,Mega Garchomp,Adamant,Sand Force,Garchompite,Earthquake,Ground,Physical,100,100
+Saphirr,Repeatable Bosses,Hard,Mega Garchomp,Adamant,Sand Force,Garchompite,Outrage,Dragon,Physical,120,100
+Saphirr,Repeatable Bosses,Hard,Mega Garchomp,Adamant,Sand Force,Garchompite,Fire Blast,Fire,Special,110,85
+Saphirr,Repeatable Bosses,Hard,Mega Garchomp,Adamant,Sand Force,Garchompite,Stone Edge,Rock,Physical,100,80
+Saphirr,Repeatable Bosses,Hard,Tangrowth,Modest,Chlorophyll,Choice Specs,Solar Beam,Grass,Special,120,100
+Saphirr,Repeatable Bosses,Hard,Tangrowth,Modest,Chlorophyll,Choice Specs,Ancient Power,Rock,Special,60,100
+Saphirr,Repeatable Bosses,Hard,Tangrowth,Modest,Chlorophyll,Choice Specs,Sludge Bomb,Poison,Special,90,100
+Saphirr,Repeatable Bosses,Hard,Tangrowth,Modest,Chlorophyll,Choice Specs,Focus Blast,Fighting,Special,120,70
+Saphirr,Repeatable Bosses,Hard,Torkoal,Bold,Drought,Leftovers,Shell Smash,Normal,Status,—,—
+Saphirr,Repeatable Bosses,Hard,Torkoal,Bold,Drought,Leftovers,Fire Blast,Fire,Special,110,85
+Saphirr,Repeatable Bosses,Hard,Torkoal,Bold,Drought,Leftovers,Earth Power,Ground,Special,90,100
+Saphirr,Repeatable Bosses,Hard,Torkoal,Bold,Drought,Leftovers,Yawn,Normal,Status,—,—
+Saphirr,Repeatable Bosses,Hard,Volcarona,Modest,Flame Body,Choice Specs,Fire Blast,Fire,Special,110,85
+Saphirr,Repeatable Bosses,Hard,Volcarona,Modest,Flame Body,Choice Specs,Giga Drain,Grass,Special,75,100
+Saphirr,Repeatable Bosses,Hard,Volcarona,Modest,Flame Body,Choice Specs,Bug Buzz,Bug,Special,90,100
+Saphirr,Repeatable Bosses,Hard,Volcarona,Modest,Flame Body,Choice Specs,Roost,Flying,Status,—,—
+Saphirr,Repeatable Bosses,Hard,Infernape,Naive,Blaze,Life Orb,Close Combat,Fighting,Physical,120,100
+Saphirr,Repeatable Bosses,Hard,Infernape,Naive,Blaze,Life Orb,Grass Knot,Grass,Special,—,100
+Saphirr,Repeatable Bosses,Hard,Infernape,Naive,Blaze,Life Orb,Fire Blast,Fire,Special,110,85
+Saphirr,Repeatable Bosses,Hard,Infernape,Naive,Blaze,Life Orb,Earthquake,Ground,Physical,100,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Flareon,Adamant,Guts,Toxic Orb,Flare Blitz,Fire,Physical,120,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Flareon,Adamant,Guts,Toxic Orb,Facade,Normal,Physical,70,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Flareon,Adamant,Guts,Toxic Orb,Superpower,Fighting,Physical,120,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Flareon,Adamant,Guts,Toxic Orb,Iron Tail,Steel,Physical,100,75
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Mienshao,Jolly,Reckless,Black Belt,Stone Edge,Rock,Physical,100,80
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Mienshao,Jolly,Reckless,Black Belt,Poison Jab,Poison,Physical,80,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Mienshao,Jolly,Reckless,Black Belt,Knock Off,Dark,Physical,65,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Mienshao,Jolly,Reckless,Black Belt,High Jump Kick,Fighting,Physical,130,90
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Meloetta,Timid,Serene Grace,Assault Vest,Psychic,Psychic,Special,90,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Meloetta,Timid,Serene Grace,Assault Vest,Hyper Voice,Normal,Special,90,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Meloetta,Timid,Serene Grace,Assault Vest,Focus Blast,Fighting,Special,120,70
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Meloetta,Timid,Serene Grace,Assault Vest,Shadow Ball,Ghost,Special,80,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Mega Latias,Timid,Levitate,Latiasite,Draco Meteor,Dragon,Special,140,90
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Mega Latias,Timid,Levitate,Latiasite,Psyshock,Psychic,Special,80,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Mega Latias,Timid,Levitate,Latiasite,Thunderbolt,Electric,Special,90,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Mega Latias,Timid,Levitate,Latiasite,Surf,Water,Special,90,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Jolteon,Timid,Volt Absorb,Choice Specs,Thunder,Electric,Special,110,70
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Jolteon,Timid,Volt Absorb,Choice Specs,Signal Beam,Bug,Special,75,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Jolteon,Timid,Volt Absorb,Choice Specs,Shadow Ball,Ghost,Special,80,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Jolteon,Timid,Volt Absorb,Choice Specs,Thunder Wave,Electric,Status,—,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Togekiss,Timid,Serene Grace,Choice Scarf,Air Slash,Flying,Special,75,95
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Togekiss,Timid,Serene Grace,Choice Scarf,Aura Sphere,Fighting,Special,80,—
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Togekiss,Timid,Serene Grace,Choice Scarf,Flamethrower,Fire,Special,90,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Togekiss,Timid,Serene Grace,Choice Scarf,Dazzling Gleam,Fairy,Special,80,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Shaymin-Sky,Timid,Serene Grace,Choice Specs,Air Slash,Flying,Special,75,95
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Shaymin-Sky,Timid,Serene Grace,Choice Specs,Seed Flare,Grass,Special,120,85
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Shaymin-Sky,Timid,Serene Grace,Choice Specs,Earth Power,Ground,Special,90,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Conkeldurr,Adamant,Guts,Flame Orb,Drain Punch,Fighting,Physical,75,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Conkeldurr,Adamant,Guts,Flame Orb,Facade,Normal,Physical,70,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Conkeldurr,Adamant,Guts,Flame Orb,Knock Off,Dark,Physical,65,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Conkeldurr,Adamant,Guts,Flame Orb,Ice Punch,Ice,Physical,75,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Dragonite,Adamant,Multiscale,Lum Berry,Dragon Dance,Dragon,Status,—,—
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Dragonite,Adamant,Multiscale,Lum Berry,Outrage,Dragon,Physical,120,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Dragonite,Adamant,Multiscale,Lum Berry,Fire Punch,Fire,Physical,75,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Dragonite,Adamant,Multiscale,Lum Berry,Extreme Speed,Normal,Physical,80,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Mega Alakazam,Timid,Trace,Alakazite,Focus Blast,Fighting,Special,120,70
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Mega Alakazam,Timid,Trace,Alakazite,Psychic,Psychic,Special,90,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Mega Alakazam,Timid,Trace,Alakazite,Shadow Ball,Ghost,Special,80,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Mega Alakazam,Timid,Trace,Alakazite,Dazzling Gleam,Fairy,Special,80,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Greninja,Naive,Protean,Expert Belt,Hydro Pump,Water,Special,110,80
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Greninja,Naive,Protean,Expert Belt,Gunk Shot,Poison,Physical,120,80
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Greninja,Naive,Protean,Expert Belt,Ice Beam,Ice,Special,90,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Greninja,Naive,Protean,Expert Belt,Dark Pulse,Dark,Special,80,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Azelf,Timid,Levitate,Focus Sash,Psychic,Psychic,Special,90,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Azelf,Timid,Levitate,Focus Sash,Thunderbolt,Electric,Special,90,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Azelf,Timid,Levitate,Focus Sash,Flamethrower,Fire,Special,90,100
+Shary & Shaui,Repeatable Bosses,Medium/Hard,Azelf,Timid,Levitate,Focus Sash,Dazzling Gleam,Fairy,Special,80,100
+Steven,Repeatable Bosses,Hard,Mega Metagross,Adamant,Tough Claws,Metagrossite,Thunder Punch,Electric,Physical,75,100
+Steven,Repeatable Bosses,Hard,Mega Metagross,Adamant,Tough Claws,Metagrossite,Meteor Mash,Steel,Physical,90,90
+Steven,Repeatable Bosses,Hard,Mega Metagross,Adamant,Tough Claws,Metagrossite,Ice Punch,Ice,Physical,75,100
+Steven,Repeatable Bosses,Hard,Mega Metagross,Adamant,Tough Claws,Metagrossite,Zen Headbutt,Psychic,Physical,80,90
+Steven,Repeatable Bosses,Hard,Excadrill,Adamant,Mold Breaker,Choice Scarf,Earthquake,Ground,Physical,100,100
+Steven,Repeatable Bosses,Hard,Excadrill,Adamant,Mold Breaker,Choice Scarf,Iron Head,Steel,Physical,80,100
+Steven,Repeatable Bosses,Hard,Excadrill,Adamant,Mold Breaker,Choice Scarf,Rock Slide,Rock,Physical,75,90
+Steven,Repeatable Bosses,Hard,Excadrill,Adamant,Mold Breaker,Choice Scarf,Swords Dance,Normal,Status,—,—
+Steven,Repeatable Bosses,Hard,Magnezone,Modest,Magnet Pull,Choice Specs,Hidden Power,Fire,Special,60,100
+Steven,Repeatable Bosses,Hard,Magnezone,Modest,Magnet Pull,Choice Specs,Thunderbolt,Electric,Special,90,100
+Steven,Repeatable Bosses,Hard,Magnezone,Modest,Magnet Pull,Choice Specs,Flash Cannon,Steel,Special,80,100
+Steven,Repeatable Bosses,Hard,Magnezone,Modest,Magnet Pull,Choice Specs,Sunny Day,Fire,Status,—,—
+Steven,Repeatable Bosses,Hard,Jirachi,Adamant,Serene Grace,Choice Scarf,Iron Head,Steel,Physical,80,100
+Steven,Repeatable Bosses,Hard,Jirachi,Adamant,Serene Grace,Choice Scarf,Ice Punch,Ice,Physical,75,100
+Steven,Repeatable Bosses,Hard,Jirachi,Adamant,Serene Grace,Choice Scarf,Fire Punch,Fire,Physical,75,100
+Steven,Repeatable Bosses,Hard,Jirachi,Adamant,Serene Grace,Choice Scarf,Zen Headbutt,Psychic,Physical,80,90
+Steven,Repeatable Bosses,Hard,Ferrothorn,Sassy,Iron Barbs,Rocky Helmet,Leech Seed,Grass,Status,—,90
+Steven,Repeatable Bosses,Hard,Ferrothorn,Sassy,Iron Barbs,Rocky Helmet,Power Whip,Grass,Physical,120,85
+Steven,Repeatable Bosses,Hard,Ferrothorn,Sassy,Iron Barbs,Rocky Helmet,Knock Off,Dark,Physical,65,100
+Steven,Repeatable Bosses,Hard,Ferrothorn,Sassy,Iron Barbs,Rocky Helmet,Gyro Ball,Steel,Physical,—,100
+Steven,Repeatable Bosses,Hard,Heatran,Modest,Flash Fire,Choice Specs,Magma Storm,Fire,Special,100,75
+Steven,Repeatable Bosses,Hard,Heatran,Modest,Flash Fire,Choice Specs,Earth Power,Ground,Special,90,100
+Steven,Repeatable Bosses,Hard,Heatran,Modest,Flash Fire,Choice Specs,Solar Beam,Grass,Special,120,100
+Steven,Repeatable Bosses,Hard,Heatran,Modest,Flash Fire,Choice Specs,Ancient Power,Rock,Special,60,100
+Spectify,Repeatable Bosses,Medium/Hard,Mega Salamence,Random,Aerilate,Salamencite,Outrage,Dragon,Physical,120,100
+Spectify,Repeatable Bosses,Medium/Hard,Mega Salamence,Random,Aerilate,Salamencite,Fire Blast,Fire,Special,110,85
+Spectify,Repeatable Bosses,Medium/Hard,Mega Salamence,Random,Aerilate,Salamencite,Dragon Dance,Dragon,Status,—,—
+Spectify,Repeatable Bosses,Medium/Hard,Mega Salamence,Random,Aerilate,Salamencite,Earthquake,Ground,Physical,100,100
+Spectify,Repeatable Bosses,Medium/Hard,Mega Salamence,Random,Aerilate,Salamencite,Double-Edge,Normal,Physical,120,100
+Spectify,Repeatable Bosses,Medium/Hard,Meganium,Random,Overgrow,Choice Band,Seed Bomb,Grass,Physical,80,100
+Spectify,Repeatable Bosses,Medium/Hard,Meganium,Random,Overgrow,Choice Band,Dragon Tail,Dragon,Physical,60,90
+Spectify,Repeatable Bosses,Medium/Hard,Meganium,Random,Overgrow,Choice Band,Earthquake,Ground,Physical,100,100
+Spectify,Repeatable Bosses,Medium/Hard,Meganium,Random,Overgrow,Choice Band,Swords Dance,Normal,Status,—,—
+Spectify,Repeatable Bosses,Medium/Hard,Feraligatr,Random,Torrent,Choice Band,Waterfall,Water,Physical,80,100
+Spectify,Repeatable Bosses,Medium/Hard,Feraligatr,Random,Torrent,Choice Band,Ice Punch,Ice,Physical,75,100
+Spectify,Repeatable Bosses,Medium/Hard,Feraligatr,Random,Torrent,Choice Band,Low Kick,Fighting,Physical,—,100
+Spectify,Repeatable Bosses,Medium/Hard,Feraligatr,Random,Torrent,Choice Band,Swords Dance,Normal,Status,—,—
+Spectify,Repeatable Bosses,Medium/Hard,Typhlosion,Random,Blaze,Choice Specs,Solar Beam,Grass,Special,120,100
+Spectify,Repeatable Bosses,Medium/Hard,Typhlosion,Random,Blaze,Choice Specs,Fire Blast,Fire,Special,110,85
+Spectify,Repeatable Bosses,Medium/Hard,Typhlosion,Random,Blaze,Choice Specs,Focus Blast,Fighting,Special,120,70
+Spectify,Repeatable Bosses,Medium/Hard,Typhlosion,Random,Blaze,Choice Specs,Thunder Punch,Electric,Physical,75,100
+Spectify,Repeatable Bosses,Medium/Hard,Umbreon,Random,Synchronize,Leftovers,Foul Play,Dark,Physical,95,100
+Spectify,Repeatable Bosses,Medium/Hard,Umbreon,Random,Synchronize,Leftovers,Toxic,Poison,Status,—,90
+Spectify,Repeatable Bosses,Medium/Hard,Umbreon,Random,Synchronize,Leftovers,Mean Look,Normal,Status,—,—
+Spectify,Repeatable Bosses,Medium/Hard,Umbreon,Random,Synchronize,Leftovers,Heal Bell,Normal,Status,—,—
+Spectify,Repeatable Bosses,Medium/Hard,Espeon,Random,Magic Bounce,Choice Specs,Shadow Ball,Ghost,Special,80,100
+Spectify,Repeatable Bosses,Medium/Hard,Espeon,Random,Magic Bounce,Choice Specs,Calm Mind,Psychic,Status,—,—
+Spectify,Repeatable Bosses,Medium/Hard,Espeon,Random,Magic Bounce,Choice Specs,Psychic,Psychic,Special,90,100
+Spectify,Repeatable Bosses,Medium/Hard,Espeon,Random,Magic Bounce,Choice Specs,Dazzling Gleam,Fairy,Special,80,100
+Terminator,Repeatable Bosses,Hard,Magnezone,Modest,Analytic,Choice Specs,Signal Beam,Bug,Special,75,100
+Terminator,Repeatable Bosses,Hard,Magnezone,Modest,Analytic,Choice Specs,Thunderbolt,Electric,Special,90,100
+Terminator,Repeatable Bosses,Hard,Magnezone,Modest,Analytic,Choice Specs,Hidden Power,Ice,Special,60,100
+Terminator,Repeatable Bosses,Hard,Magnezone,Modest,Analytic,Choice Specs,Magnet Rise,Electric,Status,—,—
+Terminator,Repeatable Bosses,Hard,Magnezone,Modest,Analytic,Choice Specs,Flash Cannon,Steel,Special,80,100
+Terminator,Repeatable Bosses,Hard,Reuniclus,Modest,Magic Guard,Choice Specs,Thunder,Electric,Special,110,70
+Terminator,Repeatable Bosses,Hard,Reuniclus,Modest,Magic Guard,Choice Specs,Recover,Normal,Status,—,—
+Terminator,Repeatable Bosses,Hard,Reuniclus,Modest,Magic Guard,Choice Specs,Energy Ball,Grass,Special,90,100
+Terminator,Repeatable Bosses,Hard,Reuniclus,Modest,Magic Guard,Choice Specs,Shadow Ball,Ghost,Special,80,100
+Terminator,Repeatable Bosses,Hard,Reuniclus,Modest,Magic Guard,Choice Specs,Psyshock,Psychic,Special,80,100
+Terminator,Repeatable Bosses,Hard,Reuniclus,Modest,Magic Guard,Choice Specs,Focus Blast,Fighting,Special,120,70
+Terminator,Repeatable Bosses,Hard,Porygon-Z,Timid,Analytic,Choice Specs,Signal Beam,Bug,Special,75,100
+Terminator,Repeatable Bosses,Hard,Porygon-Z,Timid,Analytic,Choice Specs,Thunderbolt,Electric,Special,90,100
+Terminator,Repeatable Bosses,Hard,Porygon-Z,Timid,Analytic,Choice Specs,Toxic,Poison,Status,—,90
+Terminator,Repeatable Bosses,Hard,Porygon-Z,Timid,Analytic,Choice Specs,Ice Beam,Ice,Special,90,100
+Terminator,Repeatable Bosses,Hard,Porygon-Z,Timid,Analytic,Choice Specs,Tri Attack,Normal,Special,80,100
+Terminator,Repeatable Bosses,Hard,Alolan Muk,Adamant,Poison Touch,Choice Band,Fire Punch,Fire,Physical,75,100
+Terminator,Repeatable Bosses,Hard,Alolan Muk,Adamant,Poison Touch,Choice Band,Ice Punch,Ice,Physical,75,100
+Terminator,Repeatable Bosses,Hard,Alolan Muk,Adamant,Poison Touch,Choice Band,Gunk Shot,Poison,Physical,120,80
+Terminator,Repeatable Bosses,Hard,Alolan Muk,Adamant,Poison Touch,Choice Band,Knock Off,Dark,Physical,65,100
+Terminator,Repeatable Bosses,Hard,Alolan Muk,Adamant,Poison Touch,Choice Band,Thunder Punch,Electric,Physical,75,100
+Terminator,Repeatable Bosses,Hard,Alolan Muk,Adamant,Poison Touch,Choice Band,Stone Edge,Rock,Physical,100,80
+Terminator,Repeatable Bosses,Hard,Mega Latios,Timid,Levitate,Latiosite,Energy Ball,Grass,Special,90,100
+Terminator,Repeatable Bosses,Hard,Mega Latios,Timid,Levitate,Latiosite,Calm Mind,Psychic,Status,—,—
+Terminator,Repeatable Bosses,Hard,Mega Latios,Timid,Levitate,Latiosite,Dragon Pulse,Dragon,Special,85,100
+Terminator,Repeatable Bosses,Hard,Mega Latios,Timid,Levitate,Latiosite,Psyshock,Psychic,Special,80,100
+Terminator,Repeatable Bosses,Hard,Mega Latios,Timid,Levitate,Latiosite,Thunderbolt,Electric,Special,90,100
+Terminator,Repeatable Bosses,Hard,Mega Latios,Timid,Levitate,Latiosite,Shadow Ball,Ghost,Special,80,100
+Terminator,Repeatable Bosses,Hard,Shiny Genesect,Naughty,Download,Choice Band,X-Scissor,Bug,Physical,80,100
+Terminator,Repeatable Bosses,Hard,Shiny Genesect,Naughty,Download,Choice Band,Thunderbolt,Electric,Special,90,100
+Terminator,Repeatable Bosses,Hard,Shiny Genesect,Naughty,Download,Choice Band,Zen Headbutt,Psychic,Physical,80,90
+Terminator,Repeatable Bosses,Hard,Shiny Genesect,Naughty,Download,Choice Band,Iron Head,Steel,Physical,80,100
+Terminator,Repeatable Bosses,Hard,Shiny Genesect,Naughty,Download,Choice Band,Ice Beam,Ice,Special,90,100
+Terminator,Repeatable Bosses,Hard,Shiny Genesect,Naughty,Download,Choice Band,Flamethrower,Fire,Special,90,100
+The Pumpkin King,Repeatable Bosses,Lineup,Bisharp,Adamant,Defiant,None,Swords Dance,Normal,Status,—,—
+The Pumpkin King,Repeatable Bosses,Lineup,Bisharp,Adamant,Defiant,None,Knock Off,Dark,Physical,65,100
+The Pumpkin King,Repeatable Bosses,Lineup,Bisharp,Adamant,Defiant,None,Iron Head,Steel,Physical,80,100
+The Pumpkin King,Repeatable Bosses,Lineup,Bisharp,Adamant,Defiant,None,Low Kick,Fighting,Physical,—,100
+The Pumpkin King,Repeatable Bosses,Lineup,Shuckle,Impish,Sturdy,None,Stealth Rock,Rock,Status,—,—
+The Pumpkin King,Repeatable Bosses,Lineup,Shuckle,Impish,Sturdy,None,Infestation,Bug,Special,20,100
+The Pumpkin King,Repeatable Bosses,Lineup,Shuckle,Impish,Sturdy,None,Toxic,Poison,Status,—,90
+The Pumpkin King,Repeatable Bosses,Lineup,Shuckle,Impish,Sturdy,None,Encore,Normal,Status,—,100
+The Pumpkin King,Repeatable Bosses,Lineup,Yanmega,Modest,Speed Boost,None,Bug Buzz,Bug,Special,90,100
+The Pumpkin King,Repeatable Bosses,Lineup,Yanmega,Modest,Speed Boost,None,Air Slash,Flying,Special,75,95
+The Pumpkin King,Repeatable Bosses,Lineup,Yanmega,Modest,Speed Boost,None,Protect,Normal,Status,—,—
+The Pumpkin King,Repeatable Bosses,Lineup,Yanmega,Modest,Speed Boost,None,Giga Drain,Grass,Special,75,100
+The Pumpkin King,Repeatable Bosses,Lineup,Roserade,Timid,Poison Point,None,Giga Drain,Grass,Special,75,100
+The Pumpkin King,Repeatable Bosses,Lineup,Roserade,Timid,Poison Point,None,Sludge Bomb,Poison,Special,90,100
+The Pumpkin King,Repeatable Bosses,Lineup,Roserade,Timid,Poison Point,None,Spikes,Ground,Status,—,—
+The Pumpkin King,Repeatable Bosses,Lineup,Roserade,Timid,Poison Point,None,Sleep Powder,Grass,Status,—,75
+The Pumpkin King,Repeatable Bosses,Lineup,Gourgeist,Impish,Insomnia,None,Seed Bomb,Grass,Physical,80,100
+The Pumpkin King,Repeatable Bosses,Lineup,Gourgeist,Impish,Insomnia,None,Will-O-Wisp,Fire,Status,—,85
+The Pumpkin King,Repeatable Bosses,Lineup,Gourgeist,Impish,Insomnia,None,Phantom Force,Ghost,Physical,90,100
+The Pumpkin King,Repeatable Bosses,Lineup,Gourgeist,Impish,Insomnia,None,Leech Seed,Grass,Status,—,90
+The Pumpkin King,Repeatable Bosses,Lineup,Togekiss,Timid,Serene Grace,None,Air Slash,Flying,Special,75,95
+The Pumpkin King,Repeatable Bosses,Lineup,Togekiss,Timid,Serene Grace,None,Flamethrower,Fire,Special,90,100
+The Pumpkin King,Repeatable Bosses,Lineup,Togekiss,Timid,Serene Grace,None,Dazzling Gleam,Fairy,Special,80,100
+The Pumpkin King,Repeatable Bosses,Lineup,Togekiss,Timid,Serene Grace,None,Aura Sphere,Fighting,Special,80,—
+Thor,Repeatable Bosses,Hard,Dragonite,Adamant,Multiscale,Choice Band,Outrage,Dragon,Physical,120,100
+Thor,Repeatable Bosses,Hard,Dragonite,Adamant,Multiscale,Choice Band,Earthquake,Ground,Physical,100,100
+Thor,Repeatable Bosses,Hard,Dragonite,Adamant,Multiscale,Choice Band,Iron Head,Steel,Physical,80,100
+Thor,Repeatable Bosses,Hard,Dragonite,Adamant,Multiscale,Choice Band,Fire Punch,Fire,Physical,75,100
+Thor,Repeatable Bosses,Hard,Mega Tyranitar,Adamant,Sand Stream,Tyranitarite,Stone Edge,Rock,Physical,100,80
+Thor,Repeatable Bosses,Hard,Mega Tyranitar,Adamant,Sand Stream,Tyranitarite,Crunch,Dark,Physical,80,100
+Thor,Repeatable Bosses,Hard,Mega Tyranitar,Adamant,Sand Stream,Tyranitarite,Ice Punch,Ice,Physical,75,100
+Thor,Repeatable Bosses,Hard,Mega Tyranitar,Adamant,Sand Stream,Tyranitarite,Fire Punch,Fire,Physical,75,100
+Thor,Repeatable Bosses,Hard,Greninja,Naive,Protean,Choice Specs,Hydro Pump,Water,Special,110,80
+Thor,Repeatable Bosses,Hard,Greninja,Naive,Protean,Choice Specs,Ice Beam,Ice,Special,90,100
+Thor,Repeatable Bosses,Hard,Greninja,Naive,Protean,Choice Specs,Low Kick,Fighting,Physical,—,100
+Thor,Repeatable Bosses,Hard,Greninja,Naive,Protean,Choice Specs,Gunk Shot,Poison,Physical,120,80
+Thor,Repeatable Bosses,Hard,Greninja,Naive,Protean,Choice Specs,Dark Pulse,Dark,Special,80,100
+Thor,Repeatable Bosses,Hard,Greninja,Naive,Protean,Choice Specs,Grass Knot,Grass,Special,—,100
+Thor,Repeatable Bosses,Hard,Zapdos,Modest,Static,Rocky Helmet,Discharge,Electric,Special,80,100
+Thor,Repeatable Bosses,Hard,Zapdos,Modest,Static,Rocky Helmet,Heat Wave,Fire,Special,95,90
+Thor,Repeatable Bosses,Hard,Zapdos,Modest,Static,Rocky Helmet,Hidden Power,Ice,Special,60,100
+Thor,Repeatable Bosses,Hard,Zapdos,Modest,Static,Rocky Helmet,Toxic,Poison,Status,—,90
+Thor,Repeatable Bosses,Hard,Mamoswine,Jolly,Thick Fat,Focus Sash,Earthquake,Ground,Physical,100,100
+Thor,Repeatable Bosses,Hard,Mamoswine,Jolly,Thick Fat,Focus Sash,Icicle Crash,Ice,Physical,85,90
+Thor,Repeatable Bosses,Hard,Mamoswine,Jolly,Thick Fat,Focus Sash,Knock Off,Dark,Physical,65,100
+Thor,Repeatable Bosses,Hard,Mamoswine,Jolly,Thick Fat,Focus Sash,Superpower,Fighting,Physical,120,100
+Thor,Repeatable Bosses,Hard,Lugia,Modest,Multiscale,Choice Specs,Aeroblast,Flying,Special,100,95
+Thor,Repeatable Bosses,Hard,Lugia,Modest,Multiscale,Choice Specs,Thunder,Electric,Special,110,70
+Thor,Repeatable Bosses,Hard,Lugia,Modest,Multiscale,Choice Specs,Earth Power,Ground,Special,90,100
+Thor,Repeatable Bosses,Hard,Lugia,Modest,Multiscale,Choice Specs,Calm Mind,Psychic,Status,—,—
+Tigerous,Repeatable Bosses,Medium/Hard,Mega Salamence,Naive,Aerilate,Salamencite,Dragon Dance,Dragon,Status,—,—
+Tigerous,Repeatable Bosses,Medium/Hard,Mega Salamence,Naive,Aerilate,Salamencite,Outrage,Dragon,Physical,120,100
+Tigerous,Repeatable Bosses,Medium/Hard,Mega Salamence,Naive,Aerilate,Salamencite,Fire Blast,Fire,Special,110,85
+Tigerous,Repeatable Bosses,Medium/Hard,Mega Salamence,Naive,Aerilate,Salamencite,Iron Tail,Steel,Physical,100,75
+Tigerous,Repeatable Bosses,Medium/Hard,Mega Salamence,Naive,Aerilate,Salamencite,Double-Edge,Normal,Physical,120,100
+Tigerous,Repeatable Bosses,Medium/Hard,Keldeo,Timid,Justified,Choice Specs,Hydro Pump,Water,Special,110,80
+Tigerous,Repeatable Bosses,Medium/Hard,Keldeo,Timid,Justified,Choice Specs,Icy Wind,Ice,Special,55,95
+Tigerous,Repeatable Bosses,Medium/Hard,Keldeo,Timid,Justified,Choice Specs,Secret Sword,Fighting,Special,85,100
+Tigerous,Repeatable Bosses,Medium/Hard,Dragonite,Adamant,Multiscale,Focus Sash,Dragon Dance,Dragon,Status,—,—
+Tigerous,Repeatable Bosses,Medium/Hard,Dragonite,Adamant,Multiscale,Focus Sash,Dragon Claw,Dragon,Physical,80,100
+Tigerous,Repeatable Bosses,Medium/Hard,Dragonite,Adamant,Multiscale,Focus Sash,Extreme Speed,Normal,Physical,80,100
+Tigerous,Repeatable Bosses,Medium/Hard,Dragonite,Adamant,Multiscale,Focus Sash,Waterfall,Water,Physical,80,100
+Tigerous,Repeatable Bosses,Medium/Hard,Jirachi,Jolly,Serene Grace,Choice Scarf,Iron Head,Steel,Physical,80,100
+Tigerous,Repeatable Bosses,Medium/Hard,Jirachi,Jolly,Serene Grace,Choice Scarf,Zen Headbutt,Psychic,Physical,80,90
+Tigerous,Repeatable Bosses,Medium/Hard,Jirachi,Jolly,Serene Grace,Choice Scarf,Ice Punch,Ice,Physical,75,100
+Tigerous,Repeatable Bosses,Medium/Hard,Jirachi,Jolly,Serene Grace,Choice Scarf,Fire Punch,Fire,Physical,75,100
+Tigerous,Repeatable Bosses,Medium/Hard,Tyranitar,Adamant,Unnerve,Leftovers,Stone Edge,Rock,Physical,100,80
+Tigerous,Repeatable Bosses,Medium/Hard,Tyranitar,Adamant,Unnerve,Leftovers,Crunch,Dark,Physical,80,100
+Tigerous,Repeatable Bosses,Medium/Hard,Tyranitar,Adamant,Unnerve,Leftovers,Superpower,Fighting,Physical,120,100
+Tigerous,Repeatable Bosses,Medium/Hard,Tyranitar,Adamant,Unnerve,Leftovers,Fire Punch,Fire,Physical,75,100
+Tigerous,Repeatable Bosses,Medium/Hard,Conkeldurr,Adamant,Guts,Flame Orb,Drain Punch,Fighting,Physical,75,100
+Tigerous,Repeatable Bosses,Medium/Hard,Conkeldurr,Adamant,Guts,Flame Orb,Facade,Normal,Physical,70,100
+Tigerous,Repeatable Bosses,Medium/Hard,Conkeldurr,Adamant,Guts,Flame Orb,Knock Off,Dark,Physical,65,100
+Tigerous,Repeatable Bosses,Medium/Hard,Conkeldurr,Adamant,Guts,Flame Orb,Ice Punch,Ice,Physical,75,100
+Toothless,Repeatable Bosses,Medium/Hard,Garchomp,Random,Rough Skin,Choice Band,Outrage,Dragon,Physical,120,100
+Toothless,Repeatable Bosses,Medium/Hard,Garchomp,Random,Rough Skin,Choice Band,Earthquake,Ground,Physical,100,100
+Toothless,Repeatable Bosses,Medium/Hard,Garchomp,Random,Rough Skin,Choice Band,Swords Dance,Normal,Status,—,—
+Toothless,Repeatable Bosses,Medium/Hard,Garchomp,Random,Rough Skin,Choice Band,Fire Fang,Fire,Physical,65,95
+Toothless,Repeatable Bosses,Medium/Hard,Miltank,Random,Thick Fat,Rocky Helmet,Seismic Toss,Fighting,Physical,—,100
+Toothless,Repeatable Bosses,Medium/Hard,Miltank,Random,Thick Fat,Rocky Helmet,Toxic,Poison,Status,—,90
+Toothless,Repeatable Bosses,Medium/Hard,Miltank,Random,Thick Fat,Rocky Helmet,Earthquake,Ground,Physical,100,100
+Toothless,Repeatable Bosses,Medium/Hard,Miltank,Random,Thick Fat,Rocky Helmet,Double-Edge,Normal,Physical,120,100
+Toothless,Repeatable Bosses,Medium/Hard,Quagsire,Random,Unaware,Leftovers,Scald,Water,Special,80,100
+Toothless,Repeatable Bosses,Medium/Hard,Quagsire,Random,Unaware,Leftovers,Earthquake,Ground,Physical,100,100
+Toothless,Repeatable Bosses,Medium/Hard,Quagsire,Random,Unaware,Leftovers,Toxic,Poison,Status,—,90
+Toothless,Repeatable Bosses,Medium/Hard,Quagsire,Random,Unaware,Leftovers,Stockpile,Normal,Status,—,100
+Toothless,Repeatable Bosses,Medium/Hard,Mega Metagross,Random,Tough Claws,Metagrossite,Ice Punch,Ice,Physical,75,100
+Toothless,Repeatable Bosses,Medium/Hard,Mega Metagross,Random,Tough Claws,Metagrossite,Meteor Mash,Steel,Physical,90,90
+Toothless,Repeatable Bosses,Medium/Hard,Mega Metagross,Random,Tough Claws,Metagrossite,Thunder Punch,Electric,Physical,75,100
+Toothless,Repeatable Bosses,Medium/Hard,Mega Metagross,Random,Tough Claws,Metagrossite,Earthquake,Ground,Physical,100,100
+Toothless,Repeatable Bosses,Medium/Hard,Starmie,Random,Analytic,Focus Sash,Thunderbolt,Electric,Special,90,100
+Toothless,Repeatable Bosses,Medium/Hard,Starmie,Random,Analytic,Focus Sash,Hydro Pump,Water,Special,110,80
+Toothless,Repeatable Bosses,Medium/Hard,Starmie,Random,Analytic,Focus Sash,Ice Beam,Ice,Special,90,100
+Toothless,Repeatable Bosses,Medium/Hard,Starmie,Random,Analytic,Focus Sash,Psyshock,Psychic,Special,80,100
+Toothless,Repeatable Bosses,Medium/Hard,Diancie,Random,Clear Body,Life Orb,Moonblast,Fairy,Special,95,100
+Toothless,Repeatable Bosses,Medium/Hard,Diancie,Random,Clear Body,Life Orb,Earth Power,Ground,Special,90,100
+Toothless,Repeatable Bosses,Medium/Hard,Diancie,Random,Clear Body,Life Orb,Diamond Storm,Rock,Physical,100,95
+Toothless,Repeatable Bosses,Medium/Hard,Diancie,Random,Clear Body,Life Orb,Calm Mind,Psychic,Status,—,—
+Urahara,Repeatable Bosses,Hard,Lucario,Jolly,Inner Focus,Choice Band,Close Combat,Fighting,Physical,120,100
+Urahara,Repeatable Bosses,Hard,Lucario,Jolly,Inner Focus,Choice Band,Extreme Speed,Normal,Physical,80,100
+Urahara,Repeatable Bosses,Hard,Lucario,Jolly,Inner Focus,Choice Band,Ice Punch,Ice,Physical,75,100
+Urahara,Repeatable Bosses,Hard,Lucario,Jolly,Inner Focus,Choice Band,Meteor Mash,Steel,Physical,90,90
+Urahara,Repeatable Bosses,Hard,Shiny Ho-Oh,Adamant,Pressure,Choice Band,Sacred Fire,Fire,Physical,100,95
+Urahara,Repeatable Bosses,Hard,Shiny Ho-Oh,Adamant,Pressure,Choice Band,Brave Bird,Flying,Physical,120,100
+Urahara,Repeatable Bosses,Hard,Shiny Ho-Oh,Adamant,Pressure,Choice Band,Earthquake,Ground,Physical,100,100
+Urahara,Repeatable Bosses,Hard,Shiny Ho-Oh,Adamant,Pressure,Choice Band,Zen Headbutt,Psychic,Physical,80,90
+Urahara,Repeatable Bosses,Hard,Volcarona,Timid,Flame Body,Focus Sash,Quiver Dance,Bug,Status,—,—
+Urahara,Repeatable Bosses,Hard,Volcarona,Timid,Flame Body,Focus Sash,Flamethrower,Fire,Special,90,100
+Urahara,Repeatable Bosses,Hard,Volcarona,Timid,Flame Body,Focus Sash,Giga Drain,Grass,Special,75,100
+Urahara,Repeatable Bosses,Hard,Volcarona,Timid,Flame Body,Focus Sash,Bug Buzz,Bug,Special,90,100
+Urahara,Repeatable Bosses,Hard,Raikou,Modest,Pressure,Choice Specs,Thunderbolt,Electric,Special,90,100
+Urahara,Repeatable Bosses,Hard,Raikou,Modest,Pressure,Choice Specs,Shadow Ball,Ghost,Special,80,100
+Urahara,Repeatable Bosses,Hard,Raikou,Modest,Pressure,Choice Specs,Hidden Power,Ice,Special,60,100
+Urahara,Repeatable Bosses,Hard,Raikou,Modest,Pressure,Choice Specs,Extrasensory,Psychic,Special,80,100
+Urahara,Repeatable Bosses,Hard,Donphan,Impish,Sturdy,Leftovers,Earthquake,Ground,Physical,100,100
+Urahara,Repeatable Bosses,Hard,Donphan,Impish,Sturdy,Leftovers,Ice Shard,Ice,Physical,40,100
+Urahara,Repeatable Bosses,Hard,Donphan,Impish,Sturdy,Leftovers,Stealth Rock,Rock,Status,—,—
+Urahara,Repeatable Bosses,Hard,Donphan,Impish,Sturdy,Leftovers,Toxic,Poison,Status,—,90
+Urahara,Repeatable Bosses,Hard,Togekiss,Modest,Serene Grace,Choice Scarf,Air Slash,Flying,Special,75,95
+Urahara,Repeatable Bosses,Hard,Togekiss,Modest,Serene Grace,Choice Scarf,Fire Blast,Fire,Special,110,85
+Urahara,Repeatable Bosses,Hard,Togekiss,Modest,Serene Grace,Choice Scarf,Aura Sphere,Fighting,Special,80,—
+Urahara,Repeatable Bosses,Hard,Togekiss,Modest,Serene Grace,Choice Scarf,Dazzling Gleam,Fairy,Special,80,100
+Xylos,Repeatable Bosses,Medium/Hard,Victini,Naive,Victory Star,Choice Band,Bolt Strike,Electric,Physical,130,85
+Xylos,Repeatable Bosses,Medium/Hard,Victini,Naive,Victory Star,Choice Band,V-create,Fire,Physical,180,95
+Xylos,Repeatable Bosses,Medium/Hard,Victini,Naive,Victory Star,Choice Band,Brick Break,Fighting,Physical,75,100
+Xylos,Repeatable Bosses,Medium/Hard,Victini,Naive,Victory Star,Choice Band,Hidden Power,Ice,Special,60,100
+Xylos,Repeatable Bosses,Medium/Hard,Druddigon,Adamant,Sheer Force,Assault Vest,Dragon Tail,Dragon,Physical,60,90
+Xylos,Repeatable Bosses,Medium/Hard,Druddigon,Adamant,Sheer Force,Assault Vest,Stealth Rock,Rock,Status,—,—
+Xylos,Repeatable Bosses,Medium/Hard,Druddigon,Adamant,Sheer Force,Assault Vest,Glare,Normal,Status,—,100
+Xylos,Repeatable Bosses,Medium/Hard,Druddigon,Adamant,Sheer Force,Assault Vest,Iron Head,Steel,Physical,80,100
+Xylos,Repeatable Bosses,Medium/Hard,Skarmory,Impish,Sturdy,Leftovers,Iron Head,Steel,Physical,80,100
+Xylos,Repeatable Bosses,Medium/Hard,Skarmory,Impish,Sturdy,Leftovers,Spikes,Ground,Status,—,—
+Xylos,Repeatable Bosses,Medium/Hard,Skarmory,Impish,Sturdy,Leftovers,Roost,Flying,Status,—,—
+Xylos,Repeatable Bosses,Medium/Hard,Skarmory,Impish,Sturdy,Leftovers,Whirlwind,Normal,Status,—,—
+Xylos,Repeatable Bosses,Medium/Hard,Jolteon,Modest,Volt Absorb,Choice Specs,Hidden Power,Ice,Special,60,100
+Xylos,Repeatable Bosses,Medium/Hard,Jolteon,Modest,Volt Absorb,Choice Specs,Shadow Ball,Ghost,Special,80,100
+Xylos,Repeatable Bosses,Medium/Hard,Jolteon,Modest,Volt Absorb,Choice Specs,Thunder,Electric,Special,110,70
+Xylos,Repeatable Bosses,Medium/Hard,Jolteon,Modest,Volt Absorb,Choice Specs,Discharge,Electric,Special,80,100
+Xylos,Repeatable Bosses,Medium/Hard,Flareon,Naughty,Guts,Toxic Orb,Superpower,Fighting,Physical,120,100
+Xylos,Repeatable Bosses,Medium/Hard,Flareon,Naughty,Guts,Toxic Orb,Facade,Normal,Physical,70,100
+Xylos,Repeatable Bosses,Medium/Hard,Flareon,Naughty,Guts,Toxic Orb,Flare Blitz,Fire,Physical,120,100
+Xylos,Repeatable Bosses,Medium/Hard,Flareon,Naughty,Guts,Toxic Orb,Lava Plume,Fire,Special,80,100
+Xylos,Repeatable Bosses,Medium/Hard,Mega Mewtwo Y,Naive,Pressure,Mewtwonite Y,Flamethrower,Fire,Special,90,100
+Xylos,Repeatable Bosses,Medium/Hard,Mega Mewtwo Y,Naive,Pressure,Mewtwonite Y,Drain Punch,Fighting,Physical,75,100
+Xylos,Repeatable Bosses,Medium/Hard,Mega Mewtwo Y,Naive,Pressure,Mewtwonite Y,Psystrike,Psychic,Special,100,100
+Xylos,Repeatable Bosses,Medium/Hard,Mega Mewtwo Y,Naive,Pressure,Mewtwonite Y,Ice Beam,Ice,Special,90,100
+Xylos,Repeatable Bosses,Medium/Hard,Mega Mewtwo Y,Naive,Pressure,Mewtwonite Y,Fire Blast,Fire,Special,110,85
+Xylos,Repeatable Bosses,Medium/Hard,Mega Mewtwo Y,Naive,Pressure,Mewtwonite Y,Recover,Normal,Status,—,—
+Nikola,Discontinued Bosses,Lineup,Mewtwo,Timid,Pressure,Life Orb,Psystrike,Psychic,Special,100,100
+Nikola,Discontinued Bosses,Lineup,Mewtwo,Timid,Pressure,Life Orb,Aura Sphere,Fighting,Special,80,—
+Nikola,Discontinued Bosses,Lineup,Mewtwo,Timid,Pressure,Life Orb,Fire Blast,Fire,Special,110,85
+Nikola,Discontinued Bosses,Lineup,Mewtwo,Timid,Pressure,Life Orb,Ice Beam,Ice,Special,90,100
+Nikola,Discontinued Bosses,Lineup,Rayquaza,Adamant,Air Lock,Lum Berry,Dragon Dance,Dragon,Status,—,—
+Nikola,Discontinued Bosses,Lineup,Rayquaza,Adamant,Air Lock,Lum Berry,Outrage,Dragon,Physical,120,100
+Nikola,Discontinued Bosses,Lineup,Rayquaza,Adamant,Air Lock,Lum Berry,Extreme Speed,Normal,Physical,80,100
+Nikola,Discontinued Bosses,Lineup,Rayquaza,Adamant,Air Lock,Lum Berry,Earthquake,Ground,Physical,100,100
+Nikola,Discontinued Bosses,Lineup,Kyogre,Modest,Drizzle,Choice Specs,Water Spout,Water,Special,150,100
+Nikola,Discontinued Bosses,Lineup,Kyogre,Modest,Drizzle,Choice Specs,Thunder,Electric,Special,110,70
+Nikola,Discontinued Bosses,Lineup,Kyogre,Modest,Drizzle,Choice Specs,Ice Beam,Ice,Special,90,100
+Nikola,Discontinued Bosses,Lineup,Kyogre,Modest,Drizzle,Choice Specs,Hydro Pump,Water,Special,110,80
+Nikola,Discontinued Bosses,Lineup,Arceus,Adamant,Multitype,Silk Scarf,Swords Dance,Normal,Status,—,—
+Nikola,Discontinued Bosses,Lineup,Arceus,Adamant,Multitype,Silk Scarf,Extreme Speed,Normal,Physical,80,100
+Nikola,Discontinued Bosses,Lineup,Arceus,Adamant,Multitype,Silk Scarf,Shadow Claw,Ghost,Physical,70,100
+Nikola,Discontinued Bosses,Lineup,Arceus,Adamant,Multitype,Silk Scarf,Brick Break,Fighting,Physical,75,100
+Nikola,Discontinued Bosses,Lineup,Deoxys,Hasty,Pressure,Life Orb,Psycho Boost,Psychic,Special,140,90
+Nikola,Discontinued Bosses,Lineup,Deoxys,Hasty,Pressure,Life Orb,Superpower,Fighting,Physical,120,100
+Nikola,Discontinued Bosses,Lineup,Deoxys,Hasty,Pressure,Life Orb,Ice Beam,Ice,Special,90,100
+Nikola,Discontinued Bosses,Lineup,Deoxys,Hasty,Pressure,Life Orb,Knock Off,Dark,Physical,65,100
+Nikola,Discontinued Bosses,Lineup,Groudon,Naughty,Drought,Leftovers,Earthquake,Ground,Physical,100,100
+Nikola,Discontinued Bosses,Lineup,Groudon,Naughty,Drought,Leftovers,Stone Edge,Rock,Physical,100,80
+Nikola,Discontinued Bosses,Lineup,Groudon,Naughty,Drought,Leftovers,Fire Blast,Fire,Special,110,85
+Nikola,Discontinued Bosses,Lineup,Groudon,Naughty,Drought,Leftovers,Dragon Tail,Dragon,Physical,60,90
+Officer Wargreymon,Discontinued Bosses,Lineup,Luxray,Random,Random,None,Wild Charge,Electric,Physical,90,100
+Officer Wargreymon,Discontinued Bosses,Lineup,Luxray,Random,Random,None,Crunch,Dark,Physical,80,100
+Officer Wargreymon,Discontinued Bosses,Lineup,Luxray,Random,Random,None,Superpower,Fighting,Physical,120,100
+Officer Wargreymon,Discontinued Bosses,Lineup,Luxray,Random,Random,None,Howl,Normal,Status,—,—
+Officer Wargreymon,Discontinued Bosses,Lineup,Lucario,Random,Random,None,Bulk Up,Fighting,Status,—,—
+Officer Wargreymon,Discontinued Bosses,Lineup,Lucario,Random,Random,None,Extreme Speed,Normal,Physical,80,100
+Officer Wargreymon,Discontinued Bosses,Lineup,Lucario,Random,Random,None,Bullet Punch,Steel,Physical,40,100
+Officer Wargreymon,Discontinued Bosses,Lineup,Lucario,Random,Random,None,Vacuum Wave,Fighting,Special,40,100
+Officer Wargreymon,Discontinued Bosses,Lineup,Mega Altaria,Random,Random,None,Flamethrower,Fire,Special,90,100
+Officer Wargreymon,Discontinued Bosses,Lineup,Mega Altaria,Random,Random,None,Dragon Claw,Dragon,Physical,80,100
+Officer Wargreymon,Discontinued Bosses,Lineup,Mega Altaria,Random,Random,None,Dragon Dance,Dragon,Status,—,—
+Officer Wargreymon,Discontinued Bosses,Lineup,Mega Altaria,Random,Random,None,Earthquake,Ground,Physical,100,100
+Officer Wargreymon,Discontinued Bosses,Lineup,Aggron,Random,Random,None,Autotomize,Steel,Status,—,—
+Officer Wargreymon,Discontinued Bosses,Lineup,Aggron,Random,Random,None,Heavy Slam,Steel,Physical,—,100
+Officer Wargreymon,Discontinued Bosses,Lineup,Aggron,Random,Random,None,Double-Edge,Normal,Physical,120,100
+Officer Wargreymon,Discontinued Bosses,Lineup,Aggron,Random,Random,None,Metal Burst,Steel,Physical,—,100
+Officer Wargreymon,Discontinued Bosses,Lineup,Ninetales,Random,Random,None,Flamethrower,Fire,Special,90,100
+Officer Wargreymon,Discontinued Bosses,Lineup,Ninetales,Random,Random,None,Energy Ball,Grass,Special,90,100
+Officer Wargreymon,Discontinued Bosses,Lineup,Ninetales,Random,Random,None,Dark Pulse,Dark,Special,80,100
+Officer Wargreymon,Discontinued Bosses,Lineup,Ninetales,Random,Random,None,Nasty Plot,Dark,Status,—,—
+Officer Wargreymon,Discontinued Bosses,Lineup,Sceptile,Random,Random,None,Giga Drain,Grass,Special,75,100
+Officer Wargreymon,Discontinued Bosses,Lineup,Sceptile,Random,Random,None,Dragon Pulse,Dragon,Special,85,100
+Officer Wargreymon,Discontinued Bosses,Lineup,Sceptile,Random,Random,None,Detect,Fighting,Status,—,—
+Officer Wargreymon,Discontinued Bosses,Lineup,Sceptile,Random,Random,None,Safeguard,Normal,Status,—,—
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Sucker Punch,Dark,Physical,80,100
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Thunder Wave,Electric,Status,—,100
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Taunt,Dark,Status,—,100
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Double-Edge,Normal,Physical,120,100
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Thunderbolt,Electric,Special,90,100
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Ice Beam,Ice,Special,90,100
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Thunder Wave,Electric,Status,—,100
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Shadow Ball,Ghost,Special,80,100
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Endeavor,Normal,Physical,—,100
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Sucker Punch,Dark,Physical,80,100
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Quick Attack,Normal,Physical,40,100
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Swagger,Normal,Status,—,90
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Blizzard,Ice,Special,110,70
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Grass Knot,Grass,Special,—,100
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Thunder,Electric,Special,110,70
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Rain Dance,Water,Status,—,—
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Pluck,Flying,Physical,60,100
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Shadow Ball,Ghost,Special,80,100
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Charge Beam,Electric,Special,50,90
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Work Up,Normal,Status,—,—
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Zen Headbutt,Psychic,Physical,80,90
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Body Slam,Normal,Physical,80,100
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Assurance,Dark,Physical,60,100
+Youngster Joey,Discontinued Bosses,Lineup,Rattata,Random,Random,None,Revenge,Fighting,Physical,60,100

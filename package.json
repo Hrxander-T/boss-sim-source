@@ -1,0 +1,23 @@
+{
+  "name": "boss-sim",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "node build.mjs && echo Open dist/pro-boss-sim.html in your browser",
+    "check-bosses": "node check-bosses.mjs",
+    "test-ui": "node build.mjs && node ui-test.mjs",
+    "test-log": "node log-test.mjs",
+    "test-undo": "node undo-test.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pkmn/sim": "^0.10.11",
+    "esbuild": "^0.28.2",
+    "jsdom": "^30.1.2"
+  },
+  "type": "module"
+}

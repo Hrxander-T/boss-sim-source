@@ -1,0 +1,194 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PRO Boss Simulator</title>
+<style>
+:root{--bg:#f4f5f8;--fg:#1a1d24;--mut:#6a7080;--card:#fff;--card2:#eff1f5;--line:#e0e3ea;--acc:#3b5bdb;--good:#1b8a3a;--warn:#d98a00;--bad:#c92a2a;--sh:0 1px 2px rgba(0,0,0,.05),0 6px 18px rgba(0,0,0,.04);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101216;--fg:#eceef2;--mut:#98a0b0;--card:#181b21;--card2:#20242c;--line:#2c313b;--acc:#7c93ff;--good:#51cf66;--warn:#f0b429;--bad:#ff6b6b;--sh:none}}
+:root[data-theme="dark"]{--bg:#101216;--fg:#eceef2;--mut:#98a0b0;--card:#181b21;--card2:#20242c;--line:#2c313b;--acc:#7c93ff;--good:#51cf66;--warn:#f0b429;--bad:#ff6b6b;--sh:none}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:1100px;margin:0 auto;padding:16px}
+[hidden]{display:none!important}
+:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+
+/* header */
+.top{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+h1{font-size:22px;margin:0;flex:1;letter-spacing:-.01em}
+h2{font-size:12px;margin:0 0 10px;color:var(--mut);text-transform:uppercase;letter-spacing:.07em;font-weight:700}
+h3{font-size:12px;margin:18px 0 8px;color:var(--mut);text-transform:uppercase;letter-spacing:.07em}
+.muted{color:var(--mut)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 16px}
+.chip{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:3px 10px;font-size:12px;color:var(--mut)}
+.chip b{color:var(--fg);font-weight:600}
+
+/* layout */
+.layout{display:grid;gap:16px;grid-template-columns:minmax(0,1fr)}
+@media(min-width:900px){
+  .layout{grid-template-columns:minmax(0,430px) minmax(0,1fr);align-items:start}
+  .setup{position:sticky;top:12px;max-height:calc(100vh - 24px);overflow:auto;padding-right:2px}
+}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:12px;box-shadow:var(--sh)}
+
+/* controls */
+select,input[type=text],input:not([type]),textarea{font:inherit;color:var(--fg);background:var(--card2);border:1px solid var(--line);border-radius:10px;padding:9px 11px;width:100%}
+textarea{height:200px;font:12px/1.4 ui-monospace,Menlo,Consolas,monospace;resize:vertical}
+select{width:auto;max-width:100%}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:8px 0}
+.row>select{flex:1;min-width:110px}
+button{font:inherit;font-weight:600;padding:10px 14px;border-radius:10px;border:0;background:var(--acc);color:#fff;cursor:pointer;transition:filter .12s,transform .05s}
+button:hover:not(:disabled){filter:brightness(1.08)}button:active:not(:disabled){transform:translateY(1px)}
+button.alt{background:var(--card2);color:var(--fg);border:1px solid var(--line)}
+button.ghost{background:transparent;color:var(--mut);border:1px solid var(--line);padding:6px 10px;font-size:13px}
+button:disabled{opacity:.45;cursor:not-allowed}
+.actions{display:flex;gap:8px;position:sticky;bottom:0;padding:10px 0 4px;background:linear-gradient(transparent,var(--bg) 30%)}
+.actions button{flex:1;padding:12px}
+.switch{display:flex;gap:8px;align-items:center;font-size:13px;color:var(--mut);cursor:pointer}
+.switch input{width:auto;accent-color:var(--acc)}
+.hint{font-size:12px;color:var(--mut);margin:4px 0 0}
+details>summary{cursor:pointer;color:var(--mut);font-size:13px}
+details pre{margin-top:8px}
+
+/* type badges / chips */
+.ty{display:inline-block;color:#fff;font-size:10px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;padding:1px 7px;border-radius:5px;text-shadow:0 1px 1px rgba(0,0,0,.35);margin-left:4px;vertical-align:1px}
+.mc{display:inline-block;font-size:11px;padding:2px 7px;border-radius:6px;background:var(--card2);border-left:3px solid var(--tc,var(--line));margin:2px 3px 0 0}
+
+/* boss lineup + team preview */
+.lineup{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px;margin-top:10px}
+.bm{background:var(--card2);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+.bm .bh{display:flex;align-items:center;flex-wrap:wrap;gap:2px}
+.bm .n{display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;background:var(--acc);color:#fff;font-size:11px;margin-right:6px}
+.bm .bs{font-size:12px;color:var(--mut);margin:2px 0 3px}
+.bm .note{font-size:11px;color:var(--warn);margin-top:3px}
+.tv{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.tv .p{background:var(--card2);border:1px solid var(--line);border-radius:8px;padding:3px 8px;font-size:12px}
+.tv .p small{color:var(--mut)}
+.verr{margin-top:8px;font-size:13px;color:var(--bad)}.vok{margin-top:8px;font-size:12px;color:var(--good)}
+
+/* results */
+.empty{text-align:center;color:var(--mut);padding:48px 16px;border:2px dashed var(--line);border-radius:14px}
+.empty b{display:block;font-size:17px;color:var(--fg);margin-bottom:4px}
+.hero{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.big{font-size:52px;font-weight:800;line-height:1;letter-spacing:-.03em}.big small{font-size:14px;font-weight:500;color:var(--mut);letter-spacing:0}
+.good{color:var(--good)}.bad{color:var(--bad)}.warn{color:var(--warn)}
+.tiles{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.tile{flex:1;min-width:110px;background:var(--card2);border-radius:10px;padding:8px 12px}
+.tile b{display:block;font-size:20px}.tile span{font-size:12px;color:var(--mut)}
+.sc{overflow-x:auto}
+table{border-collapse:collapse;width:100%}
+th{font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.05em;font-weight:600}
+td,th{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td.bc{min-width:150px}
+.bar{display:inline-block;vertical-align:middle;width:90px;height:8px;background:var(--card2);border-radius:5px;overflow:hidden;margin-right:8px}
+.bar i{display:block;height:100%;background:var(--bad);border-radius:5px}.bar.g i{background:var(--good)}.bar.n i{background:var(--acc)}
+.prog{height:8px;background:var(--card2);border-radius:5px;overflow:hidden;margin-top:10px}.prog i{display:block;height:100%;background:var(--acc);transition:width .1s}
+
+/* logs */
+.log{background:var(--card2);border-radius:10px;padding:8px 10px;max-height:380px;overflow:auto;font-size:12.5px;line-height:1.5}
+.log .l{white-space:pre-wrap}
+.log .t{margin-top:8px;padding-top:6px;border-top:1px solid var(--line);color:var(--mut);font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+.log .t:first-child{margin-top:0;border-top:0;padding-top:0}
+.log .s{padding-left:16px;color:var(--mut)}.log .se{padding-left:16px;color:var(--warn);font-weight:600}.log .nv{padding-left:16px;color:var(--mut);font-style:italic}
+.log .f{color:var(--bad);font-weight:600}.log .w{color:var(--good);font-weight:700}
+.err{background:var(--card2);border-left:4px solid var(--bad);padding:10px 12px;border-radius:8px;margin:8px 0}
+
+/* battle */
+.field{display:flex;gap:8px;align-items:center;margin-bottom:8px;font-size:12px}
+.mon{border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:8px;background:var(--card2)}
+.mon.foe{border-left:4px solid var(--bad)}.mon.you{border-left:4px solid var(--acc)}
+.mh{display:flex;align-items:center;flex-wrap:wrap;gap:2px}
+.mh .side{font-size:10px;font-weight:800;letter-spacing:.08em;color:var(--mut);margin-right:8px}
+.mh b{font-size:16px}
+.st{margin-left:6px;font-size:10px;font-weight:800;padding:1px 6px;border-radius:5px;color:#fff;background:#888}
+.st-brn{background:#e8683a}.st-par{background:#d9a400}.st-psn,.st-tox{background:#a050c0}.st-slp{background:#6a7080}.st-frz{background:#4ab0c8}
+.hp{height:12px;background:var(--card);border:1px solid var(--line);border-radius:7px;overflow:hidden;margin:7px 0 4px}
+.hp i{display:block;height:100%;transition:width .3s}
+.mf{font-size:12px;color:var(--mut);display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center}
+.bst{font-size:11px;padding:0 6px;border-radius:5px;background:var(--card)}.bst.up{color:var(--good)}.bst.dn{color:var(--bad)}
+.dots{display:flex;gap:5px;margin-top:6px}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--mut)}.dot.x{opacity:.2}.dot.on{outline:2px solid var(--acc);outline-offset:1px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.grid button{display:flex;flex-direction:column;align-items:flex-start;text-align:left;gap:2px}
+.grid small{font-size:11px;font-weight:400;opacity:.85}
+.mv{background:var(--card2);color:var(--fg);border:1px solid var(--line)!important;border-left:5px solid var(--tc,var(--acc))!important;position:relative;padding-right:46px}
+.mv .ef{position:absolute;right:8px;top:8px;font-size:11px;font-weight:800;padding:1px 6px;border-radius:5px;background:var(--card)}
+.ef.se{color:var(--good)}.ef.nve{color:var(--warn)}.ef.imm{color:var(--bad)}
+.mv kbd{font:600 10px ui-monospace,monospace;color:var(--mut);margin-right:4px}
+.result{margin:10px 0}
+
+/* log viewer */
+.lv-bar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:8px}.lv-bar .sp{flex:1}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.seg button{background:var(--card2);color:var(--fg);border-radius:0;padding:6px 12px;font-size:13px;font-weight:600}
+.seg button.on{background:var(--acc);color:#fff}
+.lv-sum{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.lv-body{max-height:560px;overflow:auto;border:1px solid var(--line);border-radius:10px;background:var(--card2)}
+.lv .pad{padding:10px 12px}
+.tn{border-bottom:1px solid var(--line)}.tn:last-child{border-bottom:0}
+.tn>summary{cursor:pointer;padding:8px 10px;display:flex;gap:10px;align-items:center;flex-wrap:wrap;position:sticky;top:0;z-index:1;background:var(--card2);color:var(--fg);font-size:13px}
+.tn>summary .mu{color:var(--mut);font-size:12px}.vs{margin:0 4px;opacity:.7}
+.pc{font-size:11px;color:var(--mut);margin:0 2px}
+.mh{display:inline-block;width:44px;height:6px;border-radius:4px;background:var(--line);overflow:hidden;vertical-align:middle;margin:0 4px}.mh i{display:block;height:100%}
+.evs{padding:0 10px 10px}
+.ev{display:flex;flex-wrap:wrap;gap:4px 8px;align-items:center;padding:6px 10px;margin:4px 0;border-left:4px solid var(--line);background:var(--card);border-radius:6px;font-size:13px}
+.ev.s0{border-left-color:var(--acc)}.ev.s1{border-left-color:var(--bad)}
+.ev .mu{color:var(--mut)}.ev .who{font-weight:600}
+.ev.fn{background:color-mix(in srgb,var(--bad) 12%,var(--card));color:var(--bad)}
+.ev.win{border-left-color:var(--good);font-weight:700;color:var(--good)}.ev.it{border-left-color:var(--warn)}
+.ev.nn{padding:3px 10px;background:transparent}
+.ord{display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;background:var(--card2);border:1px solid var(--line);font-size:10px;font-weight:700;color:var(--mut)}
+.mvn{padding:1px 7px;border-radius:6px;background:var(--card2);border-left:4px solid var(--tc,var(--line))}
+.pill{font-weight:700;font-size:12px;padding:1px 8px;border-radius:999px;background:var(--card2)}.pill small{font-weight:400;color:var(--mut);margin-left:6px}
+.pill.a0{color:var(--good)}.pill.a1{color:var(--bad)}
+.tag{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.04em;padding:1px 6px;border-radius:5px;background:var(--card2);color:var(--mut)}
+.tag.se{color:var(--good)}.tag.nve{color:var(--warn)}.tag.imm,.tag.miss{color:var(--bad)}.tag.crit{color:#fff;background:var(--warn)}.tag.ko{color:#fff;background:var(--bad)}
+.nt{width:100%;font-size:12px;color:var(--mut);padding-left:26px}.nt.solo{padding-left:0;width:auto}
+.k-heal{color:var(--good)}.k-dmg,.k-unboost{color:var(--bad)}.k-boost{color:var(--good)}.k-status{color:var(--warn)}.k-weather{color:var(--acc)}
+.lt{animation:fl .6s ease-out}.lt .evs{padding:0}.lt .ev:first-of-type{margin-top:0}
+@keyframes fl{from{box-shadow:0 0 0 3px var(--acc)}to{box-shadow:var(--sh)}}
+.uc{margin:4px 0}.uc b{margin-right:6px}
+table.dt td{white-space:normal}
+/* play mode: battle and log side by side */
+.lv2{display:grid;gap:12px;grid-template-columns:minmax(0,1fr)}
+@media(min-width:900px){body.playing main{max-width:1680px}body.playing .layout{grid-template-columns:minmax(0,340px) minmax(0,1fr)}}
+@media(min-width:1100px){
+  .lv2{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start}
+  .lv-side{position:sticky;top:12px}
+  .lv-side .lv-body{max-height:calc(100vh - 230px);min-height:240px}
+}
+@media(max-width:420px){.big{font-size:44px}.grid{grid-template-columns:1fr}}
+</style></head><body><main>
+<div class="top"><h1>PRO Boss Simulator</h1><button class="ghost" id="theme" title="Toggle theme">◐ Auto</button></div>
+<div class="chips" id="meta"></div>
+<div class="layout">
+<section class="setup">
+  <div class="card">
+    <h2>Boss</h2>
+    <select id="bossSel" aria-label="Boss" style="width:100%"></select>
+    <div class="lineup" id="lineup"></div>
+    <details style="margin-top:10px"><summary>Import bosses.json</summary>
+      <div class="row"><input type="file" id="bf" accept=".json"></div>
+      <details id="rep" hidden><summary></summary><pre class="log"></pre></details>
+    </details>
+  </div>
+  <div class="card">
+    <h2>Your team</h2>
+    <textarea id="team" spellcheck="false" aria-label="Team in Showdown format"></textarea>
+    <div id="tv"></div>
+  </div>
+  <div class="card">
+    <h2>Options</h2>
+    <div class="row"><select id="gen" aria-label="Mechanics generation"><option value="6">Gen 6 mechanics</option><option value="7">Gen 7</option><option value="8">Gen 8</option><option value="9">Gen 9</option></select>
+    <select id="runs" aria-label="Number of simulations"><option value="100">100 runs</option><option value="300" selected>300 runs</option><option value="1000">1000 runs</option></select></div>
+    <label class="switch"><input type="checkbox" id="items"> Allow in-battle items in Play mode <span>(not allowed on Hard)</span></label>
+    <div id="bagwrap" hidden><input id="bag" aria-label="Bag" style="margin-top:8px"><p class="hint">Format: Item:count, Item:count</p></div>
+  </div>
+  <div class="actions"><button id="run">Simulate</button><button id="play" class="alt">Play battle</button></div>
+</section>
+<section id="res">
+  <div id="empty" class="empty"><b>Ready when you are</b>Pick a boss, paste your team, then Simulate for win rates or Play to fight it yourself.</div>
+  <div id="out" hidden></div><div id="live" hidden></div>
+</section>
+</div>
+</main><script>/*BUNDLE*/</script></body></html>

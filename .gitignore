@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build output (regenerate with `npm run build`)
+dist/
+
+# Python scraper environment and cache
+venv/
+.venv/
+__pycache__/
+*.pyc
+cache/
+
+# Local backups
+backup-*/
+
+# Logs and env
+*.log
+npm-debug.log*
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
