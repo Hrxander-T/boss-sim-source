@@ -312,28 +312,45 @@ const fixName = n => {
   if ((m = n.match(/^Galarian (.+)$/))) return `${m[1]}-Galar`;
   return n;
 };
+// Two-trainer wiki pages list 12 Pokémon: the first 6 are the first trainer's lineup, the last 6 the second's (matches the wiki's "X's Lineup" tables).
+// Each trainer becomes its own single-battle boss.
+const SPLIT = {'Gamers Pewdie and Diepy': ['Gamer Pewdie', 'Gamer Diepy'], 'Medusa & Eldir': ['Medusa', 'Eldir']};
+// Duo bosses stored as one 12-Pokémon lineup: first 6 = first trainer, last 6 = second (confirmed for Shary & Shaui).
+const SPLITS = {'Shary & Shaui': ['Shary', 'Shaui']};
 export function importBosses(json) {
   const bosses = {}, report = [];
+  json = json.flatMap(b => {
+    const names = SPLITS[b.name], k = ['Hard', 'Medium/Hard', 'Lineup'].find(x => b.teams && b.teams[x]);
+    if (!names || !k || b.teams[k].length !== 12) return [b];
+    report.push(`${names.join(' and ')}: split from "${b.name}" (first 6 / last 6 Pokémon), simulated as separate 6v6 bosses`);
+    return names.map((n, i) => ({...b, name: n, teams: {[k]: b.teams[k].slice(i * 6, i * 6 + 6)}}));
+  });
   for (const b of json) {
     if (b.category !== 'Repeatable Bosses') continue;
     const key = ['Hard', 'Medium/Hard', 'Lineup'].find(k => b.teams && b.teams[k]);
-    const skip = why => report.push(`SKIPPED ${b.name}: ${why}`);
-    if (!key) { skip('no usable lineup'); continue; }
-    const team = b.teams[key];
-    if (team.length > 6) { skip(`${team.length} Pokémon (multi-trainer/double battle?)`); continue; }
-    if (team.some(m => !m.moves.length)) { skip('missing move data'); continue; }
-    const out = []; let ok = true;
-    for (const m of team) {
-      const sp = Dex.species.get(fixName(m.pokemon));
-      if (!sp.exists) { skip(`unknown species "${m.pokemon}"`); ok = false; break; }
-      let ab = m.ability && m.ability !== 'Random' ? m.ability : sp.abilities[0];
-      if (!Dex.abilities.get(ab).exists) { report.push(`${b.name}: unknown ability "${ab}" on ${sp.name}, used ${sp.abilities[0]}`); ab = sp.abilities[0]; }
-      let it = m.item === 'None' ? '' : m.item;
-      if (it && !Dex.items.get(it).exists) { report.push(`${b.name}: unknown item "${it}" on ${sp.name}, removed`); it = ''; }
-      const mv = m.moves.map(x => x.move).filter(x => Dex.moves.get(x).exists || (report.push(`${b.name}: unknown move "${x}" on ${sp.name}, removed`), false));
-      out.push([sp.name, ab, it, mv]);
+    const skipAs = (name, why) => report.push(`SKIPPED ${name}: ${why}`);
+    if (!key) { skipAs(b.name, 'no usable lineup'); continue; }
+    const all = b.teams[key];
+    let entries;
+    if (all.length > 6 && SPLIT[b.name] && all.length === 12) { entries = [[SPLIT[b.name][0], all.slice(0, 6)], [SPLIT[b.name][1], all.slice(6)]]; report.push(`${b.name}: split into ${SPLIT[b.name].join(' and ')} (6 Pokémon each, wiki order)`); }
+    else if (all.length > 6) { skipAs(b.name, `${all.length} Pokémon (multi-trainer/double battle?)`); continue; }
+    else entries = [[b.name, all]];
+    for (const [name, team] of entries) {
+      const skip = why => skipAs(name, why);
+      if (team.some(m => !m.moves.length)) { skip('missing move data'); continue; }
+      const out = []; let ok = true;
+      for (const m of team) {
+        const sp = Dex.species.get(fixName(m.pokemon));
+        if (!sp.exists) { skip(`unknown species "${m.pokemon}"`); ok = false; break; }
+        let ab = m.ability && m.ability !== 'Random' ? m.ability : sp.abilities[0];
+        if (!Dex.abilities.get(ab).exists) { report.push(`${name}: unknown ability "${ab}" on ${sp.name}, used ${sp.abilities[0]}`); ab = sp.abilities[0]; }
+        let it = m.item === 'None' ? '' : m.item;
+        if (it && !Dex.items.get(it).exists) { report.push(`${name}: unknown item "${it}" on ${sp.name}, removed`); it = ''; }
+        const mv = m.moves.map(x => x.move).filter(x => Dex.moves.get(x).exists || (report.push(`${name}: unknown move "${x}" on ${sp.name}, removed`), false));
+        out.push([sp.name, ab, it, mv]);
+      }
+      if (ok) { bosses[name] = out; if (key === 'Lineup') report.push(`${name}: only a single lineup exists (used as Hard)`); }
     }
-    if (ok) { bosses[b.name] = out; if (key === 'Lineup') report.push(`${b.name}: only a single lineup exists (used as Hard)`); }
   }
   return {bosses, report};
 }

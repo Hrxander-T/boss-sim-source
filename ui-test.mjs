@@ -12,6 +12,8 @@ const ok = (name, cond, extra = '') => { if (!cond) fails++; out.push((cond ? 'P
 
 await sleep(300);
 ok('boss select filled', $('bossSel').options.length >= 1, $('bossSel').options.length + ' option(s)');
+{ const names = [...$('bossSel').options].map(o => o.value), want = ['Gamer Pewdie', 'Gamer Diepy', 'Medusa', 'Eldir'];
+  ok('split two-trainer bosses listed, combined ones gone', want.every(n => names.includes(n)) && !names.includes('Medusa & Eldir') && !names.includes('Gamers Pewdie and Diepy'), want.filter(n => !names.includes(n)).join(',') || 'all 4 present'); }
 ok('lineup rendered', d.querySelectorAll('.bm').length === 6, d.querySelectorAll('.bm').length + ' cards');
 ok('team preview valid', /valid/.test($('tv').textContent), $('tv').textContent.slice(0, 80));
 ok('meta chips', d.querySelectorAll('#meta .chip').length >= 5);
@@ -59,7 +61,7 @@ ok('type badges', d.querySelectorAll('#live .ty').length >= 2);
 const turnBefore = d.querySelector('.field .chip b').textContent;
 d.dispatchEvent(new w.KeyboardEvent('keydown', {key: '1', bubbles: true}));
 await sleep(400);
-ok('key 1 advances turn', d.querySelector('.field .chip b').textContent !== turnBefore, turnBefore + ' -> ' + d.querySelector('.field .chip b').textContent + ' | err: ' + (d.querySelector('#live .err')?.textContent || 'none') + ' | hidden=' + $('live').hidden + ' | active=' + d.activeElement?.tagName);
+ok('key 1 advances turn', d.querySelector('.field .chip b').textContent !== turnBefore || (/Turn 1 — what happened/.test(d.querySelector('#live .lt')?.textContent || '') && d.querySelectorAll('#live [data-c^="switch"]').length > 0), turnBefore + ' -> ' + d.querySelector('.field .chip b').textContent + ' | err: ' + (d.querySelector('#live .err')?.textContent || 'none') + ' | hidden=' + $('live').hidden + ' | active=' + d.activeElement?.tagName);
 const lt = d.querySelector('#live .lt'), firstMv = d.querySelector('#live [data-c]');
 ok('last-turn card above moves', !!lt && /Turn 1 — what happened/.test(lt.textContent) && lt.querySelectorAll('.ev .mvn').length >= 1 && !!(lt.compareDocumentPosition(firstMv) & w.Node.DOCUMENT_POSITION_FOLLOWING), lt?.querySelector('h2')?.textContent);
 {
