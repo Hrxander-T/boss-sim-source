@@ -1,4 +1,4 @@
-// UI smoke test: loads dist/pro-boss-sim.html in jsdom and exercises Simulate, Play, keyboard, items, theme.
+// UI smoke test: loads dist/pro-boss-sim.html in jsdom and exercises Simulate, Play, keyboard, manual boss, theme.
 import {JSDOM, VirtualConsole} from 'jsdom';
 import fs from 'fs';
 const errs = [];
@@ -48,6 +48,8 @@ d.querySelector('#log [data-f]').click();
 $('play').click(); await sleep(200);
 ok('live visible', !$('live').hidden && $('out').hidden);
 ok('two panels', d.querySelectorAll('.mon').length === 2);
+{ const pm = [...d.querySelectorAll('#live .mon .pm')], foe = [...d.querySelectorAll('#live .mon.foe .pm')], me = [...d.querySelectorAll('#live .mon.you .pm')];
+  ok('party names shown in both cards', foe.length === 6 && me.length >= 1 && pm.every(x => x.textContent.trim().length > 2) && d.querySelectorAll('#live .mon .pm.on').length === 2, 'boss: ' + foe.map(x => x.textContent).join(', ') + ' | you: ' + me.map(x => x.textContent).join(', ')); }
 ok('start shows leads in last-turn card', /Battle start/.test(d.querySelector('#live .lt h2')?.textContent || '') && d.querySelectorAll('#live .lt .ev.sw').length === 2);
 { const ns = [...d.querySelectorAll('#blog .tn > summary b')].map(b => b.textContent); ok('live log lists newest turn first', ns.length >= 2 && ns[0] === 'Turn 1' && ns[ns.length - 1] === 'Battle start', ns.join(' | ')); }
 ok('live log mounted', d.querySelectorAll('#blog .tn').length >= 2 && d.querySelectorAll('#blog .ev.sw').length >= 2, d.querySelectorAll('#blog .tn').length + ' turn cards');
@@ -83,9 +85,22 @@ ok('live log shows result', !!d.querySelector('#blog .ev.win') && d.querySelecto
 ok('last-turn card shows the winner at the end', !!d.querySelector('#live .lt .ev.win'));
 ok('new battle works', (() => { $('nb').click(); return !!d.querySelector('.mv'); })());
 
-$('items').checked = true; $('items').onchange(); ok('bag input shown', !$('bagwrap').hidden);
+{
+  $('manualBoss').checked = true; $('play').click(); await sleep(500);
+  const bm = [...d.querySelectorAll('#live [data-bc^="move"]')];
+  ok('manual boss: boss move picker shown first', bm.length === 4 && d.querySelectorAll('#live [data-c^="move"]').length === 0 && /Boss's turn/.test($('live').textContent), bm.map(b => b.querySelector('span').textContent).join(' | '));
+  ok('manual boss: toggle checked in battle', $('mb') && $('mb').checked);
+  d.dispatchEvent(new w.KeyboardEvent('keydown', {key: '2', bubbles: true})); await sleep(600);
+  ok('manual boss: after boss pick my moves appear', d.querySelectorAll('#live [data-c^="move"]').length === 4 && /Boss will:/.test($('live').textContent) && d.querySelectorAll('#live [data-bc]').length === 0, d.querySelector('#live .chip b')?.textContent);
+  const t0 = d.querySelector('.field .chip b').textContent;
+  d.dispatchEvent(new w.KeyboardEvent('keydown', {key: '1', bubbles: true})); await sleep(800);
+  ok('manual boss: turn runs after both picks', /Turn 1 — what happened/.test(d.querySelector('#live .lt')?.textContent || '') && !d.querySelector('#live .err'), t0 + ' -> ' + d.querySelector('.field .chip b').textContent);
+  ok('manual boss: asks for boss again next turn (or forced switch)', d.querySelectorAll('#live [data-bc]').length > 0 || d.querySelectorAll('#live [data-c^="switch"]').length > 0);
+  $('mb').checked = false; $('mb').onchange(); await sleep(500);
+  ok('manual boss: switching back to AI removes boss picker', d.querySelectorAll('#live [data-bc]').length === 0 && d.querySelectorAll('#live [data-c]').length > 0);
+}
+
 $('play').click(); await sleep(200);
-ok('bag section shown', /Bag/.test($('live').textContent) && d.querySelectorAll('[data-i]').length > 0, d.querySelectorAll('[data-i]').length + ' items');
 $('theme').click(); ok('theme toggles', d.documentElement.dataset.theme === 'light');
 console.log(out.join('\n')); console.log(errs.length ? 'ERRORS:\n' + errs.join('\n') : 'No runtime errors');
 process.exit(fails || errs.length ? 1 : 0);

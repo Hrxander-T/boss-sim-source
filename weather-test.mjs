@@ -1,0 +1,22 @@
+import {Battle} from '@pkmn/sim';
+import {_wxTest as T} from './src/engine.js';
+const mkb = w => {
+  const b = new Battle({formatid: 'gen6customgame@@@!Team Preview'});
+  b.setPlayer('p1', {name: 'a', team: [{species: 'Charizard', ability: 'Blaze', moves: ['weatherball', 'solarbeam', 'thunder', 'hurricane', 'blizzard', 'synthesis'], level: 100}]});
+  b.setPlayer('p2', {name: 'b', team: [{species: 'Blastoise', ability: 'Torrent', moves: ['tackle'], level: 100}]});
+  if (w) b.field.setWeather(w, b.sides[0].active[0]);
+  return b;
+};
+let fail = 0;
+const ok = (c, m) => { console.log(c ? 'PASS' : 'FAIL', m); if (!c) fail++; };
+const avg = (b, m) => { const a = b.sides[0].active[0], d = b.sides[1].active[0]; let s = 0; for (let i = 0; i < 20; i++) s += T.dmg(b, a, d, m); return s / 20; };
+const bn = mkb(null), bs = mkb('sunnyday'), br = mkb('raindance'), bh = mkb('hail');
+ok(T.wxNow(bs) === 'sunnyday', 'wxNow reads sun');
+ok(T.moveTypeNow(bs, 'weatherball') === 'Fire' && T.moveTypeNow(br, 'weatherball') === 'Water' && T.moveTypeNow(bh, 'weatherball') === 'Ice' && T.moveTypeNow(bn, 'weatherball') === 'Normal', 'Weather Ball type follows weather');
+ok(avg(bs, 'weatherball') > avg(bn, 'weatherball') * 1.5, 'Weather Ball stronger in sun (' + avg(bn, 'weatherball').toFixed(0) + ' -> ' + avg(bs, 'weatherball').toFixed(0) + ')');
+ok(avg(br, 'weatherball') > avg(bn, 'weatherball') * 1.5, 'Weather Ball stronger in rain');
+ok(avg(bs, 'solarbeam') > avg(bn, 'solarbeam') * 1.5, 'Solar Beam scored higher in sun than neutral (charge turn)');
+ok(avg(br, 'thunder') > avg(bn, 'thunder') && avg(bs, 'thunder') < avg(bn, 'thunder'), 'Thunder: rain > none > sun');
+ok(avg(bs, 'hurricane') < avg(bn, 'hurricane'), 'Hurricane lower in sun');
+ok(avg(bh, 'blizzard') > avg(bn, 'blizzard'), 'Blizzard higher in hail');
+process.exit(fail ? 1 : 0);

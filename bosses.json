@@ -12642,13 +12642,6 @@
               "accuracy": "85"
             },
             {
-              "move": "Iron Tail",
-              "type": "Steel",
-              "category": "Physical",
-              "power": "100",
-              "accuracy": "75"
-            },
-            {
               "move": "Double-Edge",
               "type": "Normal",
               "category": "Physical",

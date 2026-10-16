@@ -45,18 +45,42 @@ export function checkTeam(sets) {
 }
 export const parseTeam = text => Teams.import(text) || [];
 
+// Weather awareness. getDamage already applies weather damage mods (Fire/Water, Solar Beam in rain); the rest is handled here.
+const WX_TYPE = {sunnyday: 'Fire', desolateland: 'Fire', raindance: 'Water', primordialsea: 'Water', sandstorm: 'Rock', hail: 'Ice', snow: 'Ice', snowscape: 'Ice'};
+const wxNow = b => { try { return b.field.effectiveWeather() || ''; } catch (e) { return ''; } };
+const isSun = w => w === 'sunnyday' || w === 'desolateland';
+const isRain = w => w === 'raindance' || w === 'primordialsea';
+const isIce = w => w === 'hail' || w === 'snow' || w === 'snowscape';
+// Weather Ball becomes 100 BP and changes type in weather; the sim only does that mid-hit, so build the move by hand.
+const wxMove = (b, id) => {
+  const w = wxNow(b);
+  if (id !== 'weatherball' || !WX_TYPE[w]) return id;
+  const mv = b.dex.getActiveMove(id); mv.basePower = 100; mv.type = WX_TYPE[w];
+  return mv;
+};
+const moveTypeNow = (b, id) => { const m = wxMove(b, id); return typeof m === 'string' ? b.dex.moves.get(id).type : m.type; };
+function wxAccuracy(b, id, acc) {
+  const w = wxNow(b);
+  if (id === 'thunder' || id === 'hurricane') return isRain(w) ? 100 : isSun(w) ? 50 : acc;
+  if (id === 'blizzard' && isIce(w)) return 100;
+  return acc;
+}
+
 function dmg(b, a, d, moveId) {
   try {
     const m = b.dex.moves.get(moveId);
     if (m.category === 'Status') return 0;
-    const v = b.actions.getDamage(a, d, moveId, true);
+    const v = b.actions.getDamage(a, d, wxMove(b, moveId), true);
     if (!v) return 0;
-    let acc = m.accuracy === true ? 100 : m.accuracy;
-    if (m.id === 'thunder' && b.field.isWeather('raindance')) acc = 100;
-    return (Math.min(v, d.hp) + (v >= d.hp ? d.maxhp : 0)) * acc / 100 + Math.random() * 0.01;
+    const acc = wxAccuracy(b, m.id, m.accuracy === true ? 100 : m.accuracy);
+    let s = (Math.min(v, d.hp) + (v >= d.hp ? d.maxhp : 0)) * acc / 100;
+    // Solar Beam / Solar Blade need a charge turn unless it's sunny or the user holds a Power Herb.
+    if ((m.id === 'solarbeam' || m.id === 'solarblade') && !isSun(wxNow(b)) && a.item !== 'powerherb') s *= 0.5;
+    return s + Math.random() * 0.01;
   } catch (e) { return 0; }
 }
 const bestOf = (b, a, d) => Math.max(0, ...a.moves.map(m => dmg(b, a, d, m)));
+export const _wxTest = {dmg, moveTypeNow, wxNow};
 
 const boostSum = (p, pos) => Object.values(p.boosts).reduce((a, x) => a + (pos ? Math.max(0, x) : x), 0);
 // Rough "damage-equivalent" value of a status move, so it can compete with attacks.
@@ -65,7 +89,22 @@ function statusScore(b, i, me, fo, id, prof) {
     const d = b.dex.moves.get(id), hpf = me.hp / me.maxhp, acc = (d.accuracy === true ? 100 : d.accuracy) / 100;
     const foeSide = b.sides[1 - i], bench = foeSide.pokemon.filter(p => !p.fainted && !p.isActive).length;
     if (d.id === 'roar' || d.id === 'whirlwind') return bench && (prof.roarAlways || boostSum(fo, true) >= prof.roarBoosts) ? fo.maxhp * 0.9 : 0;
+    if (['synthesis', 'moonlight', 'morningsun'].includes(d.id)) {
+      const w = wxNow(b), f = isSun(w) ? 2 / 3 : !w ? 1 / 2 : 1 / 4;
+      return hpf < 0.5 ? me.maxhp * f * 1.2 : 0;
+    }
     if (d.heal) return hpf < 0.5 ? me.maxhp * (d.heal[0] / d.heal[1]) * 1.2 : 0;
+    const setW = {raindance: 'raindance', sunnyday: 'sunnyday', sandstorm: 'sandstorm', hail: 'hail', snowscape: 'snowscape', chillyreception: 'snowscape'}[d.id];
+    if (setW) {
+      if (wxNow(b) === setW) return 0;
+      const T = WX_TYPE[setW], boosted = T === 'Fire' || T === 'Water';
+      const atk = p => !p.fainted && p.moves.some(m => { const x = b.dex.moves.get(m); return x.category !== 'Status' && x.type === T; });
+      const own = boosted ? Math.min(2, b.sides[i].pokemon.filter(atk).length) : 0;
+      const foeBoost = boosted && atk(fo) ? 1 : 0;
+      const immune = T === 'Rock' ? ['Rock', 'Ground', 'Steel'] : ['Ice'];
+      const chip = !boosted && fo.getTypes().every(t => !immune.includes(t)) ? 0.1 : 0;
+      return Math.max(0, fo.maxhp * (0.15 * own - 0.15 * foeBoost + chip));
+    }
     if (d.status) {
       if (fo.status || !fo.runStatusImmunity(d.status === 'tox' ? 'psn' : d.status) || !fo.runImmunity(d.type)) return 0;
       return fo.maxhp * (d.status === 'slp' ? 0.5 : 0.4) * acc;
@@ -98,7 +137,7 @@ function decide(b, i, prof) {
   const sc = act.moves.map((m, k) => [m.disabled ? -1 : (fo ? score(b, i, me, fo, m.id, prof) : 1), k + 1]).sort((x, y) => y[0] - x[0]);
   if (prof.tiered && fo) {
     // Boss logic: 1) best super-effective move, 2) else best neutral damage (sometimes a status move like Roar), 3) else status / least-bad damage.
-    const eff = id => { const d = b.dex.moves.get(id); return d.category === 'Status' ? null : b.dex.getImmunity(d.type, fo) ? b.dex.getEffectiveness(d.type, fo.getTypes()) : -9; };
+    const eff = id => { const d = b.dex.moves.get(id); if (d.category === 'Status') return null; const t = moveTypeNow(b, id); return b.dex.getImmunity(t, fo) ? b.dex.getEffectiveness(t, fo.getTypes()) : -9; };
     const all = act.moves.map((m, k) => ({k: k + 1, off: m.disabled, e: eff(m.id), s: sc.find(x => x[1] === k + 1)[0]})).filter(x => !x.off && x.s > 0);
     const best = a => a.sort((x, y) => y.s - x.s)[0].k;
     const dm = all.filter(x => x.e !== null), se = dm.filter(x => x.e > 0), ne = dm.filter(x => x.e >= 0), st = all.filter(x => x.e === null);
@@ -192,68 +231,70 @@ export function batch(userSets, n, o = {}, R) {
 const boosts = p => Object.entries(p.boosts).filter(([, v]) => v).map(([k, v]) => k + (v > 0 ? '+' : '') + v).join(' ');
 const mon = p => p && {name: p.name, hp: p.hp, maxhp: p.maxhp, fainted: p.fainted, active: p.isActive, status: p.status, item: p.item, types: p.getTypes().join('/'), boosts: boosts(p)};
 
-// Interactive battle: you choose for side 1, the boss AI chooses for side 2.
-const ITEMS = {'hyper potion': {heal: 120}, 'max potion': {heal: 1e4}, 'full restore': {heal: 1e4, cure: 1}, 'revive': {rev: 0.5}, 'max revive': {rev: 1}, 'full heal': {cure: 1}};
-export const parseBag = t => Object.fromEntries((t || '').split(',').map(x => x.trim().split(/\s*[:×]\s*|\s+x\s*(?=\d)/i)).filter(a => ITEMS[(a[0] || '').trim().toLowerCase()]).map(a => [a[0].trim().toLowerCase(), +a[1] || 1]));
+// Interactive battle: you choose for side 1, the boss AI (or you, in manual mode) chooses for side 2.
 
 export function live(userSets, o = {}) {
-  const m0 = mk(userSets, o), profs = m0.profs, bag = o.items ? {...o.items} : null;
+  const m0 = mk(userSets, o), profs = m0.profs;
   let b = m0.b, you = b.sides[0], foe = b.sides[1];
-  // Undo/redo: full battle snapshots (the sim's own serializer, RNG state included) plus the bag.
-  const take = () => ({json: JSON.stringify(b.toJSON()), bag: bag && {...bag}});
+  // Undo/redo: full battle snapshots (the sim's own serializer, RNG state included).
+  const take = () => ({json: JSON.stringify(b.toJSON())});
   const hist = []; let pos = -1;
   const push = () => { hist.length = pos + 1; hist.push(take()); if (hist.length > 300) hist.shift(); pos = hist.length - 1; };
   const restore = sn => {
     b = Battle.fromJSON(sn.json); liftEvCap(b); you = b.sides[0]; foe = b.sides[1];
-    if (bag) { for (const k of Object.keys(bag)) delete bag[k]; Object.assign(bag, sn.bag); }
   };
   const boss = () => {
     const r = foe.activeRequest;
     if (!r || r.wait || foe.isChoiceDone()) return;
     if (!foe.choose(decide(b, 1, profs[1]))) { foe.clearChoice(); foe.autoChoose(); }
   };
+  // manual = I pick the boss's moves/switches instead of the AI. A turn only runs once every side that needs to choose has chosen.
+  let manual = !!o.manualBoss;
+  const waiting = s => { const r = s.activeRequest; return !!r && !r.wait && !s.isChoiceDone(); };
+  // Returns how many turns/steps were committed (0 = still waiting for someone to choose).
   const adv = () => {
+    let n = 0;
     for (let g = 0; g < 50 && !b.ended; g++) {
-      boss();
-      const r = you.activeRequest;
-      if (r && !r.wait) return;
-      b.commitChoices();
+      if (!manual) boss();
+      if (waiting(you) || (manual && waiting(foe))) return n;
+      b.commitChoices(); n++;
     }
+    return n;
   };
   adv();
   push();
   return {
+    setManual(v) { manual = !!v; if (!manual && adv()) push(); },
+    chooseBoss(c) {
+      const r = foe.activeRequest;
+      if (b.ended || !manual || !r || r.wait) return false;
+      if (!foe.choose(c)) { foe.clearChoice(); return false; }
+      if (adv()) push();
+      return true;
+    },
+    clearBoss() { if (manual && !b.ended) foe.clearChoice(); },
     undo() { if (pos <= 0) return false; restore(hist[--pos]); return true; },
     redo() { if (pos >= hist.length - 1) return false; restore(hist[++pos]); return true; },
-    useItem(name, idx) {
-      const r = you.activeRequest, it = ITEMS[name], p = you.pokemon[idx - 1];
-      if (!bag || !it || !p) return 'Items are off.';
-      if (b.ended || !r || r.wait || r.forceSwitch) return 'Items can only be used on your move turn.';
-      if (!bag[name]) return 'None left.';
-      if (it.rev ? !p.fainted : p.fainted) return it.rev ? 'Target has not fainted.' : 'Target has fainted.';
-      if (!it.rev && !(it.heal && p.hp < p.maxhp) && !(it.cure && p.status)) return 'It would have no effect.';
-      const nm = name.replace(/\b\w/g, c => c.toUpperCase());
-      if (it.rev) { p.fainted = false; p.faintQueued = false; p.subFainted = false; p.status = ''; p.hp = 1; p.sethp(Math.max(1, Math.floor(p.maxhp * it.rev))); you.pokemonLeft++; }
-      else { if (it.heal && p.hp < p.maxhp) p.sethp(Math.min(p.maxhp, p.hp + it.heal)); if (it.cure) p.cureStatus(true); }
-      b.add('message', `You used ${nm} on ${p.name}`); b.add('-heal', p, p.getHealth, '[from] item: ' + nm);
-      bag[name]--;
-      const m = r.active[0].moves.findIndex(x => !x.disabled) + 1 || 1;
-      if (!you.choose('move ' + m)) { you.clearChoice(); return 'Cannot act right now.'; }
-      you.choice.actions = [{choice: 'pass'}];
-      b.commitChoices(); adv(); push(); return '';
-    },
     choose(c) {
       if (b.ended) return false;
       if (!you.choose(c)) { you.clearChoice(); return false; }
-      b.commitChoices(); adv(); push(); return true;
+      if (adv()) push();
+      return true;
     },
     state() {
       const r = you.activeRequest, a = r && r.active && r.active[0];
+      const fr = foe.activeRequest, fa = fr && fr.active && fr.active[0], needBoss = manual && waiting(foe);
+      const mvs = x => (x ? x.moves : []).map(m => { const d = b.dex.moves.get(m.id); return {name: m.move, disabled: !!m.disabled, pp: m.pp, maxpp: m.maxpp, type: d.type, cat: d.category, bp: d.basePower}; });
+      let bossPick = null;
+      try { const ba = manual && fr && !fr.wait && foe.isChoiceDone() && foe.choice.actions[0]; if (ba) bossPick = ba.choice === 'move' ? b.dex.moves.get(ba.moveid).name : 'Switch to ' + ((ba.target || ba.pokemon).name); } catch (e) {}
       return {
+        manualBoss: manual, needBoss, bossPick, youChosen: !!(r && !r.wait && you.isChoiceDone()),
+        bossForceSwitch: !!(fr && fr.forceSwitch), bossTrapped: !!(fa && fa.trapped), bossMoves: mvs(fa),
+        bossBench: foe.pokemon.map((p, i) => ({idx: i + 1, name: p.name, hp: p.hp, maxhp: p.maxhp, ok: !p.isActive && !p.fainted})).filter(x => x.ok),
         ended: b.ended, winner: b.winner, turn: b.turn, weather: b.field.weather, log: clean(b.log), canUndo: pos > 0, canRedo: pos < hist.length - 1,
         you: {active: mon(you.active[0]), team: you.pokemon.map(mon)}, boss: {active: mon(foe.active[0]), team: foe.pokemon.map(mon)},
-        forceSwitch: !!(r && r.forceSwitch), trapped: !!(a && a.trapped), canMega: !!(a && a.canMegaEvo), bag, team: you.pokemon.map((p, i) => ({idx: i + 1, name: p.name, hp: p.hp, maxhp: p.maxhp, fainted: p.fainted, status: p.status})),
-        moves: (a ? a.moves : []).map(m => { const d = b.dex.moves.get(m.id); return {name: m.move, disabled: !!m.disabled, pp: m.pp, maxpp: m.maxpp, type: d.type, cat: d.category, bp: d.basePower}; }),
+        forceSwitch: !!(r && r.forceSwitch), trapped: !!(a && a.trapped), canMega: !!(a && a.canMegaEvo),
+        moves: mvs(a),
         bench: you.pokemon.map((p, i) => ({idx: i + 1, name: p.name, hp: p.hp, maxhp: p.maxhp, ok: !p.isActive && !p.fainted})).filter(x => x.ok),
       };
     },

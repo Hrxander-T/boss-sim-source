@@ -9,7 +9,9 @@
     "check-bosses": "node check-bosses.mjs",
     "test-ui": "node build.mjs && node ui-test.mjs",
     "test-log": "node log-test.mjs",
-    "test-undo": "node undo-test.mjs"
+    "test-undo": "node undo-test.mjs",
+    "test-weather": "node weather-test.mjs",
+    "test-manual": "node manual-test.mjs"
   },
   "keywords": [],
   "author": "",
