@@ -66,11 +66,26 @@ function wxAccuracy(b, id, acc) {
   return acc;
 }
 
-function dmg(b, a, d, moveId) {
+// Worst-case option: every damaging move the BOSS uses is a critical hit (user side untouched).
+const critMove = (b, mv, crit) => {
+  if (!crit) return mv;
+  const am = typeof mv === 'string' ? b.dex.getActiveMove(mv) : Object.assign(Object.create(Object.getPrototypeOf(mv)), mv);
+  am.willCrit = true; return am;
+};
+const critHook = (b, on) => {
+  if (!on) return;
+  const re = b.runEvent;
+  b.runEvent = function (id, t, s, e, ...r) {
+    if (id === 'ModifyMove' && t && t.side === this.sides[1] && e && e.category && e.category !== 'Status') e.willCrit = true;
+    return re.call(this, id, t, s, e, ...r);
+  };
+};
+
+function dmg(b, a, d, moveId, crit) {
   try {
     const m = b.dex.moves.get(moveId);
     if (m.category === 'Status') return 0;
-    const v = b.actions.getDamage(a, d, wxMove(b, moveId), true);
+    const v = b.actions.getDamage(a, d, critMove(b, wxMove(b, moveId), crit), true);
     if (!v) return 0;
     const acc = wxAccuracy(b, m.id, m.accuracy === true ? 100 : m.accuracy);
     let s = (Math.min(v, d.hp) + (v >= d.hp ? d.maxhp : 0)) * acc / 100;
@@ -119,7 +134,7 @@ function statusScore(b, i, me, fo, id, prof) {
 }
 const score = (b, i, me, fo, id, prof) => {
   const cat = b.dex.moves.get(id).category;
-  return cat !== 'Status' ? dmg(b, me, fo, id) : prof.status ? statusScore(b, i, me, fo, id, prof) + Math.random() * 0.01 : 0;
+  return cat !== 'Status' ? dmg(b, me, fo, id, prof.alwaysCrit) : prof.status ? statusScore(b, i, me, fo, id, prof) + Math.random() * 0.01 : 0;
 };
 
 function decide(b, i, prof) {
@@ -155,10 +170,10 @@ function mk(userSets, o = {}) {
   const gen = o.gen || 6;
   const boss = (o.boss || BOSSES['Ash Westbrook']).map(s => ({...s, nature: o.bossNature || s.nature, evs: {...s.evs}, ivs: {...s.ivs}, moves: pick4(s.moves)}));
   const b = new Battle({formatid: `gen${gen}customgame@@@!Team Preview`});
-  liftEvCap(b);
+  liftEvCap(b); critHook(b, o.bossCrit);
   b.setPlayer('p1', {name: 'You', team: userSets.map(s => ({...s, evs: {...(s.evs || {})}, ivs: {...(s.ivs || {})}, moves: [...s.moves], level: s.level || 100}))});
   b.setPlayer('p2', {name: 'Boss', team: boss});
-  const profs = [o.userProfile || PROFILES.user, o.bossProfile || PROFILES.boss];
+  const profs = [o.userProfile || PROFILES.user, {...(o.bossProfile || PROFILES.boss), alwaysCrit: !!o.bossCrit}];
   return {b, profs};
 }
 
@@ -241,7 +256,7 @@ export function live(userSets, o = {}) {
   const hist = []; let pos = -1;
   const push = () => { hist.length = pos + 1; hist.push(take()); if (hist.length > 300) hist.shift(); pos = hist.length - 1; };
   const restore = sn => {
-    b = Battle.fromJSON(sn.json); liftEvCap(b); you = b.sides[0]; foe = b.sides[1];
+    b = Battle.fromJSON(sn.json); liftEvCap(b); critHook(b, o.bossCrit); you = b.sides[0]; foe = b.sides[1];
   };
   const boss = () => {
     const r = foe.activeRequest;

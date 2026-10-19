@@ -148,7 +148,7 @@ $('run').onclick = () => {
   store.set('team', $('team').value); store.set('gen', $('gen').value); store.set('runs', $('runs').value);
   pane('out'); toResults();
   if (!sets.length || errs.length) { $('out').innerHTML = `<div class="err">${(errs.length ? errs : ['No Pokémon found in your team.']).map(esc).join('<br>')}</div>`; return; }
-  const n = +$('runs').value, o = {gen: +$('gen').value, boss: BOSSES[$('bossSel').value]}, step = 20;
+  const n = +$('runs').value, o = {gen: +$('gen').value, boss: BOSSES[$('bossSel').value], bossCrit: $('bossCrit').checked}, step = 20;
   let R, done = 0;
   $('run').disabled = $('play').disabled = true;
   const fin = () => { $('run').disabled = $('play').disabled = false; };
@@ -253,6 +253,6 @@ function start() {
   store.set('team', $('team').value); store.set('gen', $('gen').value);
   pane('live'); toResults(); msg = ''; mega = false;
   if (!sets.length || errs.length) { $('live').innerHTML = `<div class="err">${(errs.length ? errs : ['No Pokémon found in your team.']).map(esc).join('<br>')}</div>`; return; }
-  try { G = live(sets, {gen: +$('gen').value, boss: BOSSES[$('bossSel').value], manualBoss: $('manualBoss').checked}); draw(); } catch (e) { $('live').innerHTML = `<div class="err">Sim error: ${esc(e.message)}</div>`; }
+  try { G = live(sets, {gen: +$('gen').value, boss: BOSSES[$('bossSel').value], bossCrit: $('bossCrit').checked, manualBoss: $('manualBoss').checked}); draw(); } catch (e) { $('live').innerHTML = `<div class="err">Sim error: ${esc(e.message)}</div>`; }
 }
 $('play').onclick = start;
